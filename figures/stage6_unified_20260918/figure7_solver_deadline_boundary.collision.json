@@ -1,0 +1,23 @@
+{
+  "pdf": "figures\\stage6_unified_20260918\\figure7_solver_deadline_boundary.pdf",
+  "auditable": true,
+  "verdict": "PASS",
+  "page_count": 1,
+  "visible_text_box_count": 81,
+  "text_trace_count": 84,
+  "stroke_path_count": 117,
+  "filled_region_count": 98,
+  "image_region_count": 1,
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 25,
+    "contained_image_overlays": 20
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": []
+}

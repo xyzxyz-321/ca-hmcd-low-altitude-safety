@@ -1,0 +1,113 @@
+{
+  "schema": "ca-hmcd-stage3-release-manifest-v1",
+  "created_at": "2026-09-17",
+  "gate_b": "FAIL",
+  "file_count": 21,
+  "files": [
+    {
+      "path": "ca_hmcd_stage3_boundary_closure_20260917/stage3_preregistration.json",
+      "bytes": 5100,
+      "sha256": "7fce28275fff1f4974be8df72858acb9904ce9b59843e0e83d343032721e510c"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_closure_20260917/stage3_boundary_protocol.md",
+      "bytes": 3035,
+      "sha256": "ce6f8181caedde3f8ba26263f1ccacbc19c48b0adf93d6a5861bbd319fb63d6d"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_closure_20260917/stage3_registered_units.csv",
+      "bytes": 15257,
+      "sha256": "6e0d002ff4f258114759c74af1ce2d1cefb821ebbd3e11176e11c53155b41808"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_closure_20260917/stage3_final_boundary_contract.json",
+      "bytes": 3347,
+      "sha256": "a30422ad1d287bb3833ec1a554a865a0fe10e12a6b8f292964d34a18c8d0aca3"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_closure_20260917/frozen_execution_source/ca_hmcd_stage3_boundary.py",
+      "bytes": 29493,
+      "sha256": "839ae9c8494a2247562c24c58057866a7f2bc80d35ca8f412e387fc5586ee590"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_closure_20260917/frozen_execution_source/ca_hmcd_stage3_boundary_runner.py",
+      "bytes": 12700,
+      "sha256": "7b2fec809baf5019b372ddb52a14da3e902679e60fa172c7cff2d7f6166186f9"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_formal_20260917/stage3_execution_metadata.json",
+      "bytes": 2498,
+      "sha256": "4bb8c55713f50582a8fdf5008a1e2a6b4eb7725f1db1f34ff462278a8e6415e5"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_formal_20260917/stage3_boundary_runs.csv",
+      "bytes": 1598014,
+      "sha256": "986d266c59fc047f7a3d9984d1d6f25c2112e4dc206bd19d8d951b4d29682d31"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_formal_20260917/stage3_unit_manifest.csv",
+      "bytes": 111444,
+      "sha256": "e88804aa8f951ad7d23d0ec3403acbdcefe4d5b475ef99ff8704c69f4a11bf7e"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_analysis_20260917/stage3_paired_runs.csv",
+      "bytes": 510121,
+      "sha256": "d1023e2cd4a80bb3a93e7050caf58e65db8f44dda2ca692b6ad16b7735264dec"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_analysis_20260917/stage3_boundary_summary.csv",
+      "bytes": 21201,
+      "sha256": "25d9e11800db72f50f8de6118d5f47fd743ed894173387a9dab87bb9304ada05"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_analysis_20260917/stage3_paired_statistics.csv",
+      "bytes": 242021,
+      "sha256": "2c6be7d2a298ca72ca9a0d1d1e990615b71511527731aa568a66eef5c061dd0f"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_analysis_20260917/stage3_holm_family_registry.csv",
+      "bytes": 8348,
+      "sha256": "79b03636a3d7cdbdc5ea98f2c237a874ad45ebc57a8bda1128260cdf865f0e03"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_analysis_20260917/stage3_gate_b.json",
+      "bytes": 407,
+      "sha256": "6d594c0d4d1ffe9db39e2f598f34e2fb383743b514b33094c23c496d7ae42ebc"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_analysis_20260917/stage3_completion_audit.json",
+      "bytes": 3631,
+      "sha256": "c97f5fef966728e25a5282d01ee4a7af6496e420c1b0c90d9b8f8b99fb5435cf"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_analysis_20260917/stage3_completion_audit.csv",
+      "bytes": 1654,
+      "sha256": "f6d388c106459fb7ee0ada1b95da60ee2a1714afeb26de8da78193ea77cbdfc2"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_analysis_20260917/stage3_completion_report.md",
+      "bytes": 3076,
+      "sha256": "4796d2b77709addc2c3efaedfa35b9f4948ab1e4a211d3e2939a6cc8e0f8af4b"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_analysis_20260917/stage3_decision_summary_zh.md",
+      "bytes": 3128,
+      "sha256": "117ac25085f33ac3a26f313237792dd2c9246b413893ae55307458d4fb90cd26"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_analysis.py",
+      "bytes": 30262,
+      "sha256": "a79819fea337e8f1f76795dfd9582351212887ccf427734cb70d162ebbcf384c"
+    },
+    {
+      "path": "test_ca_hmcd_stage3_boundary.py",
+      "bytes": 3887,
+      "sha256": "32bfec07725a9ad24ffab03c620c9c8ea07e1b5802adb393909f1a377bccdbdb"
+    },
+    {
+      "path": "test_ca_hmcd_stage3_boundary_analysis.py",
+      "bytes": 2629,
+      "sha256": "68ad54c97b9ceb907854a5312dba9a7295afe6dfc43a0724ada2ee33b6d05e15"
+    }
+  ]
+}

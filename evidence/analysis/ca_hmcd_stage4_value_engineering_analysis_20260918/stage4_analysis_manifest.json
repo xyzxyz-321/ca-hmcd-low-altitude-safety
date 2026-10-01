@@ -1,0 +1,342 @@
+{
+  "schema": "ca-hmcd-stage4-analysis-manifest-v1",
+  "analysis_version": "ca-hmcd-stage4-value-engineering-analysis-v1",
+  "created_at_utc": "2026-09-18T00:38:53.436725+00:00",
+  "formal_source": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage4_value_engineering_formal_20260918",
+  "protocol_source": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage4_value_engineering_protocol_20260918",
+  "source_validation": {
+    "metadata": {
+      "schema": "ca-hmcd-stage4-value-engineering-execution-v1",
+      "runner_version": "ca-hmcd-stage4-value-engineering-runner-v1",
+      "created_at_utc": "2026-09-18T00:32:13.608684+00:00",
+      "mode": "formal",
+      "selected_units": 2070,
+      "registered_units": 2070,
+      "episode_results": 2070,
+      "per_step_results": 24840,
+      "pairing_audits": 7560,
+      "expected_pairing_audits": 7560,
+      "audit_pass": true,
+      "new_units": 2070,
+      "resumed_units": 0,
+      "warmup_s": 0.01668080000035843,
+      "formal_duration_s": 287.9047115000003,
+      "max_workers": 6,
+      "protocol_fingerprint": "39b34649ec56edcab972d4c033ab6640023a3e1265c15add37b2e49fbdc38743",
+      "code_hashes": {
+        "ca_hmcd_stage4_value_engineering_runner.py": "c70e65539580083e4062435d1053e05cbe50a12cd57d63c73de1cb014b18452d",
+        "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+        "ca_hmcd_framework.py": "f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa",
+        "stage4_preregistration.json": "dc6b62a8a8bbcdffae0a58b68fe94f0ed502d91d7eb488d024673a60655e8e44",
+        "stage4_protocol.md": "cc01c345613d3abbb21716b926d53fd55e9c0669fed5486566000b53b7f4eb6c"
+      },
+      "registration_validation": {
+        "registration": {
+          "protocol_id": "ca-hmcd-stage4-value-engineering-20260918",
+          "stage": "Stage 4: value model and engineering mechanism validation",
+          "registration_date": "2026-09-18",
+          "parent_registration": "ca_hmcd_stage0_stage1_20260917/revision_registration.json",
+          "research_scope": {
+            "primary_question": "Do the registered value-model terms and true-state repair mechanism produce the intended engineering-level effects when candidate identities, random seeds, state trajectories, and the external evaluator are held fixed?",
+            "interpretation_boundary": "This stage validates controlled-simulation mechanisms and engineering-shaped transfer. It does not establish field deployment effectiveness or superiority over a commercial operational system.",
+            "solver_boundary": "The mechanism-isolation arms use the same bounded-search backend and a shared complete-model candidate pool. External engineering arms include Greedy and External-Auction under the same shared pool. Solver superiority is not an endpoint of this stage."
+          },
+          "frozen_contract": {
+            "seeds": [
+              950000,
+              950001,
+              950002,
+              950003,
+              950004,
+              950005,
+              950006,
+              950007,
+              950008,
+              950009,
+              950010,
+              950011,
+              950012,
+              950013,
+              950014,
+              950015,
+              950016,
+              950017,
+              950018,
+              950019,
+              950020,
+              950021,
+              950022,
+              950023,
+              950024,
+              950025,
+              950026,
+              950027,
+              950028,
+              950029
+            ],
+            "steps": 12,
+            "candidate_pool_mode": "shared",
+            "top_k": 12,
+            "node_limit": 12000,
+            "force_all_tasks_active": true,
+            "external_evaluator": "complete-v3-stage1-closure",
+            "service_endpoint": "solver-decoupled-service-v2",
+            "value_model": "ca-hmcd-stage1-closure-v2.3",
+            "coefficients": {
+              "alpha_cost": 0.12,
+              "beta_time": 0.08,
+              "gamma_unserved": 0.2,
+              "lambda_redundancy": 0.12,
+              "lambda_switch": 0.1
+            }
+          },
+          "design": {
+            "engineering_scenarios": [
+              "airport_corridor",
+              "energy_facility",
+              "public_event",
+              "urban_corridor",
+              "industrial_zone"
+            ],
+            "engineering_methods": [
+              "CA-HMCD",
+              "No-Compatibility",
+              "No-Synergy",
+              "No-Redundancy",
+              "No-Stability",
+              "Greedy",
+              "External-Auction"
+            ],
+            "complementarity_scales": [
+              0.0,
+              0.5,
+              1.0,
+              1.5,
+              2.0
+            ],
+            "stability_volatility_levels": [
+              0.0,
+              0.05,
+              0.1,
+              0.2,
+              0.3
+            ],
+            "redundancy_stress_methods": [
+              "CA-HMCD",
+              "No-Redundancy",
+              "No-Synergy",
+              "Greedy"
+            ],
+            "repair_noise_levels": [
+              0.0,
+              0.05,
+              0.1,
+              0.2,
+              0.3
+            ],
+            "repair_methods": [
+              "CA-HMCD-RepairOn",
+              "CA-HMCD-RepairOff"
+            ],
+            "episodes": {
+              "engineering": 1050,
+              "complementarity_sweep": 300,
+              "stability_sweep": 300,
+              "redundancy_stress": 120,
+              "repair_disturbance": 300,
+              "total": 2070
+            }
+          },
+          "registered_hypotheses": [
+            {
+              "id": "H4.1",
+              "name": "compatibility",
+              "test": "CA-HMCD should improve the unified external objective and independent service score relative to No-Compatibility in engineering-shaped scenarios.",
+              "claim_boundary": "A module is treated as supported only when the prespecified paired interval and Holm-adjusted comparison support the direction; otherwise the result is reported as unsupported or context-dependent."
+            },
+            {
+              "id": "H4.2",
+              "name": "complementarity",
+              "test": "The CA-HMCD minus No-Synergy difference should be near zero at synergy scale 0 and increase with the registered complementarity scale in the controlled sweep.",
+              "claim_boundary": "The intended claim is context-dependent complementarity, not universal aggregate superiority."
+            },
+            {
+              "id": "H4.3",
+              "name": "redundancy",
+              "test": "Under the registered redundancy-stress scenario, CA-HMCD should reduce same-type pair ratio, capability overlap, and marginal-gain waste relative to No-Redundancy without materially sacrificing service.",
+              "claim_boundary": "If the diagnostics do not move, the redundancy mechanism is not claimed as empirically validated."
+            },
+            {
+              "id": "H4.4",
+              "name": "stability",
+              "test": "Relative to No-Stability, CA-HMCD should reduce allocation switching as volatility increases, while the objective/service trade-off is reported explicitly.",
+              "claim_boundary": "No claim is made that stability improves every instantaneous service metric."
+            },
+            {
+              "id": "H4.5",
+              "name": "true_state_repair",
+              "test": "Under perception disturbance, RepairOn should improve final feasibility and service relative to the identical RepairOff trajectory.",
+              "claim_boundary": "Repair is a feasibility safeguard; objective restoration is not required for support."
+            },
+            {
+              "id": "H4.6",
+              "name": "engineering_transfer",
+              "test": "Across the five engineering-shaped scenarios, CA-HMCD should retain feasible allocations and provide a scenario-qualified service/coverage profile relative to Greedy and External-Auction.",
+              "claim_boundary": "HiGHS is not re-ranked in this stage and no universal superiority claim is registered."
+            }
+          ],
+          "statistical_plan": {
+            "independent_unit": "one complete 12-step seed trajectory",
+            "paired_difference": "CA-HMCD-family arm minus comparator arm on the same seed and stratum",
+            "interval": "95% BCa bootstrap interval for mean paired difference, deterministic seed derived from family and endpoint",
+            "bounded_intervals": "Wilson score intervals for episode-level feasibility, raw feasibility, repair rate, same-type pair ratio, capability overlap, and marginal-gain waste",
+            "multiple_comparison": "Holm step-down separately within every registered family listed in holm_families.csv",
+            "minimum_seeds_per_cell": 30
+          },
+          "decision_rules": {
+            "repair_supported": "At least one non-zero noise level has a positive paired 95% BCa lower bound for final feasibility and Holm-adjusted P < 0.05, with the RepairOn final feasibility rate not below 0.95.",
+            "stability_supported": "At least three non-zero volatility levels show a negative CA-HMCD minus No-Stability switch-count difference with the prespecified interval and Holm-adjusted P < 0.05.",
+            "redundancy_supported": "At least two of the three independent redundancy diagnostics show a negative CA-HMCD minus No-Redundancy difference with the prespecified interval and Holm-adjusted P < 0.05, while service loss is no more than 0.02 in absolute mean.",
+            "complementarity_supported": "Scale 0 is an identity control and the scale-2 paired objective difference is positive with the prespecified interval and Holm-adjusted P < 0.05; monotonicity is summarized descriptively and does not override the paired test.",
+            "engineering_transfer_supported": "All five scenarios remain feasible, and CA-HMCD has a positive service-score or coverage difference against at least one external baseline in at least three scenarios after the registered Holm family correction."
+          },
+          "reproducibility": {
+            "resume_policy": "Existing shards are reused only when unit identity, protocol fingerprint, runner version, and current code hashes match exactly.",
+            "failure_policy": "A failed unit is recorded and stops formal completion; no automatic retry is performed.",
+            "data_policy": "All outputs remain local. No raw data or results are uploaded to external services."
+          }
+        },
+        "checks": {
+          "seeds": true,
+          "steps": true,
+          "top_k": true,
+          "node_limit": true,
+          "candidate_pool": true,
+          "episode_count": true,
+          "frozen_hashes": true,
+          "model_version": true,
+          "evaluator_version": true,
+          "service_endpoint": true
+        },
+        "frozen_hashes": {
+          "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+          "ca_hmcd_framework.py": "f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa"
+        },
+        "protocol_fingerprint": "39b34649ec56edcab972d4c033ab6640023a3e1265c15add37b2e49fbdc38743"
+      },
+      "environment": {
+        "python": "3.14.0a1 (tags/v3.14.0a1:8cdaca8, Oct 15 2024, 20:08:21) [MSC v.1941 64 bit (AMD64)]",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "numpy": "2.4.4",
+        "scipy": "1.17.1",
+        "cpu_count": 12
+      },
+      "outputs": {
+        "stage4_episode_results.csv": "dc0324cefa092ef79df2091832da13e06f00d14a1f6bedd20211950df66c5c06",
+        "stage4_per_step.csv": "c5eec9f48154190825cb515c5151d1dab77d75b49cf7d05877162eb5cfa04c89",
+        "stage4_pairing_audit.csv": "99e31d52dfc94e44b084868a9e9644c59eea75686901da13f12ff19b8ed499a1",
+        "stage4_cell_summary.csv": "47b79e1ab8b87fee95120d97da771305b93ebe3287b7c35f9f66741e7651bf45"
+      }
+    },
+    "checks": [
+      {
+        "check": "formal execution mode",
+        "observed": "formal",
+        "expected": "formal",
+        "passed": true
+      },
+      {
+        "check": "formal pairing audit",
+        "observed": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "check": "registered episode count",
+        "observed": 2070,
+        "expected": 2070,
+        "passed": true
+      },
+      {
+        "check": "registered step count",
+        "observed": 24840,
+        "expected": 24840,
+        "passed": true
+      },
+      {
+        "check": "registered audit count",
+        "observed": 7560,
+        "expected": 7560,
+        "passed": true
+      },
+      {
+        "check": "frozen execution code hashes",
+        "observed": {
+          "ca_hmcd_stage4_value_engineering_runner.py": "c70e65539580083e4062435d1053e05cbe50a12cd57d63c73de1cb014b18452d",
+          "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+          "ca_hmcd_framework.py": "f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa",
+          "stage4_preregistration.json": "dc6b62a8a8bbcdffae0a58b68fe94f0ed502d91d7eb488d024673a60655e8e44",
+          "stage4_protocol.md": "cc01c345613d3abbb21716b926d53fd55e9c0669fed5486566000b53b7f4eb6c"
+        },
+        "expected": {
+          "ca_hmcd_stage4_value_engineering_runner.py": "c70e65539580083e4062435d1053e05cbe50a12cd57d63c73de1cb014b18452d",
+          "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+          "ca_hmcd_framework.py": "f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa",
+          "stage4_preregistration.json": "dc6b62a8a8bbcdffae0a58b68fe94f0ed502d91d7eb488d024673a60655e8e44",
+          "stage4_protocol.md": "cc01c345613d3abbb21716b926d53fd55e9c0669fed5486566000b53b7f4eb6c"
+        },
+        "passed": true
+      },
+      {
+        "check": "protocol fingerprint",
+        "observed": "39b34649ec56edcab972d4c033ab6640023a3e1265c15add37b2e49fbdc38743",
+        "expected": "39b34649ec56edcab972d4c033ab6640023a3e1265c15add37b2e49fbdc38743",
+        "passed": true
+      },
+      {
+        "check": "formal output hashes",
+        "observed": {
+          "stage4_episode_results.csv": "dc0324cefa092ef79df2091832da13e06f00d14a1f6bedd20211950df66c5c06",
+          "stage4_per_step.csv": "c5eec9f48154190825cb515c5151d1dab77d75b49cf7d05877162eb5cfa04c89",
+          "stage4_pairing_audit.csv": "99e31d52dfc94e44b084868a9e9644c59eea75686901da13f12ff19b8ed499a1",
+          "stage4_cell_summary.csv": "47b79e1ab8b87fee95120d97da771305b93ebe3287b7c35f9f66741e7651bf45"
+        },
+        "expected": {
+          "stage4_episode_results.csv": "dc0324cefa092ef79df2091832da13e06f00d14a1f6bedd20211950df66c5c06",
+          "stage4_per_step.csv": "c5eec9f48154190825cb515c5151d1dab77d75b49cf7d05877162eb5cfa04c89",
+          "stage4_pairing_audit.csv": "99e31d52dfc94e44b084868a9e9644c59eea75686901da13f12ff19b8ed499a1",
+          "stage4_cell_summary.csv": "47b79e1ab8b87fee95120d97da771305b93ebe3287b7c35f9f66741e7651bf45"
+        },
+        "passed": true
+      }
+    ],
+    "output_hashes": {
+      "stage4_episode_results.csv": "dc0324cefa092ef79df2091832da13e06f00d14a1f6bedd20211950df66c5c06",
+      "stage4_per_step.csv": "c5eec9f48154190825cb515c5151d1dab77d75b49cf7d05877162eb5cfa04c89",
+      "stage4_pairing_audit.csv": "99e31d52dfc94e44b084868a9e9644c59eea75686901da13f12ff19b8ed499a1",
+      "stage4_cell_summary.csv": "47b79e1ab8b87fee95120d97da771305b93ebe3287b7c35f9f66741e7651bf45"
+    },
+    "execution_metadata_sha256": "065e1d8c6066678590199f5094bbf94f88aee3cedd73848466e7099620f4a318"
+  },
+  "counts": {
+    "episodes": 2070,
+    "steps": 24840,
+    "paired_comparisons": 280,
+    "holm_families": 84,
+    "bounded_intervals": 483,
+    "common_task_response_seed_rows": 290
+  },
+  "analysis_hashes": {
+    "ca_hmcd_stage4_value_engineering_analysis.py": "1a57337f748f47ea29f92deea8a3783b6de15685c58500fbd613f8f5f7cf4e92"
+  },
+  "output_hashes": {
+    "stage4_paired_comparisons.csv": "9af949b9b6fc85cfbb27cada710450236cd1c469c3636f71146a4396d224b3dc",
+    "stage4_holm_families.csv": "2a0151efe7f249f61c0fae545f1dda53c4eeb6cbcbdae13a4668b94cb50faa9e",
+    "stage4_bounded_intervals.csv": "275f8603c7ece5a3d19cf16ac00e3de21cee7aa426340e6870cf17d0e309688f",
+    "stage4_common_task_response.csv": "a6a2b7680794099b0e8cfd214c0c3732495d76ca35d36ee0518b778250c16eca",
+    "stage4_mechanism_trends.csv": "7bc3b17693a7560ecde984ba7088b2f20df310dacb5f6c11629538b34322f004",
+    "stage4_gate_decisions.csv": "25a78b53ff2cac51d13cdb49268c9b7d205a7dc351ef7624e6e6704ce03c46fd",
+    "stage4_analysis_report.md": "ec38648824b0414014361464960f10be262f41ede3396f0fe0b1d1252f7d24e8",
+    "stage4_gate_decisions.json": "0ea28f6628abd4f58ec796ed431f7af4a6555a913e51db61252f34322a236028"
+  }
+}

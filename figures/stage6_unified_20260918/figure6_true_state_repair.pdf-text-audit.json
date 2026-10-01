@@ -1,0 +1,10 @@
+{
+  "pdf": "figures\\stage6_unified_20260918\\figure6_true_state_repair.pdf",
+  "auditable": true,
+  "minimum_required_pt": 6.0,
+  "minimum_found_pt": 6.7,
+  "text_run_count": 44,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

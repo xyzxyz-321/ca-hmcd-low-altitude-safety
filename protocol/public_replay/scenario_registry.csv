@@ -1,0 +1,17 @@
+﻿scenario,dataset,source_count,task_load,evidence_role,workload_count
+uzh_indoor_forward_high,uzh_fpv,1,1,measured_3d_motion,
+uzh_indoor_forward_low,uzh_fpv,3,1,measured_3d_motion,
+uzh_indoor_forward_medium,uzh_fpv,2,1,measured_3d_motion,
+uzh_indoor_oblique_45_high,uzh_fpv,3,1,measured_3d_motion,
+uzh_indoor_oblique_45_medium,uzh_fpv,3,1,measured_3d_motion,
+uzh_outdoor_forward_high,uzh_fpv,2,1,measured_3d_motion,
+uzh_outdoor_forward_low,uzh_fpv,1,1,measured_3d_motion,
+uzh_outdoor_oblique_45_low,uzh_fpv,1,1,measured_3d_motion,
+anti_fast_motion,anti_uav410,19,2/4/6/8,measured_image_plane_observation,
+anti_nominal,anti_uav410,46,2/4/6/8,measured_image_plane_observation,
+anti_scale_small,anti_uav410,13,2/4/6/8,measured_image_plane_observation,
+anti_visibility,anti_uav410,42,2/4/6/8,measured_image_plane_observation,
+anti_uav_load_2,anti_uav410,20,2,semi_synthetic_concurrent_load,10
+anti_uav_load_4,anti_uav410,32,4,semi_synthetic_concurrent_load,8
+anti_uav_load_6,anti_uav410,36,6,semi_synthetic_concurrent_load,6
+anti_uav_load_8,anti_uav410,32,8,semi_synthetic_concurrent_load,4

@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-17T02:27:27.758090+00:00",
+  "reference_dir": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_external_reference_formal_20260917",
+  "baseline_dir": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_external_baselines_formal_20260917",
+  "legacy_reference_dir": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage4_replay_formal_20260916",
+  "protocol_fingerprint": "b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea",
+  "bootstrap_resamples": 10000,
+  "independent_units": 44,
+  "nested_seeds_per_unit": 30,
+  "analysis_script_sha256": "605fbe56d122e19ae194da0c6c899e7e0d2791c7157e9ba69137f2d4490682ad",
+  "audit_pass": true
+}

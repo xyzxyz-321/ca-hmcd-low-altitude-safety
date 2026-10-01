@@ -1,0 +1,13 @@
+﻿check,observed,expected,passed
+formal execution mode,formal,formal,True
+execution audit,True,True,True
+registered unit count,480,480,True
+registered run count,2400,2400,True
+frozen execution hashes,"{'ca_hmcd_stage3_boundary.py': '839ae9c8494a2247562c24c58057866a7f2bc80d35ca8f412e387fc5586ee590', 'ca_hmcd_stage3_boundary_runner.py': '7b2fec809baf5019b372ddb52a14da3e902679e60fa172c7cff2d7f6166186f9', 'ca_hmcd_simulation.py': 'b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1', 'ca_hmcd_framework.py': 'f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa', 'stage3_preregistration.json': '7fce28275fff1f4974be8df72858acb9904ce9b59843e0e83d343032721e510c', 'stage3_boundary_protocol.md': 'ce6f8181caedde3f8ba26263f1ccacbc19c48b0adf93d6a5861bbd319fb63d6d'}","{'ca_hmcd_stage3_boundary.py': '839ae9c8494a2247562c24c58057866a7f2bc80d35ca8f412e387fc5586ee590', 'ca_hmcd_stage3_boundary_runner.py': '7b2fec809baf5019b372ddb52a14da3e902679e60fa172c7cff2d7f6166186f9', 'ca_hmcd_simulation.py': 'b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1', 'ca_hmcd_framework.py': 'f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa', 'stage3_preregistration.json': '7fce28275fff1f4974be8df72858acb9904ce9b59843e0e83d343032721e510c', 'stage3_boundary_protocol.md': 'ce6f8181caedde3f8ba26263f1ccacbc19c48b0adf93d6a5861bbd319fb63d6d'}",True
+Gate A remains failed,FAIL,FAIL,True
+paired row count,1920,1920,True
+boundary cell count,64,64,True
+Holm family count,36,36,True
+paired comparison count,576,576,True
+valid Holm adjusted P values,True,True,True
+Gate B adjudicated once,FAIL,PASS or FAIL,True

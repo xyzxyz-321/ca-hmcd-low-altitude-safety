@@ -1,0 +1,38 @@
+{
+  "schema": "ca-hmcd-stage4-gate-decisions-v1",
+  "analysis_version": "ca-hmcd-stage4-value-engineering-analysis-v1",
+  "created_at_utc": "2026-09-18T00:38:53.436374+00:00",
+  "gates": [
+    {
+      "gate": "H4.1 compatibility",
+      "status": "CONTEXT_DEPENDENT",
+      "evidence": "0/5 scenarios supported both objective and service: none; 3/5 supported at least one endpoint"
+    },
+    {
+      "gate": "H4.2 complementarity",
+      "status": "CONTEXT_DEPENDENT",
+      "evidence": "scale-0 identity=False; scale-2 objective difference=0.007444, 95% CI [-0.002561, 0.019586]; scale-2 service difference=0.004857"
+    },
+    {
+      "gate": "H4.3 redundancy",
+      "status": "NOT_SUPPORTED",
+      "evidence": "0/3 diagnostics supported: none; service difference=0.000000"
+    },
+    {
+      "gate": "H4.4 stability",
+      "status": "SUPPORTED",
+      "evidence": "4/4 non-zero volatility levels supported switch reduction: [0.05, 0.1, 0.2, 0.3]"
+    },
+    {
+      "gate": "H4.5 true-state repair / Gate C",
+      "status": "SUPPORTED",
+      "evidence": "supported non-zero noise levels: [0.05, 0.1, 0.2, 0.3]; service trade-off levels: [0.05, 0.1, 0.2, 0.3]; RepairOn cell count=5"
+    },
+    {
+      "gate": "H4.6 engineering transfer",
+      "status": "SUPPORTED",
+      "evidence": "all CA-HMCD engineering trajectories feasible=True; supported scenarios 4/5: airport_corridor, public_event, urban_corridor, industrial_zone"
+    }
+  ],
+  "stage_status": "COMPLETE_WITH_EVIDENCE_QUALIFICATIONS"
+}

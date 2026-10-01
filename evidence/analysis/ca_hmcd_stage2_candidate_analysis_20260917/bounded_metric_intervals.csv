@@ -1,0 +1,181 @@
+﻿dataset,task_load,stratum_id,algorithm,metric,n_independent_clusters,mean,ci95_low,ci95_high,interval_method
+anti_uav410,2,anti_uav410.load_2,AdaptiveK,independent_coverage,10,0.8591666667,0.8079166667,0.9081944444,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,AdaptiveK,feasibility_rate,10,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,AdaptiveK,fallback,10,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,AdaptiveK,node_limit_run_indicator,10,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,AdaptiveK,candidate_retention_ratio,10,0.1667390621,0.1598737053,0.1745913931,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,AdaptiveK,clusters_with_any_node_limit_hit,10,0.0,0.0,0.2775327999,Wilson score interval
+anti_uav410,2,anti_uav410.load_2,FixedK-12,independent_coverage,10,0.8591666667,0.8080555556,0.9083333333,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-12,feasibility_rate,10,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-12,fallback,10,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-12,node_limit_run_indicator,10,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-12,candidate_retention_ratio,10,0.080128361,0.0789842362,0.0822297076,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-12,clusters_with_any_node_limit_hit,10,0.0,0.0,0.2775327999,Wilson score interval
+anti_uav410,2,anti_uav410.load_2,FixedK-24,independent_coverage,10,0.8591666667,0.8056944444,0.9073866073,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-24,feasibility_rate,10,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-24,fallback,10,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-24,node_limit_run_indicator,10,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-24,candidate_retention_ratio,10,0.1597256894,0.1577182026,0.163007827,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-24,clusters_with_any_node_limit_hit,10,0.0,0.0,0.2775327999,Wilson score interval
+anti_uav410,2,anti_uav410.load_2,FixedK-48,independent_coverage,10,0.8591666667,0.805,0.9090277778,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-48,feasibility_rate,10,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-48,fallback,10,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-48,node_limit_run_indicator,10,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-48,candidate_retention_ratio,10,0.3175838211,0.3146220449,0.3221801644,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-48,clusters_with_any_node_limit_hit,10,0.0,0.0,0.2775327999,Wilson score interval
+anti_uav410,2,anti_uav410.load_2,FixedK-6,independent_coverage,10,0.8545833333,0.8047222222,0.9061111111,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-6,feasibility_rate,10,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-6,fallback,10,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-6,node_limit_run_indicator,10,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-6,candidate_retention_ratio,10,0.0402074593,0.0395328927,0.0415843493,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,FixedK-6,clusters_with_any_node_limit_hit,10,0.0,0.0,0.2775327999,Wilson score interval
+anti_uav410,2,anti_uav410.load_2,Full,independent_coverage,10,0.8591666667,0.8056944444,0.9084722222,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,Full,feasibility_rate,10,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,Full,fallback,10,0.2994444444,0.2075,0.4103985565,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,Full,node_limit_run_indicator,10,0.9533333333,0.8133333333,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,Full,candidate_retention_ratio,10,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,2,anti_uav410.load_2,Full,clusters_with_any_node_limit_hit,10,1.0,0.7224672001,1.0,Wilson score interval
+anti_uav410,4,anti_uav410.load_4,AdaptiveK,independent_coverage,8,0.8981770833,0.8611689815,0.9276331019,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,AdaptiveK,feasibility_rate,8,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,AdaptiveK,fallback,8,0.2635416667,0.2045138889,0.3079861111,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,AdaptiveK,node_limit_run_indicator,8,0.9916666667,0.9666666667,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,AdaptiveK,candidate_retention_ratio,8,0.1519561358,0.1477678753,0.1564787803,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,AdaptiveK,clusters_with_any_node_limit_hit,8,1.0,0.6755924351,1.0,Wilson score interval
+anti_uav410,4,anti_uav410.load_4,FixedK-12,independent_coverage,8,0.8961226852,0.8591118171,0.9245783216,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-12,feasibility_rate,8,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-12,fallback,8,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-12,node_limit_run_indicator,8,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-12,candidate_retention_ratio,8,0.0799626625,0.07895772,0.0811801215,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-12,clusters_with_any_node_limit_hit,8,0.0,0.0,0.3244075649,Wilson score interval
+anti_uav410,4,anti_uav410.load_4,FixedK-24,independent_coverage,8,0.8981770833,0.8610630588,0.9265323347,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-24,feasibility_rate,8,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-24,fallback,8,0.4072916667,0.3478885075,0.4642361111,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-24,node_limit_run_indicator,8,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-24,candidate_retention_ratio,8,0.1591416532,0.1574404647,0.1612528463,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-24,clusters_with_any_node_limit_hit,8,1.0,0.6755924351,1.0,Wilson score interval
+anti_uav410,4,anti_uav410.load_4,FixedK-48,independent_coverage,8,0.8978298611,0.8608930291,0.9265533947,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-48,feasibility_rate,8,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-48,fallback,8,0.6298611111,0.5604166667,0.7135416667,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-48,node_limit_run_indicator,8,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-48,candidate_retention_ratio,8,0.3159086279,0.3135606352,0.3186486047,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-48,clusters_with_any_node_limit_hit,8,1.0,0.6755924351,1.0,Wilson score interval
+anti_uav410,4,anti_uav410.load_4,FixedK-6,independent_coverage,8,0.7399016204,0.7088245415,0.7769619717,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-6,feasibility_rate,8,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-6,fallback,8,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-6,node_limit_run_indicator,8,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-6,candidate_retention_ratio,8,0.0401848211,0.0395966939,0.0408439708,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,FixedK-6,clusters_with_any_node_limit_hit,8,0.0,0.0,0.3244075649,Wilson score interval
+anti_uav410,4,anti_uav410.load_4,Full,independent_coverage,8,0.8952835648,0.8589409722,0.927033507,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,Full,feasibility_rate,8,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,Full,fallback,8,0.88125,0.8135416667,0.9145833333,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,Full,node_limit_run_indicator,8,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,Full,candidate_retention_ratio,8,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,4,anti_uav410.load_4,Full,clusters_with_any_node_limit_hit,8,1.0,0.6755924351,1.0,Wilson score interval
+anti_uav410,6,anti_uav410.load_6,AdaptiveK,independent_coverage,6,0.8909953704,0.828587963,0.9209259259,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,AdaptiveK,feasibility_rate,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,AdaptiveK,fallback,6,0.875462963,0.7675925926,0.937962963,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,AdaptiveK,node_limit_run_indicator,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,AdaptiveK,candidate_retention_ratio,6,0.1633353,0.159545741,0.1687690825,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,AdaptiveK,clusters_with_any_node_limit_hit,6,1.0,0.6096657121,1.0,Wilson score interval
+anti_uav410,6,anti_uav410.load_6,FixedK-12,independent_coverage,6,0.8483873457,0.8003780864,0.8762037037,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-12,feasibility_rate,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-12,fallback,6,0.1486111111,0.0972222222,0.2060185185,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-12,node_limit_run_indicator,6,0.7666666667,0.6166666667,0.8722222222,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-12,candidate_retention_ratio,6,0.081511702,0.0800176705,0.0829238519,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-12,clusters_with_any_node_limit_hit,6,1.0,0.6096657121,1.0,Wilson score interval
+anti_uav410,6,anti_uav410.load_6,FixedK-24,independent_coverage,6,0.8907407407,0.8210648148,0.9227469136,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-24,feasibility_rate,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-24,fallback,6,0.8625,0.7347222222,0.9166666667,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-24,node_limit_run_indicator,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-24,candidate_retention_ratio,6,0.1619051114,0.1591439461,0.1642732895,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-24,clusters_with_any_node_limit_hit,6,1.0,0.6096657121,1.0,Wilson score interval
+anti_uav410,6,anti_uav410.load_6,FixedK-48,independent_coverage,6,0.8902623457,0.8260108025,0.9231481481,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-48,feasibility_rate,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-48,fallback,6,0.9833333333,0.9333333333,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-48,node_limit_run_indicator,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-48,candidate_retention_ratio,6,0.3207236521,0.315533759,0.3243145253,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-48,clusters_with_any_node_limit_hit,6,1.0,0.6096657121,1.0,Wilson score interval
+anti_uav410,6,anti_uav410.load_6,FixedK-6,independent_coverage,6,0.5795833333,0.5572067901,0.6129320988,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-6,feasibility_rate,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-6,fallback,6,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-6,node_limit_run_indicator,6,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-6,candidate_retention_ratio,6,0.0409584587,0.0401162718,0.0417788052,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,FixedK-6,clusters_with_any_node_limit_hit,6,0.0,0.0,0.3903342879,Wilson score interval
+anti_uav410,6,anti_uav410.load_6,Full,independent_coverage,6,0.8861265432,0.819537037,0.9210493827,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,Full,feasibility_rate,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,Full,fallback,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,Full,node_limit_run_indicator,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,Full,candidate_retention_ratio,6,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,6,anti_uav410.load_6,Full,clusters_with_any_node_limit_hit,6,1.0,0.6096657121,1.0,Wilson score interval
+anti_uav410,8,anti_uav410.load_8,AdaptiveK,independent_coverage,4,0.8874958664,0.8545552249,0.9204365079,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,AdaptiveK,feasibility_rate,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,AdaptiveK,fallback,4,0.9958333333,0.9909722222,0.9986111111,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,AdaptiveK,node_limit_run_indicator,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,AdaptiveK,candidate_retention_ratio,4,0.1777948687,0.174017631,0.1799575731,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,AdaptiveK,clusters_with_any_node_limit_hit,4,1.0,0.5101091635,1.0,Wilson score interval
+anti_uav410,8,anti_uav410.load_8,FixedK-12,independent_coverage,4,0.8039054233,0.7848048942,0.8284755291,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-12,feasibility_rate,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-12,fallback,4,0.6583333333,0.6027777778,0.6972222222,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-12,node_limit_run_indicator,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-12,candidate_retention_ratio,4,0.0808863187,0.0791429384,0.0834032987,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-12,clusters_with_any_node_limit_hit,4,1.0,0.5101091635,1.0,Wilson score interval
+anti_uav410,8,anti_uav410.load_8,FixedK-24,independent_coverage,4,0.8869171627,0.8547867063,0.919047619,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-24,feasibility_rate,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-24,fallback,4,0.9166666667,0.9166666667,0.9166666667,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-24,node_limit_run_indicator,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-24,candidate_retention_ratio,4,0.1609213731,0.1580367522,0.1654641994,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-24,clusters_with_any_node_limit_hit,4,1.0,0.5101091635,1.0,Wilson score interval
+anti_uav410,8,anti_uav410.load_8,FixedK-48,independent_coverage,4,0.8857266865,0.8550099206,0.9164434524,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-48,feasibility_rate,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-48,fallback,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-48,node_limit_run_indicator,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-48,candidate_retention_ratio,4,0.3190804961,0.315487903,0.3257143004,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-48,clusters_with_any_node_limit_hit,4,1.0,0.5101091635,1.0,Wilson score interval
+anti_uav410,8,anti_uav410.load_8,FixedK-6,independent_coverage,4,0.467906746,0.4442046958,0.483234127,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-6,feasibility_rate,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-6,fallback,4,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-6,node_limit_run_indicator,4,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-6,candidate_retention_ratio,4,0.040614181,0.0396249018,0.041882023,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,FixedK-6,clusters_with_any_node_limit_hit,4,0.0,0.0,0.4898908365,Wilson score interval
+anti_uav410,8,anti_uav410.load_8,Full,independent_coverage,4,0.8771122685,0.8527116402,0.9090897817,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,Full,feasibility_rate,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,Full,fallback,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,Full,node_limit_run_indicator,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,Full,candidate_retention_ratio,4,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+anti_uav410,8,anti_uav410.load_8,Full,clusters_with_any_node_limit_hit,4,1.0,0.5101091635,1.0,Wilson score interval
+uzh_fpv,1,uzh_fpv.load_1,AdaptiveK,independent_coverage,16,0.8291666667,0.7636859752,0.8715277778,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,AdaptiveK,feasibility_rate,16,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,AdaptiveK,fallback,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,AdaptiveK,node_limit_run_indicator,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,AdaptiveK,candidate_retention_ratio,16,0.1469389533,0.13970652,0.1526779853,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,AdaptiveK,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval
+uzh_fpv,1,uzh_fpv.load_1,FixedK-12,independent_coverage,16,0.8291666667,0.7628636881,0.8711805556,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-12,feasibility_rate,16,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-12,fallback,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-12,node_limit_run_indicator,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-12,candidate_retention_ratio,16,0.0794078066,0.0780043032,0.0813525868,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-12,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval
+uzh_fpv,1,uzh_fpv.load_1,FixedK-24,independent_coverage,16,0.8291666667,0.762620773,0.8710069444,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-24,feasibility_rate,16,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-24,fallback,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-24,node_limit_run_indicator,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-24,candidate_retention_ratio,16,0.1579394789,0.1555825812,0.1609315324,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-24,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval
+uzh_fpv,1,uzh_fpv.load_1,FixedK-48,independent_coverage,16,0.8291666667,0.7631944444,0.871875,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-48,feasibility_rate,16,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-48,fallback,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-48,node_limit_run_indicator,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-48,candidate_retention_ratio,16,0.3133429318,0.3097630054,0.3171963941,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-48,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval
+uzh_fpv,1,uzh_fpv.load_1,FixedK-6,independent_coverage,16,0.8291666667,0.7651041667,0.8717013889,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-6,feasibility_rate,16,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-6,fallback,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-6,node_limit_run_indicator,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-6,candidate_retention_ratio,16,0.0398466095,0.0390920568,0.0409077605,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,FixedK-6,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval
+uzh_fpv,1,uzh_fpv.load_1,Full,independent_coverage,16,0.8291666667,0.7660653348,0.8727430556,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,Full,feasibility_rate,16,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,Full,fallback,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,Full,node_limit_run_indicator,16,0.0,0.0,0.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,Full,candidate_retention_ratio,16,1.0,1.0,1.0,bounded BCa bootstrap of cluster means
+uzh_fpv,1,uzh_fpv.load_1,Full,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval

@@ -1,0 +1,29 @@
+﻿check,observed,expected,passed
+environment-matched reference mode,formal-reference,formal-reference,True
+external-baseline formal mode,formal-external,formal-external,True
+reference execution audit,True,True,True
+external-baseline execution audit,True,True,True
+registered external algorithms,"['HiGHS-MILP', 'Genetic-Algorithm']","['HiGHS-MILP', 'Genetic-Algorithm']",True
+same frozen protocol fingerprint,b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea,b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea,True
+same model version,ca-hmcd-stage1-closure-v2.3,ca-hmcd-stage1-closure-v2.3,True
+same external evaluator version,complete-v3-stage1-closure,complete-v3-stage1-closure,True
+same service endpoint version,solver-decoupled-service-v2,solver-decoupled-service-v2,True
+same simulation implementation,b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1,b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1,True
+same Python execution environment,"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]","3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",True
+complete external registered rows,1320,1320,True
+matched CA-HMCD reproduces prior non-timing outcomes,0.0,maximum absolute difference <= 1e-12,True
+complete paired episode keys,3960,3960,True
+HiGHS-MILP disables dominance pruning,1,1,True
+HiGHS-MILP disables diversity pruning,1,1,True
+HiGHS-MILP uses the same feasible candidate count,paired workload-seed mean,equal to CA-HMCD before pruning,True
+Genetic-Algorithm disables dominance pruning,1,1,True
+Genetic-Algorithm disables diversity pruning,1,1,True
+Genetic-Algorithm uses the same feasible candidate count,paired workload-seed mean,equal to CA-HMCD before pruning,True
+registered run units are unique,1320,1320,1
+episode result count is complete,3960,3960,1
+every episode tuple occurs once,1,1,1
+per-step result count is complete,47520,47520,1
+paired audit group count is complete,15840,15840,1
+all paired state audits pass,15840,15840,1
+all final allocations are feasible,1.0,1.0,1
+all per-period state audits pass,15840,15840,True

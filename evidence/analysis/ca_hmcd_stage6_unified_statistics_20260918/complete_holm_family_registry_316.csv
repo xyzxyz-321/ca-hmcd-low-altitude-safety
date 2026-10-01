@@ -1,0 +1,317 @@
+﻿family_id,evidence_layer,evidence_block,metric,scenario,registered_comparisons,declared_family_sizes,significant_comparisons
+external_full_candidate_baselines::computational.anti_uav410.load_2.end_to_end_runtime_ms,public-data replay and registered supplements,external_full_candidate_baselines,end_to_end_runtime_ms,anti_uav410,2,2,2
+external_full_candidate_baselines::computational.anti_uav410.load_2.fallback,public-data replay and registered supplements,external_full_candidate_baselines,fallback,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.anti_uav410.load_2.node_limit_run_indicator,public-data replay and registered supplements,external_full_candidate_baselines,node_limit_run_indicator,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.anti_uav410.load_2.solver_elapsed_ms,public-data replay and registered supplements,external_full_candidate_baselines,solver_elapsed_ms,anti_uav410,2,2,2
+external_full_candidate_baselines::computational.anti_uav410.load_4.end_to_end_runtime_ms,public-data replay and registered supplements,external_full_candidate_baselines,end_to_end_runtime_ms,anti_uav410,2,2,2
+external_full_candidate_baselines::computational.anti_uav410.load_4.fallback,public-data replay and registered supplements,external_full_candidate_baselines,fallback,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.anti_uav410.load_4.node_limit_run_indicator,public-data replay and registered supplements,external_full_candidate_baselines,node_limit_run_indicator,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.anti_uav410.load_4.solver_elapsed_ms,public-data replay and registered supplements,external_full_candidate_baselines,solver_elapsed_ms,anti_uav410,2,2,2
+external_full_candidate_baselines::computational.anti_uav410.load_6.end_to_end_runtime_ms,public-data replay and registered supplements,external_full_candidate_baselines,end_to_end_runtime_ms,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.anti_uav410.load_6.fallback,public-data replay and registered supplements,external_full_candidate_baselines,fallback,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.anti_uav410.load_6.node_limit_run_indicator,public-data replay and registered supplements,external_full_candidate_baselines,node_limit_run_indicator,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.anti_uav410.load_6.solver_elapsed_ms,public-data replay and registered supplements,external_full_candidate_baselines,solver_elapsed_ms,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.anti_uav410.load_8.end_to_end_runtime_ms,public-data replay and registered supplements,external_full_candidate_baselines,end_to_end_runtime_ms,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.anti_uav410.load_8.fallback,public-data replay and registered supplements,external_full_candidate_baselines,fallback,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.anti_uav410.load_8.node_limit_run_indicator,public-data replay and registered supplements,external_full_candidate_baselines,node_limit_run_indicator,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.anti_uav410.load_8.solver_elapsed_ms,public-data replay and registered supplements,external_full_candidate_baselines,solver_elapsed_ms,anti_uav410,2,2,0
+external_full_candidate_baselines::computational.uzh_fpv.load_1.end_to_end_runtime_ms,public-data replay and registered supplements,external_full_candidate_baselines,end_to_end_runtime_ms,uzh_fpv,2,2,2
+external_full_candidate_baselines::computational.uzh_fpv.load_1.fallback,public-data replay and registered supplements,external_full_candidate_baselines,fallback,uzh_fpv,2,2,0
+external_full_candidate_baselines::computational.uzh_fpv.load_1.node_limit_run_indicator,public-data replay and registered supplements,external_full_candidate_baselines,node_limit_run_indicator,uzh_fpv,2,2,0
+external_full_candidate_baselines::computational.uzh_fpv.load_1.solver_elapsed_ms,public-data replay and registered supplements,external_full_candidate_baselines,solver_elapsed_ms,uzh_fpv,2,2,2
+external_full_candidate_baselines::mechanism.anti_uav410.load_2.candidate_after_diversity,public-data replay and registered supplements,external_full_candidate_baselines,candidate_after_diversity,anti_uav410,2,2,2
+external_full_candidate_baselines::mechanism.anti_uav410.load_2.candidate_feasible_before_dominance,public-data replay and registered supplements,external_full_candidate_baselines,candidate_feasible_before_dominance,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.anti_uav410.load_2.nodes,public-data replay and registered supplements,external_full_candidate_baselines,nodes,anti_uav410,2,2,2
+external_full_candidate_baselines::mechanism.anti_uav410.load_2.repair_applied,public-data replay and registered supplements,external_full_candidate_baselines,repair_applied,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.anti_uav410.load_4.candidate_after_diversity,public-data replay and registered supplements,external_full_candidate_baselines,candidate_after_diversity,anti_uav410,2,2,2
+external_full_candidate_baselines::mechanism.anti_uav410.load_4.candidate_feasible_before_dominance,public-data replay and registered supplements,external_full_candidate_baselines,candidate_feasible_before_dominance,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.anti_uav410.load_4.nodes,public-data replay and registered supplements,external_full_candidate_baselines,nodes,anti_uav410,2,2,2
+external_full_candidate_baselines::mechanism.anti_uav410.load_4.repair_applied,public-data replay and registered supplements,external_full_candidate_baselines,repair_applied,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.anti_uav410.load_6.candidate_after_diversity,public-data replay and registered supplements,external_full_candidate_baselines,candidate_after_diversity,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.anti_uav410.load_6.candidate_feasible_before_dominance,public-data replay and registered supplements,external_full_candidate_baselines,candidate_feasible_before_dominance,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.anti_uav410.load_6.nodes,public-data replay and registered supplements,external_full_candidate_baselines,nodes,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.anti_uav410.load_6.repair_applied,public-data replay and registered supplements,external_full_candidate_baselines,repair_applied,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.anti_uav410.load_8.candidate_after_diversity,public-data replay and registered supplements,external_full_candidate_baselines,candidate_after_diversity,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.anti_uav410.load_8.candidate_feasible_before_dominance,public-data replay and registered supplements,external_full_candidate_baselines,candidate_feasible_before_dominance,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.anti_uav410.load_8.nodes,public-data replay and registered supplements,external_full_candidate_baselines,nodes,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.anti_uav410.load_8.repair_applied,public-data replay and registered supplements,external_full_candidate_baselines,repair_applied,anti_uav410,2,2,0
+external_full_candidate_baselines::mechanism.uzh_fpv.load_1.candidate_after_diversity,public-data replay and registered supplements,external_full_candidate_baselines,candidate_after_diversity,uzh_fpv,2,2,2
+external_full_candidate_baselines::mechanism.uzh_fpv.load_1.candidate_feasible_before_dominance,public-data replay and registered supplements,external_full_candidate_baselines,candidate_feasible_before_dominance,uzh_fpv,2,2,0
+external_full_candidate_baselines::mechanism.uzh_fpv.load_1.nodes,public-data replay and registered supplements,external_full_candidate_baselines,nodes,uzh_fpv,2,2,2
+external_full_candidate_baselines::mechanism.uzh_fpv.load_1.repair_applied,public-data replay and registered supplements,external_full_candidate_baselines,repair_applied,uzh_fpv,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_2.common_task_response_time,public-data replay and registered supplements,external_full_candidate_baselines,common_task_response_time,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_2.external_objective,public-data replay and registered supplements,external_full_candidate_baselines,external_objective,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_2.independent_coverage,public-data replay and registered supplements,external_full_candidate_baselines,independent_coverage,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_2.independent_service_score,public-data replay and registered supplements,external_full_candidate_baselines,independent_service_score,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_4.common_task_response_time,public-data replay and registered supplements,external_full_candidate_baselines,common_task_response_time,anti_uav410,2,2,1
+external_full_candidate_baselines::performance.anti_uav410.load_4.external_objective,public-data replay and registered supplements,external_full_candidate_baselines,external_objective,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_4.independent_coverage,public-data replay and registered supplements,external_full_candidate_baselines,independent_coverage,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_4.independent_service_score,public-data replay and registered supplements,external_full_candidate_baselines,independent_service_score,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_6.common_task_response_time,public-data replay and registered supplements,external_full_candidate_baselines,common_task_response_time,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_6.external_objective,public-data replay and registered supplements,external_full_candidate_baselines,external_objective,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_6.independent_coverage,public-data replay and registered supplements,external_full_candidate_baselines,independent_coverage,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_6.independent_service_score,public-data replay and registered supplements,external_full_candidate_baselines,independent_service_score,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_8.common_task_response_time,public-data replay and registered supplements,external_full_candidate_baselines,common_task_response_time,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_8.external_objective,public-data replay and registered supplements,external_full_candidate_baselines,external_objective,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_8.independent_coverage,public-data replay and registered supplements,external_full_candidate_baselines,independent_coverage,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.anti_uav410.load_8.independent_service_score,public-data replay and registered supplements,external_full_candidate_baselines,independent_service_score,anti_uav410,2,2,0
+external_full_candidate_baselines::performance.uzh_fpv.load_1.common_task_response_time,public-data replay and registered supplements,external_full_candidate_baselines,common_task_response_time,uzh_fpv,2,2,0
+external_full_candidate_baselines::performance.uzh_fpv.load_1.external_objective,public-data replay and registered supplements,external_full_candidate_baselines,external_objective,uzh_fpv,2,2,0
+external_full_candidate_baselines::performance.uzh_fpv.load_1.independent_coverage,public-data replay and registered supplements,external_full_candidate_baselines,independent_coverage,uzh_fpv,2,2,0
+external_full_candidate_baselines::performance.uzh_fpv.load_1.independent_service_score,public-data replay and registered supplements,external_full_candidate_baselines,independent_service_score,uzh_fpv,2,2,0
+no_pruning_control::candidate_mechanism.anti_uav410.load_2,public-data replay and registered supplements,no_pruning_control,candidate_after_diversity; candidate_after_dominance; candidate_feasible_before_dominance; nodes,anti_uav410,4,4,2
+no_pruning_control::candidate_mechanism.anti_uav410.load_4,public-data replay and registered supplements,no_pruning_control,candidate_after_diversity; candidate_after_dominance; candidate_feasible_before_dominance; nodes,anti_uav410,4,4,2
+no_pruning_control::candidate_mechanism.anti_uav410.load_6,public-data replay and registered supplements,no_pruning_control,candidate_after_diversity; candidate_after_dominance; candidate_feasible_before_dominance; nodes,anti_uav410,4,4,0
+no_pruning_control::candidate_mechanism.anti_uav410.load_8,public-data replay and registered supplements,no_pruning_control,candidate_after_diversity; candidate_after_dominance; candidate_feasible_before_dominance; nodes,anti_uav410,4,4,0
+no_pruning_control::candidate_mechanism.uzh_fpv.load_1,public-data replay and registered supplements,no_pruning_control,candidate_after_diversity; candidate_after_dominance; candidate_feasible_before_dominance; nodes,uzh_fpv,4,4,2
+no_pruning_control::computational.anti_uav410.load_2,public-data replay and registered supplements,no_pruning_control,end_to_end_runtime_ms; fallback; fallback_optimality_gap_bound; node_limit_run_indicator,anti_uav410,4,4,3
+no_pruning_control::computational.anti_uav410.load_4,public-data replay and registered supplements,no_pruning_control,end_to_end_runtime_ms; fallback; fallback_optimality_gap_bound; node_limit_run_indicator,anti_uav410,4,4,4
+no_pruning_control::computational.anti_uav410.load_6,public-data replay and registered supplements,no_pruning_control,end_to_end_runtime_ms; fallback; fallback_optimality_gap_bound; node_limit_run_indicator,anti_uav410,4,4,0
+no_pruning_control::computational.anti_uav410.load_8,public-data replay and registered supplements,no_pruning_control,end_to_end_runtime_ms; fallback; fallback_optimality_gap_bound; node_limit_run_indicator,anti_uav410,4,4,0
+no_pruning_control::computational.uzh_fpv.load_1,public-data replay and registered supplements,no_pruning_control,end_to_end_runtime_ms; fallback; fallback_optimality_gap_bound; node_limit_run_indicator,uzh_fpv,4,4,1
+no_pruning_control::performance.anti_uav410.load_2,public-data replay and registered supplements,no_pruning_control,common_task_response_time; external_objective; independent_coverage; independent_service_score,anti_uav410,4,4,0
+no_pruning_control::performance.anti_uav410.load_4,public-data replay and registered supplements,no_pruning_control,common_task_response_time; external_objective; independent_coverage; independent_service_score,anti_uav410,4,4,0
+no_pruning_control::performance.anti_uav410.load_6,public-data replay and registered supplements,no_pruning_control,common_task_response_time; external_objective; independent_coverage; independent_service_score,anti_uav410,4,4,0
+no_pruning_control::performance.anti_uav410.load_8,public-data replay and registered supplements,no_pruning_control,common_task_response_time; external_objective; independent_coverage; independent_service_score,anti_uav410,4,4,0
+no_pruning_control::performance.uzh_fpv.load_1,public-data replay and registered supplements,no_pruning_control,common_task_response_time; external_objective; independent_coverage; independent_service_score,uzh_fpv,4,4,0
+parameter_robustness::parameter_robustness.alpha_cost.independent_service_score,public-data replay and registered supplements,parameter_robustness,independent_service_score,alpha_cost,6,6,6
+parameter_robustness::parameter_robustness.beta_time.independent_service_score,public-data replay and registered supplements,parameter_robustness,independent_service_score,beta_time,6,6,6
+parameter_robustness::parameter_robustness.gamma_unserved.independent_service_score,public-data replay and registered supplements,parameter_robustness,independent_service_score,gamma_unserved,6,6,6
+parameter_robustness::parameter_robustness.lambda_redundancy.independent_service_score,public-data replay and registered supplements,parameter_robustness,independent_service_score,lambda_redundancy,6,6,6
+parameter_robustness::parameter_robustness.lambda_switch.independent_service_score,public-data replay and registered supplements,parameter_robustness,independent_service_score,lambda_switch,6,6,6
+parameter_robustness::parameter_robustness.synergy_scale.independent_service_score,public-data replay and registered supplements,parameter_robustness,independent_service_score,synergy_scale,6,6,6
+primary_public_replay::common_response_time.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,common_task_response_time,anti_uav410,5,5,3
+primary_public_replay::common_response_time.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,common_task_response_time,anti_uav410,5,5,5
+primary_public_replay::common_response_time.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,common_task_response_time,anti_uav410,5,5,0
+primary_public_replay::common_response_time.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,common_task_response_time,anti_uav410,5,5,0
+primary_public_replay::common_response_time.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,common_task_response_time,uzh_fpv,5,5,2
+primary_public_replay::computational_boundary.end_to_end_runtime_ms.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,end_to_end_runtime_ms,anti_uav410,5,5,4
+primary_public_replay::computational_boundary.end_to_end_runtime_ms.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,end_to_end_runtime_ms,anti_uav410,5,5,4
+primary_public_replay::computational_boundary.end_to_end_runtime_ms.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,end_to_end_runtime_ms,anti_uav410,5,5,0
+primary_public_replay::computational_boundary.end_to_end_runtime_ms.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,end_to_end_runtime_ms,anti_uav410,5,5,0
+primary_public_replay::computational_boundary.end_to_end_runtime_ms.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,end_to_end_runtime_ms,uzh_fpv,5,5,4
+primary_public_replay::computational_boundary.fallback.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,fallback,anti_uav410,5,5,0
+primary_public_replay::computational_boundary.fallback.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,fallback,anti_uav410,5,5,0
+primary_public_replay::computational_boundary.fallback.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,fallback,anti_uav410,5,5,0
+primary_public_replay::computational_boundary.fallback.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,fallback,anti_uav410,5,5,0
+primary_public_replay::computational_boundary.fallback.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,fallback,uzh_fpv,5,5,0
+primary_public_replay::computational_boundary.fallback_run_indicator.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,fallback_run_indicator,anti_uav410,5,5,0
+primary_public_replay::computational_boundary.fallback_run_indicator.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,fallback_run_indicator,anti_uav410,5,5,0
+primary_public_replay::computational_boundary.fallback_run_indicator.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,fallback_run_indicator,anti_uav410,5,5,0
+primary_public_replay::computational_boundary.fallback_run_indicator.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,fallback_run_indicator,anti_uav410,5,5,0
+primary_public_replay::computational_boundary.fallback_run_indicator.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,fallback_run_indicator,uzh_fpv,5,5,0
+primary_public_replay::primary_performance.external_objective.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,external_objective,anti_uav410,5,5,2
+primary_public_replay::primary_performance.external_objective.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,external_objective,anti_uav410,5,5,5
+primary_public_replay::primary_performance.external_objective.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,external_objective,anti_uav410,5,5,0
+primary_public_replay::primary_performance.external_objective.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,external_objective,anti_uav410,5,5,0
+primary_public_replay::primary_performance.external_objective.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,external_objective,uzh_fpv,5,5,2
+primary_public_replay::primary_performance.independent_coverage.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,independent_coverage,anti_uav410,5,5,1
+primary_public_replay::primary_performance.independent_coverage.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,independent_coverage,anti_uav410,5,5,5
+primary_public_replay::primary_performance.independent_coverage.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,independent_coverage,anti_uav410,5,5,0
+primary_public_replay::primary_performance.independent_coverage.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,independent_coverage,anti_uav410,5,5,0
+primary_public_replay::primary_performance.independent_coverage.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,independent_coverage,uzh_fpv,5,5,3
+primary_public_replay::primary_performance.independent_service_score.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,independent_service_score,anti_uav410,5,5,3
+primary_public_replay::primary_performance.independent_service_score.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,independent_service_score,anti_uav410,5,5,3
+primary_public_replay::primary_performance.independent_service_score.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,independent_service_score,anti_uav410,5,5,0
+primary_public_replay::primary_performance.independent_service_score.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,independent_service_score,anti_uav410,5,5,0
+primary_public_replay::primary_performance.independent_service_score.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,independent_service_score,uzh_fpv,5,5,3
+primary_public_replay::redundancy_mechanism.independent_capability_overlap.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,independent_capability_overlap,anti_uav410,5,5,3
+primary_public_replay::redundancy_mechanism.independent_capability_overlap.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,independent_capability_overlap,anti_uav410,5,5,5
+primary_public_replay::redundancy_mechanism.independent_capability_overlap.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,independent_capability_overlap,anti_uav410,5,5,0
+primary_public_replay::redundancy_mechanism.independent_capability_overlap.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,independent_capability_overlap,anti_uav410,5,5,0
+primary_public_replay::redundancy_mechanism.independent_capability_overlap.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,independent_capability_overlap,uzh_fpv,5,5,2
+primary_public_replay::redundancy_mechanism.independent_marginal_gain_waste.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,independent_marginal_gain_waste,anti_uav410,5,5,3
+primary_public_replay::redundancy_mechanism.independent_marginal_gain_waste.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,independent_marginal_gain_waste,anti_uav410,5,5,5
+primary_public_replay::redundancy_mechanism.independent_marginal_gain_waste.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,independent_marginal_gain_waste,anti_uav410,5,5,0
+primary_public_replay::redundancy_mechanism.independent_marginal_gain_waste.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,independent_marginal_gain_waste,anti_uav410,5,5,0
+primary_public_replay::redundancy_mechanism.independent_marginal_gain_waste.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,independent_marginal_gain_waste,uzh_fpv,5,5,2
+primary_public_replay::redundancy_mechanism.independent_same_type_pair_ratio.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,independent_same_type_pair_ratio,anti_uav410,5,5,3
+primary_public_replay::redundancy_mechanism.independent_same_type_pair_ratio.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,independent_same_type_pair_ratio,anti_uav410,5,5,4
+primary_public_replay::redundancy_mechanism.independent_same_type_pair_ratio.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,independent_same_type_pair_ratio,anti_uav410,5,5,0
+primary_public_replay::redundancy_mechanism.independent_same_type_pair_ratio.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,independent_same_type_pair_ratio,anti_uav410,5,5,0
+primary_public_replay::redundancy_mechanism.independent_same_type_pair_ratio.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,independent_same_type_pair_ratio,uzh_fpv,5,5,2
+primary_public_replay::resource_efficiency.independent_physical_cost.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,independent_physical_cost,anti_uav410,5,5,4
+primary_public_replay::resource_efficiency.independent_physical_cost.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,independent_physical_cost,anti_uav410,5,5,5
+primary_public_replay::resource_efficiency.independent_physical_cost.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,independent_physical_cost,anti_uav410,5,5,0
+primary_public_replay::resource_efficiency.independent_physical_cost.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,independent_physical_cost,anti_uav410,5,5,0
+primary_public_replay::resource_efficiency.independent_physical_cost.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,independent_physical_cost,uzh_fpv,5,5,3
+primary_public_replay::stability_mechanism.external_switch_count.anti_uav410.load_2,public-data replay and registered supplements,primary_public_replay,external_switch_count,anti_uav410,5,5,3
+primary_public_replay::stability_mechanism.external_switch_count.anti_uav410.load_4,public-data replay and registered supplements,primary_public_replay,external_switch_count,anti_uav410,5,5,5
+primary_public_replay::stability_mechanism.external_switch_count.anti_uav410.load_6,public-data replay and registered supplements,primary_public_replay,external_switch_count,anti_uav410,5,5,0
+primary_public_replay::stability_mechanism.external_switch_count.anti_uav410.load_8,public-data replay and registered supplements,primary_public_replay,external_switch_count,anti_uav410,5,5,0
+primary_public_replay::stability_mechanism.external_switch_count.uzh_fpv.load_1,public-data replay and registered supplements,primary_public_replay,external_switch_count,uzh_fpv,5,5,3
+stage3.candidate_after_diversity.budget_100,static scale-deadline boundary,stage3_exact_fixedk_boundary,candidate_after_diversity,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,16
+stage3.candidate_after_diversity.budget_200,static scale-deadline boundary,stage3_exact_fixedk_boundary,candidate_after_diversity,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,16
+stage3.candidate_after_diversity.budget_50,static scale-deadline boundary,stage3_exact_fixedk_boundary,candidate_after_diversity,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,16
+stage3.candidate_after_diversity.budget_500,static scale-deadline boundary,stage3_exact_fixedk_boundary,candidate_after_diversity,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,16
+stage3.common_served_task_response_time.budget_100,static scale-deadline boundary,stage3_exact_fixedk_boundary,common_served_task_response_time,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,6
+stage3.common_served_task_response_time.budget_200,static scale-deadline boundary,stage3_exact_fixedk_boundary,common_served_task_response_time,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,7
+stage3.common_served_task_response_time.budget_50,static scale-deadline boundary,stage3_exact_fixedk_boundary,common_served_task_response_time,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,6
+stage3.common_served_task_response_time.budget_500,static scale-deadline boundary,stage3_exact_fixedk_boundary,common_served_task_response_time,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,6
+stage3.deadline_hit.budget_100,static scale-deadline boundary,stage3_exact_fixedk_boundary,deadline_hit,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,2
+stage3.deadline_hit.budget_200,static scale-deadline boundary,stage3_exact_fixedk_boundary,deadline_hit,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,7
+stage3.deadline_hit.budget_50,static scale-deadline boundary,stage3_exact_fixedk_boundary,deadline_hit,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,1
+stage3.deadline_hit.budget_500,static scale-deadline boundary,stage3_exact_fixedk_boundary,deadline_hit,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,8
+stage3.decision_runtime_ms.budget_100,static scale-deadline boundary,stage3_exact_fixedk_boundary,decision_runtime_ms,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,12
+stage3.decision_runtime_ms.budget_200,static scale-deadline boundary,stage3_exact_fixedk_boundary,decision_runtime_ms,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,13
+stage3.decision_runtime_ms.budget_50,static scale-deadline boundary,stage3_exact_fixedk_boundary,decision_runtime_ms,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,13
+stage3.decision_runtime_ms.budget_500,static scale-deadline boundary,stage3_exact_fixedk_boundary,decision_runtime_ms,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,13
+stage3.external_objective_per_active_task.budget_100,static scale-deadline boundary,stage3_exact_fixedk_boundary,external_objective_per_active_task,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,16
+stage3.external_objective_per_active_task.budget_200,static scale-deadline boundary,stage3_exact_fixedk_boundary,external_objective_per_active_task,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,16
+stage3.external_objective_per_active_task.budget_50,static scale-deadline boundary,stage3_exact_fixedk_boundary,external_objective_per_active_task,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,16
+stage3.external_objective_per_active_task.budget_500,static scale-deadline boundary,stage3_exact_fixedk_boundary,external_objective_per_active_task,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,16
+stage3.fallback.budget_100,static scale-deadline boundary,stage3_exact_fixedk_boundary,fallback,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,15
+stage3.fallback.budget_200,static scale-deadline boundary,stage3_exact_fixedk_boundary,fallback,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,15
+stage3.fallback.budget_50,static scale-deadline boundary,stage3_exact_fixedk_boundary,fallback,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,16
+stage3.fallback.budget_500,static scale-deadline boundary,stage3_exact_fixedk_boundary,fallback,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,12
+stage3.independent_coverage.budget_100,static scale-deadline boundary,stage3_exact_fixedk_boundary,independent_coverage,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,14
+stage3.independent_coverage.budget_200,static scale-deadline boundary,stage3_exact_fixedk_boundary,independent_coverage,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,13
+stage3.independent_coverage.budget_50,static scale-deadline boundary,stage3_exact_fixedk_boundary,independent_coverage,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,14
+stage3.independent_coverage.budget_500,static scale-deadline boundary,stage3_exact_fixedk_boundary,independent_coverage,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,13
+stage3.independent_service_score.budget_100,static scale-deadline boundary,stage3_exact_fixedk_boundary,independent_service_score,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,15
+stage3.independent_service_score.budget_200,static scale-deadline boundary,stage3_exact_fixedk_boundary,independent_service_score,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,15
+stage3.independent_service_score.budget_50,static scale-deadline boundary,stage3_exact_fixedk_boundary,independent_service_score,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,16
+stage3.independent_service_score.budget_500,static scale-deadline boundary,stage3_exact_fixedk_boundary,independent_service_score,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,15
+stage3.nodes.budget_100,static scale-deadline boundary,stage3_exact_fixedk_boundary,nodes,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,13
+stage3.nodes.budget_200,static scale-deadline boundary,stage3_exact_fixedk_boundary,nodes,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,14
+stage3.nodes.budget_50,static scale-deadline boundary,stage3_exact_fixedk_boundary,nodes,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,14
+stage3.nodes.budget_500,static scale-deadline boundary,stage3_exact_fixedk_boundary,nodes,R10-T12; R10-T16; R10-T4; R10-T8; R16-T12; R16-T16; R16-T4; R16-T8; R24-T12; R24-T16; R24-T4; R24-T8; R32-T12; R32-T16; R32-T4; R32-T8,16,16,13
+stage4::complementarity::external_complementarity_gain,controlled mechanism and disturbance validation,complementarity_sweep,external_complementarity_gain,public_event,5,5,4
+stage4::complementarity::external_objective,controlled mechanism and disturbance validation,complementarity_sweep,external_objective,public_event,5,5,0
+stage4::complementarity::independent_service_score,controlled mechanism and disturbance validation,complementarity_sweep,independent_service_score,public_event,5,5,4
+stage4::complementarity::same_type_pair_ratio,controlled mechanism and disturbance validation,complementarity_sweep,same_type_pair_ratio,public_event,5,5,0
+stage4::eng_baseline::airport_corridor::common_task_response_time,controlled mechanism and disturbance validation,engineering_external_baseline,common_task_response_time,airport_corridor,2,2,0
+stage4::eng_baseline::airport_corridor::external_objective,controlled mechanism and disturbance validation,engineering_external_baseline,external_objective,airport_corridor,2,2,2
+stage4::eng_baseline::airport_corridor::external_physical_cost,controlled mechanism and disturbance validation,engineering_external_baseline,external_physical_cost,airport_corridor,2,2,1
+stage4::eng_baseline::airport_corridor::independent_coverage,controlled mechanism and disturbance validation,engineering_external_baseline,independent_coverage,airport_corridor,2,2,2
+stage4::eng_baseline::airport_corridor::independent_service_score,controlled mechanism and disturbance validation,engineering_external_baseline,independent_service_score,airport_corridor,2,2,2
+stage4::eng_baseline::energy_facility::common_task_response_time,controlled mechanism and disturbance validation,engineering_external_baseline,common_task_response_time,energy_facility,2,2,0
+stage4::eng_baseline::energy_facility::external_objective,controlled mechanism and disturbance validation,engineering_external_baseline,external_objective,energy_facility,2,2,0
+stage4::eng_baseline::energy_facility::external_physical_cost,controlled mechanism and disturbance validation,engineering_external_baseline,external_physical_cost,energy_facility,2,2,0
+stage4::eng_baseline::energy_facility::independent_coverage,controlled mechanism and disturbance validation,engineering_external_baseline,independent_coverage,energy_facility,2,2,0
+stage4::eng_baseline::energy_facility::independent_service_score,controlled mechanism and disturbance validation,engineering_external_baseline,independent_service_score,energy_facility,2,2,0
+stage4::eng_baseline::industrial_zone::common_task_response_time,controlled mechanism and disturbance validation,engineering_external_baseline,common_task_response_time,industrial_zone,2,2,0
+stage4::eng_baseline::industrial_zone::external_objective,controlled mechanism and disturbance validation,engineering_external_baseline,external_objective,industrial_zone,2,2,0
+stage4::eng_baseline::industrial_zone::external_physical_cost,controlled mechanism and disturbance validation,engineering_external_baseline,external_physical_cost,industrial_zone,2,2,1
+stage4::eng_baseline::industrial_zone::independent_coverage,controlled mechanism and disturbance validation,engineering_external_baseline,independent_coverage,industrial_zone,2,2,0
+stage4::eng_baseline::industrial_zone::independent_service_score,controlled mechanism and disturbance validation,engineering_external_baseline,independent_service_score,industrial_zone,2,2,2
+stage4::eng_baseline::public_event::common_task_response_time,controlled mechanism and disturbance validation,engineering_external_baseline,common_task_response_time,public_event,2,2,0
+stage4::eng_baseline::public_event::external_objective,controlled mechanism and disturbance validation,engineering_external_baseline,external_objective,public_event,2,2,2
+stage4::eng_baseline::public_event::external_physical_cost,controlled mechanism and disturbance validation,engineering_external_baseline,external_physical_cost,public_event,2,2,1
+stage4::eng_baseline::public_event::independent_coverage,controlled mechanism and disturbance validation,engineering_external_baseline,independent_coverage,public_event,2,2,2
+stage4::eng_baseline::public_event::independent_service_score,controlled mechanism and disturbance validation,engineering_external_baseline,independent_service_score,public_event,2,2,2
+stage4::eng_baseline::urban_corridor::common_task_response_time,controlled mechanism and disturbance validation,engineering_external_baseline,common_task_response_time,urban_corridor,2,2,0
+stage4::eng_baseline::urban_corridor::external_objective,controlled mechanism and disturbance validation,engineering_external_baseline,external_objective,urban_corridor,2,2,2
+stage4::eng_baseline::urban_corridor::external_physical_cost,controlled mechanism and disturbance validation,engineering_external_baseline,external_physical_cost,urban_corridor,2,2,2
+stage4::eng_baseline::urban_corridor::independent_coverage,controlled mechanism and disturbance validation,engineering_external_baseline,independent_coverage,urban_corridor,2,2,2
+stage4::eng_baseline::urban_corridor::independent_service_score,controlled mechanism and disturbance validation,engineering_external_baseline,independent_service_score,urban_corridor,2,2,2
+stage4::eng_module::airport_corridor::capability_overlap,controlled mechanism and disturbance validation,engineering_module_ablation,capability_overlap,airport_corridor,4,4,1
+stage4::eng_module::airport_corridor::external_objective,controlled mechanism and disturbance validation,engineering_module_ablation,external_objective,airport_corridor,4,4,1
+stage4::eng_module::airport_corridor::external_physical_cost,controlled mechanism and disturbance validation,engineering_module_ablation,external_physical_cost,airport_corridor,4,4,3
+stage4::eng_module::airport_corridor::external_switch_count,controlled mechanism and disturbance validation,engineering_module_ablation,external_switch_count,airport_corridor,4,4,1
+stage4::eng_module::airport_corridor::independent_coverage,controlled mechanism and disturbance validation,engineering_module_ablation,independent_coverage,airport_corridor,4,4,0
+stage4::eng_module::airport_corridor::independent_service_score,controlled mechanism and disturbance validation,engineering_module_ablation,independent_service_score,airport_corridor,4,4,3
+stage4::eng_module::airport_corridor::marginal_gain_waste,controlled mechanism and disturbance validation,engineering_module_ablation,marginal_gain_waste,airport_corridor,4,4,3
+stage4::eng_module::airport_corridor::same_type_pair_ratio,controlled mechanism and disturbance validation,engineering_module_ablation,same_type_pair_ratio,airport_corridor,4,4,1
+stage4::eng_module::energy_facility::capability_overlap,controlled mechanism and disturbance validation,engineering_module_ablation,capability_overlap,energy_facility,4,4,0
+stage4::eng_module::energy_facility::external_objective,controlled mechanism and disturbance validation,engineering_module_ablation,external_objective,energy_facility,4,4,1
+stage4::eng_module::energy_facility::external_physical_cost,controlled mechanism and disturbance validation,engineering_module_ablation,external_physical_cost,energy_facility,4,4,1
+stage4::eng_module::energy_facility::external_switch_count,controlled mechanism and disturbance validation,engineering_module_ablation,external_switch_count,energy_facility,4,4,2
+stage4::eng_module::energy_facility::independent_coverage,controlled mechanism and disturbance validation,engineering_module_ablation,independent_coverage,energy_facility,4,4,1
+stage4::eng_module::energy_facility::independent_service_score,controlled mechanism and disturbance validation,engineering_module_ablation,independent_service_score,energy_facility,4,4,1
+stage4::eng_module::energy_facility::marginal_gain_waste,controlled mechanism and disturbance validation,engineering_module_ablation,marginal_gain_waste,energy_facility,4,4,1
+stage4::eng_module::energy_facility::same_type_pair_ratio,controlled mechanism and disturbance validation,engineering_module_ablation,same_type_pair_ratio,energy_facility,4,4,0
+stage4::eng_module::industrial_zone::capability_overlap,controlled mechanism and disturbance validation,engineering_module_ablation,capability_overlap,industrial_zone,4,4,1
+stage4::eng_module::industrial_zone::external_objective,controlled mechanism and disturbance validation,engineering_module_ablation,external_objective,industrial_zone,4,4,1
+stage4::eng_module::industrial_zone::external_physical_cost,controlled mechanism and disturbance validation,engineering_module_ablation,external_physical_cost,industrial_zone,4,4,3
+stage4::eng_module::industrial_zone::external_switch_count,controlled mechanism and disturbance validation,engineering_module_ablation,external_switch_count,industrial_zone,4,4,2
+stage4::eng_module::industrial_zone::independent_coverage,controlled mechanism and disturbance validation,engineering_module_ablation,independent_coverage,industrial_zone,4,4,2
+stage4::eng_module::industrial_zone::independent_service_score,controlled mechanism and disturbance validation,engineering_module_ablation,independent_service_score,industrial_zone,4,4,3
+stage4::eng_module::industrial_zone::marginal_gain_waste,controlled mechanism and disturbance validation,engineering_module_ablation,marginal_gain_waste,industrial_zone,4,4,2
+stage4::eng_module::industrial_zone::same_type_pair_ratio,controlled mechanism and disturbance validation,engineering_module_ablation,same_type_pair_ratio,industrial_zone,4,4,1
+stage4::eng_module::public_event::capability_overlap,controlled mechanism and disturbance validation,engineering_module_ablation,capability_overlap,public_event,4,4,1
+stage4::eng_module::public_event::external_objective,controlled mechanism and disturbance validation,engineering_module_ablation,external_objective,public_event,4,4,1
+stage4::eng_module::public_event::external_physical_cost,controlled mechanism and disturbance validation,engineering_module_ablation,external_physical_cost,public_event,4,4,2
+stage4::eng_module::public_event::external_switch_count,controlled mechanism and disturbance validation,engineering_module_ablation,external_switch_count,public_event,4,4,2
+stage4::eng_module::public_event::independent_coverage,controlled mechanism and disturbance validation,engineering_module_ablation,independent_coverage,public_event,4,4,1
+stage4::eng_module::public_event::independent_service_score,controlled mechanism and disturbance validation,engineering_module_ablation,independent_service_score,public_event,4,4,3
+stage4::eng_module::public_event::marginal_gain_waste,controlled mechanism and disturbance validation,engineering_module_ablation,marginal_gain_waste,public_event,4,4,2
+stage4::eng_module::public_event::same_type_pair_ratio,controlled mechanism and disturbance validation,engineering_module_ablation,same_type_pair_ratio,public_event,4,4,1
+stage4::eng_module::urban_corridor::capability_overlap,controlled mechanism and disturbance validation,engineering_module_ablation,capability_overlap,urban_corridor,4,4,2
+stage4::eng_module::urban_corridor::external_objective,controlled mechanism and disturbance validation,engineering_module_ablation,external_objective,urban_corridor,4,4,1
+stage4::eng_module::urban_corridor::external_physical_cost,controlled mechanism and disturbance validation,engineering_module_ablation,external_physical_cost,urban_corridor,4,4,3
+stage4::eng_module::urban_corridor::external_switch_count,controlled mechanism and disturbance validation,engineering_module_ablation,external_switch_count,urban_corridor,4,4,3
+stage4::eng_module::urban_corridor::independent_coverage,controlled mechanism and disturbance validation,engineering_module_ablation,independent_coverage,urban_corridor,4,4,1
+stage4::eng_module::urban_corridor::independent_service_score,controlled mechanism and disturbance validation,engineering_module_ablation,independent_service_score,urban_corridor,4,4,2
+stage4::eng_module::urban_corridor::marginal_gain_waste,controlled mechanism and disturbance validation,engineering_module_ablation,marginal_gain_waste,urban_corridor,4,4,3
+stage4::eng_module::urban_corridor::same_type_pair_ratio,controlled mechanism and disturbance validation,engineering_module_ablation,same_type_pair_ratio,urban_corridor,4,4,2
+stage4::redundancy_stress::capability_overlap,controlled mechanism and disturbance validation,redundancy_stress,capability_overlap,redundancy_stress,3,3,0
+stage4::redundancy_stress::external_objective,controlled mechanism and disturbance validation,redundancy_stress,external_objective,redundancy_stress,3,3,0
+stage4::redundancy_stress::independent_service_score,controlled mechanism and disturbance validation,redundancy_stress,independent_service_score,redundancy_stress,3,3,1
+stage4::redundancy_stress::marginal_gain_waste,controlled mechanism and disturbance validation,redundancy_stress,marginal_gain_waste,redundancy_stress,3,3,0
+stage4::redundancy_stress::same_type_pair_ratio,controlled mechanism and disturbance validation,redundancy_stress,same_type_pair_ratio,redundancy_stress,3,3,0
+stage4::repair_disturbance::external_objective,controlled mechanism and disturbance validation,repair_disturbance,external_objective,public_event,4,4,4
+stage4::repair_disturbance::feasibility_rate,controlled mechanism and disturbance validation,repair_disturbance,feasibility_rate,public_event,4,4,4
+stage4::repair_disturbance::independent_service_score,controlled mechanism and disturbance validation,repair_disturbance,independent_service_score,public_event,4,4,4
+stage4::repair_identity::external_objective,controlled mechanism and disturbance validation,repair_disturbance,external_objective,public_event,1,1,0
+stage4::repair_identity::feasibility_rate,controlled mechanism and disturbance validation,repair_disturbance,feasibility_rate,public_event,1,1,0
+stage4::repair_identity::independent_service_score,controlled mechanism and disturbance validation,repair_disturbance,independent_service_score,public_event,1,1,0
+stage4::stability::external_objective,controlled mechanism and disturbance validation,stability_sweep,external_objective,urban_corridor,5,5,4
+stage4::stability::external_physical_cost,controlled mechanism and disturbance validation,stability_sweep,external_physical_cost,urban_corridor,5,5,4
+stage4::stability::external_switch_count,controlled mechanism and disturbance validation,stability_sweep,external_switch_count,urban_corridor,5,5,4
+stage4::stability::independent_service_score,controlled mechanism and disturbance validation,stability_sweep,independent_service_score,urban_corridor,5,5,4
+stage5::airport_corridor::candidate_generation_ms,engineering-scenario solver applicability,stage5_compute,candidate_generation_ms,airport_corridor,4,4,1
+stage5::airport_corridor::common_task_response_time,engineering-scenario solver applicability,stage5_quality,common_task_response_time,airport_corridor,4,4,0
+stage5::airport_corridor::end_to_end_runtime_ms,engineering-scenario solver applicability,stage5_compute,end_to_end_runtime_ms,airport_corridor,4,4,3
+stage5::airport_corridor::external_objective,engineering-scenario solver applicability,stage5_quality,external_objective,airport_corridor,4,4,1
+stage5::airport_corridor::external_physical_cost,engineering-scenario solver applicability,stage5_operation,external_physical_cost,airport_corridor,4,4,1
+stage5::airport_corridor::external_switch_count,engineering-scenario solver applicability,stage5_operation,external_switch_count,airport_corridor,4,4,0
+stage5::airport_corridor::fallback,engineering-scenario solver applicability,stage5_compute,fallback,airport_corridor,4,4,0
+stage5::airport_corridor::feasibility_rate,engineering-scenario solver applicability,stage5_safety,feasibility_rate,airport_corridor,4,4,0
+stage5::airport_corridor::independent_coverage,engineering-scenario solver applicability,stage5_quality,independent_coverage,airport_corridor,4,4,2
+stage5::airport_corridor::independent_service_score,engineering-scenario solver applicability,stage5_quality,independent_service_score,airport_corridor,4,4,2
+stage5::airport_corridor::solver_elapsed_ms,engineering-scenario solver applicability,stage5_compute,solver_elapsed_ms,airport_corridor,4,4,4
+stage5::energy_facility::candidate_generation_ms,engineering-scenario solver applicability,stage5_compute,candidate_generation_ms,energy_facility,4,4,3
+stage5::energy_facility::common_task_response_time,engineering-scenario solver applicability,stage5_quality,common_task_response_time,energy_facility,4,4,0
+stage5::energy_facility::end_to_end_runtime_ms,engineering-scenario solver applicability,stage5_compute,end_to_end_runtime_ms,energy_facility,4,4,4
+stage5::energy_facility::external_objective,engineering-scenario solver applicability,stage5_quality,external_objective,energy_facility,4,4,0
+stage5::energy_facility::external_physical_cost,engineering-scenario solver applicability,stage5_operation,external_physical_cost,energy_facility,4,4,0
+stage5::energy_facility::external_switch_count,engineering-scenario solver applicability,stage5_operation,external_switch_count,energy_facility,4,4,0
+stage5::energy_facility::fallback,engineering-scenario solver applicability,stage5_compute,fallback,energy_facility,4,4,0
+stage5::energy_facility::feasibility_rate,engineering-scenario solver applicability,stage5_safety,feasibility_rate,energy_facility,4,4,0
+stage5::energy_facility::independent_coverage,engineering-scenario solver applicability,stage5_quality,independent_coverage,energy_facility,4,4,0
+stage5::energy_facility::independent_service_score,engineering-scenario solver applicability,stage5_quality,independent_service_score,energy_facility,4,4,1
+stage5::energy_facility::solver_elapsed_ms,engineering-scenario solver applicability,stage5_compute,solver_elapsed_ms,energy_facility,4,4,4
+stage5::industrial_zone::candidate_generation_ms,engineering-scenario solver applicability,stage5_compute,candidate_generation_ms,industrial_zone,4,4,3
+stage5::industrial_zone::common_task_response_time,engineering-scenario solver applicability,stage5_quality,common_task_response_time,industrial_zone,4,4,0
+stage5::industrial_zone::end_to_end_runtime_ms,engineering-scenario solver applicability,stage5_compute,end_to_end_runtime_ms,industrial_zone,4,4,3
+stage5::industrial_zone::external_objective,engineering-scenario solver applicability,stage5_quality,external_objective,industrial_zone,4,4,0
+stage5::industrial_zone::external_physical_cost,engineering-scenario solver applicability,stage5_operation,external_physical_cost,industrial_zone,4,4,1
+stage5::industrial_zone::external_switch_count,engineering-scenario solver applicability,stage5_operation,external_switch_count,industrial_zone,4,4,0
+stage5::industrial_zone::fallback,engineering-scenario solver applicability,stage5_compute,fallback,industrial_zone,4,4,0
+stage5::industrial_zone::feasibility_rate,engineering-scenario solver applicability,stage5_safety,feasibility_rate,industrial_zone,4,4,0
+stage5::industrial_zone::independent_coverage,engineering-scenario solver applicability,stage5_quality,independent_coverage,industrial_zone,4,4,0
+stage5::industrial_zone::independent_service_score,engineering-scenario solver applicability,stage5_quality,independent_service_score,industrial_zone,4,4,2
+stage5::industrial_zone::solver_elapsed_ms,engineering-scenario solver applicability,stage5_compute,solver_elapsed_ms,industrial_zone,4,4,3
+stage5::public_event::candidate_generation_ms,engineering-scenario solver applicability,stage5_compute,candidate_generation_ms,public_event,4,4,3
+stage5::public_event::common_task_response_time,engineering-scenario solver applicability,stage5_quality,common_task_response_time,public_event,4,4,0
+stage5::public_event::end_to_end_runtime_ms,engineering-scenario solver applicability,stage5_compute,end_to_end_runtime_ms,public_event,4,4,4
+stage5::public_event::external_objective,engineering-scenario solver applicability,stage5_quality,external_objective,public_event,4,4,2
+stage5::public_event::external_physical_cost,engineering-scenario solver applicability,stage5_operation,external_physical_cost,public_event,4,4,1
+stage5::public_event::external_switch_count,engineering-scenario solver applicability,stage5_operation,external_switch_count,public_event,4,4,1
+stage5::public_event::fallback,engineering-scenario solver applicability,stage5_compute,fallback,public_event,4,4,0
+stage5::public_event::feasibility_rate,engineering-scenario solver applicability,stage5_safety,feasibility_rate,public_event,4,4,0
+stage5::public_event::independent_coverage,engineering-scenario solver applicability,stage5_quality,independent_coverage,public_event,4,4,2
+stage5::public_event::independent_service_score,engineering-scenario solver applicability,stage5_quality,independent_service_score,public_event,4,4,2
+stage5::public_event::solver_elapsed_ms,engineering-scenario solver applicability,stage5_compute,solver_elapsed_ms,public_event,4,4,3
+stage5::urban_corridor::candidate_generation_ms,engineering-scenario solver applicability,stage5_compute,candidate_generation_ms,urban_corridor,4,4,3
+stage5::urban_corridor::common_task_response_time,engineering-scenario solver applicability,stage5_quality,common_task_response_time,urban_corridor,4,4,0
+stage5::urban_corridor::end_to_end_runtime_ms,engineering-scenario solver applicability,stage5_compute,end_to_end_runtime_ms,urban_corridor,4,4,3
+stage5::urban_corridor::external_objective,engineering-scenario solver applicability,stage5_quality,external_objective,urban_corridor,4,4,2
+stage5::urban_corridor::external_physical_cost,engineering-scenario solver applicability,stage5_operation,external_physical_cost,urban_corridor,4,4,2
+stage5::urban_corridor::external_switch_count,engineering-scenario solver applicability,stage5_operation,external_switch_count,urban_corridor,4,4,0
+stage5::urban_corridor::fallback,engineering-scenario solver applicability,stage5_compute,fallback,urban_corridor,4,4,0
+stage5::urban_corridor::feasibility_rate,engineering-scenario solver applicability,stage5_safety,feasibility_rate,urban_corridor,4,4,0
+stage5::urban_corridor::independent_coverage,engineering-scenario solver applicability,stage5_quality,independent_coverage,urban_corridor,4,4,2
+stage5::urban_corridor::independent_service_score,engineering-scenario solver applicability,stage5_quality,independent_service_score,urban_corridor,4,4,2
+stage5::urban_corridor::solver_elapsed_ms,engineering-scenario solver applicability,stage5_compute,solver_elapsed_ms,urban_corridor,4,4,4

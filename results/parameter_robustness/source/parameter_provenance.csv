@@ -1,0 +1,15 @@
+﻿parameter,range,role,basis,validation
+resource ability dimensions,"[0,1]",normalized synthetic input,type-specific controlled distributions,noise robustness and sensitivity
+task feature dimensions,"[0,1]",normalized synthetic input,controlled Monte Carlo sampling,multi-scenario and 30-seed statistics
+alpha_cost,0.12,physical-consumption penalty,model assumption,ablation/sensitivity required before deployment
+beta_time,0.08,response-time penalty,model assumption,ablation/sensitivity required before deployment
+lambda_switch,0.1,reallocation penalty,controlled stability coefficient,dynamic-mechanism experiment
+lambda_redundancy,0.12,soft capability-overlap penalty,separate from the physical expenditure budget,redundancy ablation and stress experiment
+gamma_unserved,0.2,unserved-risk slack penalty,soft form of task service constraint,coverage and sensitivity
+synergy_scale,0.0-2.0,controlled complementarity strength,mechanism-control variable,monotonic mechanism experiment
+perception_noise,0.0-0.30,measurement uncertainty,zero-mean Gaussian perturbation,robustness degradation curve
+semisynthetic trajectories,8 tasks / 10 resources,structured benchmark,trajectory-inspired synthetic correlations (not measured observations),exact reference solver and sensitivity analysis
+redundancy-stress composition,67% Type-I / 33% Type-II,mechanism stress test,same-type resource clusters with overlap,No-Redundancy ablation
+same_type_pair_ratio,"[0,1]",post-hoc redundancy diagnostic,same-type pairs / all within-task allocated pairs,unified external evaluator
+capability_overlap,"[0,1]",post-hoc redundancy diagnostic,one minus mean absolute difference over four ability dimensions,unified external evaluator
+marginal_gain_waste,"[0,1]",post-hoc redundancy diagnostic,duplicated standalone success-score mass / total standalone score mass,unified external evaluator

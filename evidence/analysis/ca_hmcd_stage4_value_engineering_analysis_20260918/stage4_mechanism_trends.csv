@@ -1,0 +1,5 @@
+﻿section,metric,levels,mean_differences,spearman_rho_descriptive,interpretation
+complementarity_sweep,external_objective,"[0.0,0.5,1.0,1.5,2.0]","[-0.0005400554413687753,-0.001597855192356514,0.0033005993344445666,0.005228853595378714,0.00744377949483132]",0.9,descriptive trend only; registered paired tests determine support
+complementarity_sweep,independent_service_score,"[0.0,0.5,1.0,1.5,2.0]","[-3.430174530265062e-05,0.0015870673979808902,0.002681372442375866,0.00435715931458985,0.0048569093736027715]",1.0,descriptive trend only; registered paired tests determine support
+stability_sweep,external_switch_count,"[0.0,0.05,0.1,0.2,0.3]","[0.0,-0.5305555555555556,-1.7111111111111112,-2.9583333333333335,-3.4583333333333335]",-1.0,descriptive trend only; registered paired tests determine support
+repair_disturbance,feasibility_rate,"[0.05,0.1,0.2,0.3]","[0.25555555555555554,0.4305555555555555,0.6833333333333333,0.7944444444444444]",1.0,descriptive trend only; registered paired tests determine support

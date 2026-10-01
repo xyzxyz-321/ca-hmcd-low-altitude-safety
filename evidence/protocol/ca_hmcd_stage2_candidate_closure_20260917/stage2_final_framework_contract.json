@@ -1,0 +1,54 @@
+{
+  "framework_version": "ca-hmcd-framework-v3.1-stage2-closed",
+  "legacy_model_version": "ca-hmcd-stage1-closure-v2.3",
+  "legacy_evaluator_version": "complete-v3-stage1-closure",
+  "legacy_service_endpoint_version": "solver-decoupled-service-v2",
+  "profiles": {
+    "CA-HMCD-Exact": {
+      "candidate_mode": "full",
+      "top_k": null,
+      "adaptive_config": null,
+      "solver_backend": "highs",
+      "node_limit": 4000,
+      "status": "ACTIVE",
+      "note": "Complete candidate pool solved by SciPy/HiGHS."
+    },
+    "CA-HMCD-FixedK": {
+      "candidate_mode": "fixed_k",
+      "top_k": 12,
+      "adaptive_config": null,
+      "solver_backend": "bounded_search",
+      "node_limit": 4000,
+      "status": "ACTIVE_STAGE9_REFERENCE",
+      "note": "Stage 9 fixed-K retained-pool implementation."
+    },
+    "CA-HMCD-NoPruning": {
+      "candidate_mode": "full",
+      "top_k": null,
+      "adaptive_config": null,
+      "solver_backend": "bounded_search",
+      "node_limit": 4000,
+      "status": "ACTIVE_CONTROL",
+      "note": "Complete candidate pool with the registered bounded search."
+    },
+    "CA-HMCD-RT": {
+      "candidate_mode": "adaptive_k",
+      "top_k": null,
+      "adaptive_config": {
+        "min_k": 12,
+        "max_k": 48,
+        "load_intercept": 8.0,
+        "load_slope": 2.0,
+        "count_intercept": 4.0,
+        "count_sqrt_scale": 1.0,
+        "boundary_relative_gap": 0.02,
+        "extension_step": 4,
+        "apply_dominance": true
+      },
+      "solver_backend": "bounded_search",
+      "node_limit": 4000,
+      "status": "EXPERIMENTAL_GATE_A_FAILED",
+      "note": "Executable pre-registered adaptive-K policy retained for reproducibility. Stage 2 Gate A failed because high-load node demand remained too close to the Full control; do not present this profile as a validated real-time method."
+    }
+  }
+}

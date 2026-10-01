@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-16",
+  "backend": "Python/matplotlib",
+  "independent_unit": "UZH-FPV trajectory or preregistered Anti-UAV410 composed workload",
+  "nested_seeds_per_unit": 30,
+  "paired_statistics": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage5_statistics_20260916\\all_cluster_paired_statistics.csv",
+  "bounded_intervals": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage5_statistics_20260916\\bounded_metric_intervals.csv",
+  "formal_episode_results": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage4_replay_formal_20260916\\registered_episode_results.csv"
+}

@@ -1,0 +1,48 @@
+{
+  "code_hashes": {
+    "audit_ca_hmcd_stage0_stage1.py": "e67ac85e554f4241a68e4d9e1297f65e863bc0c158c4408c1a50d909541660a5",
+    "ca_hmcd_framework.py": "c68e976233354da362ff65a8e7a84bea42453e570d14fe87d08f8b72b1d64b7e",
+    "freeze_ca_hmcd_stage9_baseline.py": "ba613c84623aa8fd1c5b54895bcf431c3773771d2f743d8573c0043065c784eb",
+    "test_ca_hmcd_framework.py": "3d29b7ab8aa08cadf6b603e09c0e7f1673e7445f83a070b06024a096d6871d4a"
+  },
+  "contract": {
+    "framework_version": "ca-hmcd-framework-v3.0",
+    "legacy_evaluator_version": "complete-v3-stage1-closure",
+    "legacy_model_version": "ca-hmcd-stage1-closure-v2.3",
+    "legacy_service_endpoint_version": "solver-decoupled-service-v2",
+    "profiles": {
+      "CA-HMCD-Exact": {
+        "candidate_mode": "full",
+        "node_limit": 4000,
+        "note": "Complete candidate pool solved by SciPy/HiGHS.",
+        "solver_backend": "highs",
+        "status": "ACTIVE",
+        "top_k": null
+      },
+      "CA-HMCD-FixedK": {
+        "candidate_mode": "fixed_k",
+        "node_limit": 4000,
+        "note": "Stage 9 fixed-K retained-pool implementation.",
+        "solver_backend": "bounded_search",
+        "status": "ACTIVE_STAGE9_REFERENCE",
+        "top_k": 12
+      },
+      "CA-HMCD-NoPruning": {
+        "candidate_mode": "full",
+        "node_limit": 4000,
+        "note": "Complete candidate pool with the registered bounded search.",
+        "solver_backend": "bounded_search",
+        "status": "ACTIVE_CONTROL",
+        "top_k": null
+      },
+      "CA-HMCD-RT": {
+        "candidate_mode": "adaptive_k",
+        "node_limit": 4000,
+        "note": "Non-executable placeholder. The adaptive-K rule is reserved for Stage 2 and must be registered before this profile is activated.",
+        "solver_backend": "bounded_search",
+        "status": "RESERVED_STAGE2",
+        "top_k": null
+      }
+    }
+  }
+}

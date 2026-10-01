@@ -1,0 +1,15 @@
+﻿check,observed,expected,passed
+primary_public_replay: comparison count,300,300,True
+primary_public_replay: Holm family count,60,60,True
+no_pruning_control: comparison count,60,60,True
+no_pruning_control: Holm family count,15,15,True
+external_full_candidate_baselines: comparison count,120,120,True
+external_full_candidate_baselines: Holm family count,60,60,True
+parameter_robustness: comparison count,36,36,True
+parameter_robustness: Holm family count,6,6,True
+complete registry comparison count,516,516,True
+complete registry Holm family count,141,141,True
+sum of declared family sizes,516,516,True
+comparison IDs are unique,516,516,True
+family IDs are unique,141,141,True
+unadjusted and Holm P values are complete,516,516,True

@@ -1,0 +1,131 @@
+{
+  "audit_version": "ca-hmcd-stage2-candidate-audit-v1",
+  "created_at_utc": "2026-09-17T13:40:53.449874+00:00",
+  "audit_pass": true,
+  "formal_execution_runs": 5280,
+  "combined_episode_rows": 7920,
+  "combined_per_step_rows": 95040,
+  "paired_comparisons": 275,
+  "holm_families": 55,
+  "gate_a": {
+    "gate": "A",
+    "decision": "FAIL",
+    "method_adjudication": "DO_NOT_PROMOTE_CA_HMCD_RT",
+    "high_load_definition": "Anti-UAV410 loads 6 and 8",
+    "independent_cluster_count": 10,
+    "service_k12_gap_to_full": 0.02105877183476379,
+    "service_adaptive_gap_to_full": 0.0013213211072157227,
+    "service_gap_recovery": 0.9372555475892241,
+    "coverage_k12_gap_to_full": 0.05192625661375638,
+    "coverage_adaptive_gap_to_full": 0.0,
+    "coverage_gap_recovery": 1.0,
+    "adaptive_external_objective": 0.14673476612415876,
+    "k12_external_objective": 0.12344082566554226,
+    "adaptive_candidate_ratio_to_full": 0.17019945775489723,
+    "adaptive_node_ratio_to_full": 0.9617588194444445,
+    "adaptive_final_feasibility": 1.0,
+    "criteria": {
+      "service_gap_recovery_at_least_20pct": true,
+      "coverage_gap_recovery_at_least_20pct": true,
+      "objective_not_below_k12_by_more_than_0_002": true,
+      "candidate_ratio_at_most_0_25": true,
+      "node_ratio_at_most_0_60": false,
+      "final_feasibility_equals_1": true
+    },
+    "interpretation": "AdaptiveK recovers high-load quality and compresses the candidate pool, but it does not reduce bounded-search node demand enough to qualify as the registered real-time profile."
+  },
+  "checks": [
+    {
+      "check": "formal execution audit",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "formal run count",
+      "observed": 5280,
+      "expected": 5280,
+      "passed": true
+    },
+    {
+      "check": "analysis source audit",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "six-policy pairing audit",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "registered comparison count",
+      "observed": 275,
+      "expected": 275,
+      "passed": true
+    },
+    {
+      "check": "registered Holm families",
+      "observed": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "check": "Holm adjusted P values valid",
+      "observed": "all adjusted P in [raw P, 1]",
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "bounded intervals valid",
+      "observed": 180,
+      "expected": 180,
+      "passed": true
+    },
+    {
+      "check": "release manifest verified",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Stage 9 core remains frozen",
+      "observed": {
+        "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+        "ca_hmcd_replay.py": "41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5",
+        "ca_hmcd_replay_runner.py": "dae68f4e1806fbb7eef93124b1de9a2d40670886c57d53adca2fdff3f4ec8de7"
+      },
+      "expected": {
+        "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+        "ca_hmcd_replay.py": "41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5",
+        "ca_hmcd_replay_runner.py": "dae68f4e1806fbb7eef93124b1de9a2d40670886c57d53adca2fdff3f4ec8de7"
+      },
+      "passed": true
+    },
+    {
+      "check": "formal Stage 2 execution source frozen",
+      "observed": {
+        "ca_hmcd_stage2_candidate_runner.py": "e679b75b5150af4ca7cf07b18b3152ecdd15df76497bcfa7822d2203c5f9ebe5",
+        "ca_hmcd_framework.py": "ade4fd9c11deaa70687a6e3aba01877fcf4110624ae3cd9096578b80cc68ea50"
+      },
+      "expected": {
+        "ca_hmcd_stage2_candidate_runner.py": "e679b75b5150af4ca7cf07b18b3152ecdd15df76497bcfa7822d2203c5f9ebe5",
+        "ca_hmcd_framework.py": "ade4fd9c11deaa70687a6e3aba01877fcf4110624ae3cd9096578b80cc68ea50"
+      },
+      "passed": true
+    },
+    {
+      "check": "Gate A adjudicated once",
+      "observed": "FAIL",
+      "expected": "PASS, PROVISIONAL, or FAIL",
+      "passed": true
+    },
+    {
+      "check": "framework records failed RT promotion",
+      "observed": "EXPERIMENTAL_GATE_A_FAILED",
+      "expected": "EXPERIMENTAL_GATE_A_FAILED",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿check,observed,expected,passed
+formal execution mode,formal,formal,True
+source execution audit,7,7,True
+source pairing audit,15840,15840,True
+formal episode count,7920,7920,True
+workload coverage,44,44,True
+registered replicates per workload,"[(30, 30)]","[(30, 30)]",True
+metadata audit pass,True,True,True
+cluster-algorithm rows,264,264,True
+Holm family membership,300,300,True
+paired cluster counts positive,4,>=4,True
+"bounded intervals remain in [0,1]",420,420,True

@@ -1,0 +1,16 @@
+﻿check,observed,expected,passed
+Stage 2 formal execution,formal,formal,True
+Stage 2 execution audit,True,True,True
+complete new profile set,"['FixedK-6', 'FixedK-24', 'FixedK-48', 'AdaptiveK']","['FixedK-6', 'FixedK-24', 'FixedK-48', 'AdaptiveK']",True
+Stage 2 unit count,1320,1320,True
+K12 reference unit count,1320,1320,True
+K12 formal reference registration,"{'mode': 'formal-reference', 'algorithms': ['CA-HMCD'], 'audit_pass': True}","{'mode': 'formal-reference', 'algorithms': ['CA-HMCD'], 'audit_pass': True}",True
+Full reference unit count,1320,1320,True
+Full formal control registration,"{'mode': 'formal-control', 'algorithms': ['No-Pruning'], 'audit_pass': True}","{'mode': 'formal-control', 'algorithms': ['No-Pruning'], 'audit_pass': True}",True
+common replay protocol,b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea,b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea,True
+common model version,ca-hmcd-stage1-closure-v2.3,ca-hmcd-stage1-closure-v2.3,True
+common evaluator version,complete-v3-stage1-closure,complete-v3-stage1-closure,True
+common service endpoint,solver-decoupled-service-v2,solver-decoupled-service-v2,True
+Stage 2 execution source hashes unchanged,"{'ca_hmcd_stage2_candidate_runner.py': 'e679b75b5150af4ca7cf07b18b3152ecdd15df76497bcfa7822d2203c5f9ebe5', 'ca_hmcd_framework.py': 'ade4fd9c11deaa70687a6e3aba01877fcf4110624ae3cd9096578b80cc68ea50', 'ca_hmcd_simulation.py': 'b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1', 'ca_hmcd_replay.py': '41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5'}","{'ca_hmcd_stage2_candidate_runner.py': 'e679b75b5150af4ca7cf07b18b3152ecdd15df76497bcfa7822d2203c5f9ebe5', 'ca_hmcd_framework.py': 'ade4fd9c11deaa70687a6e3aba01877fcf4110624ae3cd9096578b80cc68ea50', 'ca_hmcd_simulation.py': 'b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1', 'ca_hmcd_replay.py': '41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5'}",True
+pre-registration hash unchanged,e7cd3c387ad88cd17e6cf93eebe0e86599f1d8ba6b672e084d6492557c07be99,e7cd3c387ad88cd17e6cf93eebe0e86599f1d8ba6b672e084d6492557c07be99,True
+frozen parent audit,True,True,True

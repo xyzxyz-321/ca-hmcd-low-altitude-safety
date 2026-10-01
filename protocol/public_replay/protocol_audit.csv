@@ -1,0 +1,14 @@
+﻿check,observed,expected,passed
+UZH source trajectories assigned once,16,16,1
+Anti evaluation sources assigned once,120,120,1
+No Anti train/val source in formal workload,0,0,1
+Every workload has preregistered seed count,30,30,1
+All replay horizons are fixed,[12],[12],1
+All replay sequence IDs are unique,44,44,1
+Minimum paired seeds,30,>=30,1
+Response-resource count is fixed,[10],[10],1
+Candidate and solver budgets are fixed,"[(12, 4000)]","[(12, 4000)]",1
+Anti strata are balanced within load groups,"[((2, 'fast_motion'), 3), ((2, 'nominal'), 8), ((2, 'scale_small'), 2), ((2, 'visibility'), 7), ((4, 'fast_motion'), 5), ((4, 'nominal'), 12), ((4, 'scale_small'), 4), ((4, 'visibility'), 11), ((6, 'fast_motion'), 6), ((6, 'nominal'), 14), ((6, 'scale_small'), 4), ((6, 'visibility'), 12), ((8, 'fast_motion'), 5), ((8, 'nominal'), 12), ((8, 'scale_small'), 3), ((8, 'visibility'), 12)]","[((2, 'fast_motion'), 3), ((2, 'nominal'), 8), ((2, 'scale_small'), 2), ((2, 'visibility'), 7), ((4, 'fast_motion'), 5), ((4, 'nominal'), 12), ((4, 'scale_small'), 4), ((4, 'visibility'), 11), ((6, 'fast_motion'), 6), ((6, 'nominal'), 14), ((6, 'scale_small'), 4), ((6, 'visibility'), 12), ((8, 'fast_motion'), 5), ((8, 'nominal'), 12), ((8, 'scale_small'), 3), ((8, 'visibility'), 12)]",1
+Replay task counts match registered loads,44,44,1
+Arrival offsets match preregistered patterns,136,136,1
+Run seeds are globally unique,1320,1320,1

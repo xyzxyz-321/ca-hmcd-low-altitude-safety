@@ -1,0 +1,421 @@
+﻿dataset,task_load,stratum_id,algorithm,metric,n_independent_clusters,mean,ci95_low,ci95_high,interval_method
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,independent_coverage,10,0.8591666667,0.805,0.9081944444,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,feasibility_rate,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,raw_feasible,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,repair_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,fallback_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,fallback,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,node_limit_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,independent_same_type_pair_ratio,10,0.0327777778,0.005,0.1111111111,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,independent_capability_overlap,10,0.052230488,0.0114840537,0.1235273424,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,independent_marginal_gain_waste,10,0.0076836974,0.001547965,0.0195362437,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,clusters_with_any_repair,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,clusters_with_any_fallback,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,clusters_with_any_node_limit_hit,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,CA-HMCD,clusters_with_any_final_infeasibility,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,External-Auction,independent_coverage,10,0.8605555556,0.80625,0.9088089648,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,External-Auction,feasibility_rate,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,External-Auction,raw_feasible,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,External-Auction,repair_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,External-Auction,fallback_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,External-Auction,fallback,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,External-Auction,node_limit_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,External-Auction,independent_same_type_pair_ratio,10,0.1498611111,0.0584843841,0.3071655071,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,External-Auction,independent_capability_overlap,10,0.1492968562,0.0572270547,0.3092474339,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,External-Auction,independent_marginal_gain_waste,10,0.022795686,0.0090261498,0.0464267401,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,External-Auction,clusters_with_any_repair,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,External-Auction,clusters_with_any_fallback,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,External-Auction,clusters_with_any_node_limit_hit,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,External-Auction,clusters_with_any_final_infeasibility,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,Greedy,independent_coverage,10,0.8590277778,0.805,0.9058333333,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Greedy,feasibility_rate,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Greedy,raw_feasible,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Greedy,repair_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Greedy,fallback_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Greedy,fallback,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Greedy,node_limit_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Greedy,independent_same_type_pair_ratio,10,0.0744444444,0.0113888889,0.1963135771,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Greedy,independent_capability_overlap,10,0.0925240192,0.023287963,0.2277548591,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Greedy,independent_marginal_gain_waste,10,0.0138904085,0.0032979786,0.0337606934,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Greedy,clusters_with_any_repair,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,Greedy,clusters_with_any_fallback,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,Greedy,clusters_with_any_node_limit_hit,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,Greedy,clusters_with_any_final_infeasibility,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,No-Stability,independent_coverage,10,0.8631944444,0.8083333333,0.9098611111,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Stability,feasibility_rate,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Stability,raw_feasible,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Stability,repair_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Stability,fallback_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Stability,fallback,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Stability,node_limit_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Stability,independent_same_type_pair_ratio,10,0.4418981481,0.397662037,0.4969059735,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Stability,independent_capability_overlap,10,0.8213940072,0.7696410372,0.862430451,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Stability,independent_marginal_gain_waste,10,0.2087157761,0.1982827314,0.2191206559,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Stability,clusters_with_any_repair,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,No-Stability,clusters_with_any_fallback,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,No-Stability,clusters_with_any_node_limit_hit,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,No-Stability,clusters_with_any_final_infeasibility,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,No-Synergy,independent_coverage,10,0.8591666667,0.805,0.9091666667,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Synergy,feasibility_rate,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Synergy,raw_feasible,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Synergy,repair_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Synergy,fallback_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Synergy,fallback,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Synergy,node_limit_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Synergy,independent_same_type_pair_ratio,10,0.0341666667,0.0055555556,0.1227777778,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Synergy,independent_capability_overlap,10,0.0355879415,0.0045660455,0.1147298215,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Synergy,independent_marginal_gain_waste,10,0.0056250411,0.000776077,0.0206108452,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,No-Synergy,clusters_with_any_repair,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,No-Synergy,clusters_with_any_fallback,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,No-Synergy,clusters_with_any_node_limit_hit,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,No-Synergy,clusters_with_any_final_infeasibility,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,Random,independent_coverage,10,0.6491666667,0.605,0.6870833333,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Random,feasibility_rate,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Random,raw_feasible,10,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Random,repair_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Random,fallback_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Random,fallback,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Random,node_limit_run_indicator,10,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Random,independent_same_type_pair_ratio,10,0.28,0.2569212963,0.3127770779,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Random,independent_capability_overlap,10,0.4945329059,0.44916279,0.5326703157,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Random,independent_marginal_gain_waste,10,0.1114018555,0.1031506466,0.1209038231,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,2,anti_uav410.load_2,Random,clusters_with_any_repair,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,Random,clusters_with_any_fallback,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,Random,clusters_with_any_node_limit_hit,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,2,anti_uav410.load_2,Random,clusters_with_any_final_infeasibility,10,0.0,0.0,0.2775327999,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,independent_coverage,8,0.8961226852,0.8578993056,0.925462963,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,feasibility_rate,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,raw_feasible,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,repair_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,fallback_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,fallback,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,node_limit_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,independent_same_type_pair_ratio,8,0.0232638889,0.0065972222,0.059375,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,independent_capability_overlap,8,0.1480852874,0.0844237551,0.1960520135,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,independent_marginal_gain_waste,8,0.0148161499,0.0087851468,0.0204581418,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,clusters_with_any_repair,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,clusters_with_any_fallback,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,clusters_with_any_node_limit_hit,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,CA-HMCD,clusters_with_any_final_infeasibility,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,External-Auction,independent_coverage,8,0.8822916667,0.8459232827,0.9149884259,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,External-Auction,feasibility_rate,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,External-Auction,raw_feasible,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,External-Auction,repair_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,External-Auction,fallback_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,External-Auction,fallback,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,External-Auction,node_limit_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,External-Auction,independent_same_type_pair_ratio,8,0.35625,0.2258680556,0.4699652778,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,External-Auction,independent_capability_overlap,8,0.3882556116,0.2721863454,0.5008338844,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,External-Auction,independent_marginal_gain_waste,8,0.0444129846,0.0301915882,0.0568794265,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,External-Auction,clusters_with_any_repair,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,External-Auction,clusters_with_any_fallback,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,External-Auction,clusters_with_any_node_limit_hit,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,External-Auction,clusters_with_any_final_infeasibility,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,Greedy,independent_coverage,8,0.8848668981,0.8492917728,0.9160300926,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Greedy,feasibility_rate,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Greedy,raw_feasible,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Greedy,repair_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Greedy,fallback_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Greedy,fallback,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Greedy,node_limit_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Greedy,independent_same_type_pair_ratio,8,0.128125,0.0643443222,0.2142395659,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Greedy,independent_capability_overlap,8,0.2829365798,0.2095372598,0.3784578394,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Greedy,independent_marginal_gain_waste,8,0.0304677704,0.0218681429,0.0423574027,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Greedy,clusters_with_any_repair,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,Greedy,clusters_with_any_fallback,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,Greedy,clusters_with_any_node_limit_hit,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,Greedy,clusters_with_any_final_infeasibility,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,No-Stability,independent_coverage,8,0.90625,0.8696517859,0.9336226852,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Stability,feasibility_rate,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Stability,raw_feasible,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Stability,repair_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Stability,fallback_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Stability,fallback,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Stability,node_limit_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Stability,independent_same_type_pair_ratio,8,0.2460358796,0.2078414352,0.2816802035,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Stability,independent_capability_overlap,8,0.8411460913,0.8183315873,0.8549828812,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Stability,independent_marginal_gain_waste,8,0.1496831888,0.1375376495,0.1635331307,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Stability,clusters_with_any_repair,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,No-Stability,clusters_with_any_fallback,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,No-Stability,clusters_with_any_node_limit_hit,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,No-Stability,clusters_with_any_final_infeasibility,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,No-Synergy,independent_coverage,8,0.8978587963,0.861162952,0.9261284722,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Synergy,feasibility_rate,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Synergy,raw_feasible,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Synergy,repair_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Synergy,fallback_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Synergy,fallback,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Synergy,node_limit_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Synergy,independent_same_type_pair_ratio,8,0.0381944444,0.0138888889,0.0666666667,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Synergy,independent_capability_overlap,8,0.063734145,0.0290272849,0.0930436233,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Synergy,independent_marginal_gain_waste,8,0.0071733871,0.0032799949,0.0106023674,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,No-Synergy,clusters_with_any_repair,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,No-Synergy,clusters_with_any_fallback,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,No-Synergy,clusters_with_any_node_limit_hit,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,No-Synergy,clusters_with_any_final_infeasibility,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,Random,independent_coverage,8,0.6586516204,0.6377847827,0.6792160563,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Random,feasibility_rate,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Random,raw_feasible,8,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Random,repair_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Random,fallback_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Random,fallback,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Random,node_limit_run_indicator,8,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Random,independent_same_type_pair_ratio,8,0.3566261574,0.3288483796,0.3991608796,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Random,independent_capability_overlap,8,0.6713542349,0.6539520633,0.6880527534,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Random,independent_marginal_gain_waste,8,0.1239625865,0.1217233839,0.1260472435,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,4,anti_uav410.load_4,Random,clusters_with_any_repair,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,Random,clusters_with_any_fallback,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,Random,clusters_with_any_node_limit_hit,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,4,anti_uav410.load_4,Random,clusters_with_any_final_infeasibility,8,0.0,0.0,0.3244075649,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,independent_coverage,6,0.8483873457,0.800374726,0.8754938272,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,feasibility_rate,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,raw_feasible,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,repair_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,fallback_run_indicator,6,0.7666666667,0.6222222222,0.8777777778,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,fallback,6,0.1486111111,0.0990740741,0.2083333333,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,node_limit_run_indicator,6,0.7666666667,0.6222222222,0.8777777778,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,independent_same_type_pair_ratio,6,0.0231481481,0.0060185185,0.0435185185,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,independent_capability_overlap,6,0.2298730312,0.1680500538,0.3287593147,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,independent_marginal_gain_waste,6,0.0195125791,0.0138930772,0.0291519364,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,clusters_with_any_repair,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,clusters_with_any_fallback,6,1.0,0.6096657121,1.0,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,clusters_with_any_node_limit_hit,6,1.0,0.6096657121,1.0,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,CA-HMCD,clusters_with_any_final_infeasibility,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,External-Auction,independent_coverage,6,0.7969135802,0.7560570988,0.8311342593,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,External-Auction,feasibility_rate,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,External-Auction,raw_feasible,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,External-Auction,repair_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,External-Auction,fallback_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,External-Auction,fallback,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,External-Auction,node_limit_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,External-Auction,independent_same_type_pair_ratio,6,0.4729166667,0.3758962639,0.5560185185,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,External-Auction,independent_capability_overlap,6,0.5990009336,0.507903198,0.6984358763,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,External-Auction,independent_marginal_gain_waste,6,0.0647811303,0.0530509786,0.0772858173,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,External-Auction,clusters_with_any_repair,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,External-Auction,clusters_with_any_fallback,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,External-Auction,clusters_with_any_node_limit_hit,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,External-Auction,clusters_with_any_final_infeasibility,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,Greedy,independent_coverage,6,0.7947376543,0.7600148974,0.8267669753,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Greedy,feasibility_rate,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Greedy,raw_feasible,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Greedy,repair_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Greedy,fallback_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Greedy,fallback,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Greedy,node_limit_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Greedy,independent_same_type_pair_ratio,6,0.1467592593,0.1115740741,0.1991212809,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Greedy,independent_capability_overlap,6,0.4929601612,0.3737921625,0.6049239711,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Greedy,independent_marginal_gain_waste,6,0.0503610596,0.0383643442,0.0620631143,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Greedy,clusters_with_any_repair,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,Greedy,clusters_with_any_fallback,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,Greedy,clusters_with_any_node_limit_hit,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,Greedy,clusters_with_any_final_infeasibility,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,No-Stability,independent_coverage,6,0.875933642,0.8214429012,0.9083796296,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Stability,feasibility_rate,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Stability,raw_feasible,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Stability,repair_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Stability,fallback_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Stability,fallback,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Stability,node_limit_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Stability,independent_same_type_pair_ratio,6,0.1000771605,0.0851080247,0.1354154849,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Stability,independent_capability_overlap,6,0.6503601867,0.6162707552,0.6989784,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Stability,independent_marginal_gain_waste,6,0.0796194992,0.0728122209,0.0843555497,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Stability,clusters_with_any_repair,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,No-Stability,clusters_with_any_fallback,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,No-Stability,clusters_with_any_node_limit_hit,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,No-Stability,clusters_with_any_final_infeasibility,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,No-Synergy,independent_coverage,6,0.8593904321,0.8048525876,0.8860570988,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Synergy,feasibility_rate,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Synergy,raw_feasible,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Synergy,repair_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Synergy,fallback_run_indicator,6,0.7111111111,0.6111111111,0.8111111111,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Synergy,fallback,6,0.1263888889,0.0861111111,0.1736111111,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Synergy,node_limit_run_indicator,6,0.7111111111,0.6111111111,0.8111111111,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Synergy,independent_same_type_pair_ratio,6,0.037037037,0.0125,0.0564814815,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Synergy,independent_capability_overlap,6,0.0964578523,0.0647933095,0.142662401,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Synergy,independent_marginal_gain_waste,6,0.0086097229,0.0060066208,0.0140523903,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,No-Synergy,clusters_with_any_repair,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,No-Synergy,clusters_with_any_fallback,6,1.0,0.6096657121,1.0,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,No-Synergy,clusters_with_any_node_limit_hit,6,1.0,0.6096657121,1.0,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,No-Synergy,clusters_with_any_final_infeasibility,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,Random,independent_coverage,6,0.5898842593,0.551404321,0.6125617284,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Random,feasibility_rate,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Random,raw_feasible,6,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Random,repair_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Random,fallback_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Random,fallback,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Random,node_limit_run_indicator,6,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Random,independent_same_type_pair_ratio,6,0.3684027778,0.3478009259,0.3939814815,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Random,independent_capability_overlap,6,0.7356470691,0.7187100135,0.7476430673,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Random,independent_marginal_gain_waste,6,0.1195720084,0.1106496628,0.1231159723,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,6,anti_uav410.load_6,Random,clusters_with_any_repair,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,Random,clusters_with_any_fallback,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,Random,clusters_with_any_node_limit_hit,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,6,anti_uav410.load_6,Random,clusters_with_any_final_infeasibility,6,0.0,0.0,0.3903342879,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,independent_coverage,4,0.8039054233,0.7848048942,0.8284755291,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,feasibility_rate,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,raw_feasible,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,repair_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,fallback_run_indicator,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,fallback,4,0.6583333333,0.6027777778,0.6972222222,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,node_limit_run_indicator,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,independent_same_type_pair_ratio,4,0.0076388889,0.0,0.0152777778,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,independent_capability_overlap,4,0.0631828849,0.0330524572,0.122300506,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,independent_marginal_gain_waste,4,0.0057002332,0.0025034022,0.0120572979,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,clusters_with_any_repair,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,clusters_with_any_fallback,4,1.0,0.5101091635,1.0,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,clusters_with_any_node_limit_hit,4,1.0,0.5101091635,1.0,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,CA-HMCD,clusters_with_any_final_infeasibility,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,External-Auction,independent_coverage,4,0.7319419643,0.7238401124,0.7403191138,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,External-Auction,feasibility_rate,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,External-Auction,raw_feasible,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,External-Auction,repair_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,External-Auction,fallback_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,External-Auction,fallback,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,External-Auction,node_limit_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,External-Auction,independent_same_type_pair_ratio,4,0.3416666667,0.2486111111,0.4347222222,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,External-Auction,independent_capability_overlap,4,0.4812637703,0.3661301637,0.5973222399,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,External-Auction,independent_marginal_gain_waste,4,0.0450244011,0.0344581286,0.0555906736,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,External-Auction,clusters_with_any_repair,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,External-Auction,clusters_with_any_fallback,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,External-Auction,clusters_with_any_node_limit_hit,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,External-Auction,clusters_with_any_final_infeasibility,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,Greedy,independent_coverage,4,0.7317237103,0.7254373347,0.7416129299,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Greedy,feasibility_rate,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Greedy,raw_feasible,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Greedy,repair_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Greedy,fallback_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Greedy,fallback,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Greedy,node_limit_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Greedy,independent_same_type_pair_ratio,4,0.1461805556,0.0788194444,0.2559027778,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Greedy,independent_capability_overlap,4,0.4130912564,0.2418375652,0.5582185465,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Greedy,independent_marginal_gain_waste,4,0.0384629853,0.0223753378,0.0545506327,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Greedy,clusters_with_any_repair,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,Greedy,clusters_with_any_fallback,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,Greedy,clusters_with_any_node_limit_hit,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,Greedy,clusters_with_any_final_infeasibility,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,No-Stability,independent_coverage,4,0.803307705,0.7927546296,0.8146122685,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Stability,feasibility_rate,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Stability,raw_feasible,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Stability,repair_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Stability,fallback_run_indicator,4,0.55,0.1333333333,0.9666666667,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Stability,fallback,4,0.1027777778,0.01875,0.2270833333,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Stability,node_limit_run_indicator,4,0.55,0.1333333333,0.9666666667,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Stability,independent_same_type_pair_ratio,4,0.0568287037,0.045775463,0.0642361111,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Stability,independent_capability_overlap,4,0.517880732,0.4917417509,0.5440197131,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Stability,independent_marginal_gain_waste,4,0.0487166743,0.0454523261,0.0517630511,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Stability,clusters_with_any_repair,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,No-Stability,clusters_with_any_fallback,4,0.75,0.3006418426,0.9544127392,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,No-Stability,clusters_with_any_node_limit_hit,4,0.75,0.3006418426,0.9544127392,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,No-Stability,clusters_with_any_final_infeasibility,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,No-Synergy,independent_coverage,4,0.8041724537,0.7841352513,0.8242096561,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Synergy,feasibility_rate,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Synergy,raw_feasible,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Synergy,repair_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Synergy,fallback_run_indicator,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Synergy,fallback,4,0.6277777778,0.5923611111,0.6618055556,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Synergy,node_limit_run_indicator,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Synergy,independent_same_type_pair_ratio,4,0.009375,0.0,0.01875,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Synergy,independent_capability_overlap,4,0.0422364327,0.017950675,0.0900764096,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Synergy,independent_marginal_gain_waste,4,0.0038676488,0.000984047,0.0104267987,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,No-Synergy,clusters_with_any_repair,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,No-Synergy,clusters_with_any_fallback,4,1.0,0.5101091635,1.0,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,No-Synergy,clusters_with_any_node_limit_hit,4,1.0,0.5101091635,1.0,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,No-Synergy,clusters_with_any_final_infeasibility,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,Random,independent_coverage,4,0.5418882275,0.5297271825,0.5535548942,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Random,feasibility_rate,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Random,raw_feasible,4,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Random,repair_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Random,fallback_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Random,fallback,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Random,node_limit_run_indicator,4,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Random,independent_same_type_pair_ratio,4,0.4156828704,0.3923611111,0.4390046296,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Random,independent_capability_overlap,4,0.7663950029,0.7600106373,0.7727907098,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Random,independent_marginal_gain_waste,4,0.1147140548,0.1115780918,0.1178500177,"bounded BCa bootstrap of cluster means, 5000 resamples"
+anti_uav410,8,anti_uav410.load_8,Random,clusters_with_any_repair,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,Random,clusters_with_any_fallback,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,Random,clusters_with_any_node_limit_hit,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+anti_uav410,8,anti_uav410.load_8,Random,clusters_with_any_final_infeasibility,4,0.0,0.0,0.4898908365,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,independent_coverage,16,0.8291666667,0.7639569182,0.8707563532,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,feasibility_rate,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,raw_feasible,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,repair_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,fallback_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,fallback,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,node_limit_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,independent_same_type_pair_ratio,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,independent_capability_overlap,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,independent_marginal_gain_waste,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,clusters_with_any_repair,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,clusters_with_any_fallback,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,CA-HMCD,clusters_with_any_final_infeasibility,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,independent_coverage,16,0.8444444444,0.7859780606,0.8819444444,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,feasibility_rate,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,raw_feasible,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,repair_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,fallback_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,fallback,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,node_limit_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,independent_same_type_pair_ratio,16,0.0013888889,0.0,0.0069444444,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,independent_capability_overlap,16,0.0013156078,0.0,0.0065780388,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,independent_marginal_gain_waste,16,0.000221062,0.0,0.0017663378,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,clusters_with_any_repair,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,clusters_with_any_fallback,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,External-Auction,clusters_with_any_final_infeasibility,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,Greedy,independent_coverage,16,0.8291666667,0.7635416667,0.8729166667,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Greedy,feasibility_rate,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Greedy,raw_feasible,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Greedy,repair_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Greedy,fallback_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Greedy,fallback,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Greedy,node_limit_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Greedy,independent_same_type_pair_ratio,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Greedy,independent_capability_overlap,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Greedy,independent_marginal_gain_waste,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Greedy,clusters_with_any_repair,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,Greedy,clusters_with_any_fallback,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,Greedy,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,Greedy,clusters_with_any_final_infeasibility,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,independent_coverage,16,0.8690972222,0.8208333333,0.9003472222,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,feasibility_rate,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,raw_feasible,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,repair_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,fallback_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,fallback,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,node_limit_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,independent_same_type_pair_ratio,16,0.7398148148,0.6839415992,0.7964238163,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,independent_capability_overlap,16,0.7938328705,0.750860355,0.8232838306,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,independent_marginal_gain_waste,16,0.1632648265,0.153294325,0.1758579434,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,clusters_with_any_repair,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,clusters_with_any_fallback,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,No-Stability,clusters_with_any_final_infeasibility,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,independent_coverage,16,0.8291666667,0.7639489243,0.871875,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,feasibility_rate,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,raw_feasible,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,repair_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,fallback_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,fallback,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,node_limit_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,independent_same_type_pair_ratio,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,independent_capability_overlap,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,independent_marginal_gain_waste,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,clusters_with_any_repair,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,clusters_with_any_fallback,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,No-Synergy,clusters_with_any_final_infeasibility,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,Random,independent_coverage,16,0.6487847222,0.6113126919,0.6717013889,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Random,feasibility_rate,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Random,raw_feasible,16,1.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Random,repair_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Random,fallback_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Random,fallback,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Random,node_limit_run_indicator,16,0.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Random,independent_same_type_pair_ratio,16,0.2381365741,0.2253472222,0.2496527778,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Random,independent_capability_overlap,16,0.3813436125,0.3610894061,0.3961156957,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Random,independent_marginal_gain_waste,16,0.0869994084,0.0828514008,0.0905376064,"bounded BCa bootstrap of cluster means, 5000 resamples"
+uzh_fpv,1,uzh_fpv.load_1,Random,clusters_with_any_repair,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,Random,clusters_with_any_fallback,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,Random,clusters_with_any_node_limit_hit,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence
+uzh_fpv,1,uzh_fpv.load_1,Random,clusters_with_any_final_infeasibility,16,0.0,0.0,0.1936076805,Wilson score interval for binary cluster-level prevalence

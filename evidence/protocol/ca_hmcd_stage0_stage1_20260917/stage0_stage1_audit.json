@@ -1,0 +1,246 @@
+{
+  "audit_id": "ca-hmcd-stage0-stage1-audit-20260917",
+  "audit_pass": true,
+  "checks": {
+    "baseline_manifest_verified": true,
+    "exact_profile_registered": true,
+    "fixed_k_profile_registered": true,
+    "framework_version": true,
+    "legacy_evaluator_preserved": true,
+    "legacy_model_preserved": true,
+    "legacy_service_endpoint_preserved": true,
+    "no_pruning_profile_registered": true,
+    "parity_trials_passed": true,
+    "rt_profile_reserved": true
+  },
+  "created_at_utc": "2026-09-17T11:56:53.792121+00:00",
+  "stage0": {
+    "baseline_id": "ca-hmcd-stage9-frozen-20260917",
+    "file_checks": [
+      {
+        "expected_sha256": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+        "observed_sha256": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+        "passed": true,
+        "path": "ca_hmcd_simulation.py"
+      },
+      {
+        "expected_sha256": "41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5",
+        "observed_sha256": "41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5",
+        "passed": true,
+        "path": "ca_hmcd_replay.py"
+      },
+      {
+        "expected_sha256": "dae68f4e1806fbb7eef93124b1de9a2d40670886c57d53adca2fdff3f4ec8de7",
+        "observed_sha256": "dae68f4e1806fbb7eef93124b1de9a2d40670886c57d53adca2fdff3f4ec8de7",
+        "passed": true,
+        "path": "ca_hmcd_replay_runner.py"
+      },
+      {
+        "expected_sha256": "b9823120d18f0af20451ee2cf14d27a3ed421b7c2e361fbed066c5e64d61b4a9",
+        "observed_sha256": "b9823120d18f0af20451ee2cf14d27a3ed421b7c2e361fbed066c5e64d61b4a9",
+        "passed": true,
+        "path": "ca_hmcd_replay_protocol.py"
+      },
+      {
+        "expected_sha256": "605fbe56d122e19ae194da0c6c899e7e0d2791c7157e9ba69137f2d4490682ad",
+        "observed_sha256": "605fbe56d122e19ae194da0c6c899e7e0d2791c7157e9ba69137f2d4490682ad",
+        "passed": true,
+        "path": "ca_hmcd_external_baseline_analysis.py"
+      },
+      {
+        "expected_sha256": "fbe00210fa978e15f11787c3ed5d15f5931c8dfb8bb57b990725ecbfda510866",
+        "observed_sha256": "fbe00210fa978e15f11787c3ed5d15f5931c8dfb8bb57b990725ecbfda510866",
+        "passed": true,
+        "path": "ca_hmcd_no_pruning_analysis.py"
+      },
+      {
+        "expected_sha256": "34ae1396e3e845b2e4a7a77f682af7fcdf5267a517fe8427ab6296d3c52c41a6",
+        "observed_sha256": "34ae1396e3e845b2e4a7a77f682af7fcdf5267a517fe8427ab6296d3c52c41a6",
+        "passed": true,
+        "path": "ca_hmcd_parameter_robustness_analysis.py"
+      },
+      {
+        "expected_sha256": "2bfa89274a4459b6eb529ee469236e71b60e3ee8673c134b61ef7ceb14011493",
+        "observed_sha256": "2bfa89274a4459b6eb529ee469236e71b60e3ee8673c134b61ef7ceb14011493",
+        "passed": true,
+        "path": "ca_hmcd_replay_protocol_20260916/protocol_config.json"
+      },
+      {
+        "expected_sha256": "ef52fd42f1ced45907a1378ab6127aabad925885196ee752f113386cf11f3704",
+        "observed_sha256": "ef52fd42f1ced45907a1378ab6127aabad925885196ee752f113386cf11f3704",
+        "passed": true,
+        "path": "ca_hmcd_replay_protocol_20260916/experiment_run_registry.csv"
+      },
+      {
+        "expected_sha256": "12868c0f7b434a00ecc542198e3843c2ba4be268aa6d5209aa4eb2c23fd08422",
+        "observed_sha256": "12868c0f7b434a00ecc542198e3843c2ba4be268aa6d5209aa4eb2c23fd08422",
+        "passed": true,
+        "path": "ca_hmcd_no_pruning_protocol_20260917.md"
+      },
+      {
+        "expected_sha256": "cbc9867e26f398b4b58bac0b3ee943015979867adf30ab859d628777045edaa3",
+        "observed_sha256": "cbc9867e26f398b4b58bac0b3ee943015979867adf30ab859d628777045edaa3",
+        "passed": true,
+        "path": "ca_hmcd_external_baselines_protocol_20260917.md"
+      },
+      {
+        "expected_sha256": "3d7ccc47b3ff491ef2b617e6e30a3f5a3b2a33ff874396703066fc9798debe36",
+        "observed_sha256": "3d7ccc47b3ff491ef2b617e6e30a3f5a3b2a33ff874396703066fc9798debe36",
+        "passed": true,
+        "path": "ca_hmcd_external_baselines_protocol_amendment_20260917.md"
+      },
+      {
+        "expected_sha256": "d8db0132e9536199a9f536cddef5c041a3b9216a555af0544911c26e9956057e",
+        "observed_sha256": "d8db0132e9536199a9f536cddef5c041a3b9216a555af0544911c26e9956057e",
+        "passed": true,
+        "path": "CA-HMCD_Reproducibility_Package_20260917/results/formal_runs/primary_public_replay/execution_metadata.json"
+      },
+      {
+        "expected_sha256": "0a22d926cf54ea38000e196a3908ef2cd811cf8057e579c08bb01b8c09e2afef",
+        "observed_sha256": "0a22d926cf54ea38000e196a3908ef2cd811cf8057e579c08bb01b8c09e2afef",
+        "passed": true,
+        "path": "ca_hmcd_external_reference_formal_20260917/execution_metadata.json"
+      },
+      {
+        "expected_sha256": "12b684d1d9bc4078b7319ddc340265fcc20e76c4e624e6edb62bc68331662a5b",
+        "observed_sha256": "12b684d1d9bc4078b7319ddc340265fcc20e76c4e624e6edb62bc68331662a5b",
+        "passed": true,
+        "path": "ca_hmcd_external_baselines_formal_20260917/execution_metadata.json"
+      },
+      {
+        "expected_sha256": "f68c61802c10c42457121445a38e3ea259a0881148cb3ba57f07ac91cdb19c12",
+        "observed_sha256": "f68c61802c10c42457121445a38e3ea259a0881148cb3ba57f07ac91cdb19c12",
+        "passed": true,
+        "path": "ca_hmcd_no_pruning_formal_20260917/execution_metadata.json"
+      },
+      {
+        "expected_sha256": "d73b3d7314347055509a764a56535fd52c42a9e66c5c3d5d308b337428584c7e",
+        "observed_sha256": "d73b3d7314347055509a764a56535fd52c42a9e66c5c3d5d308b337428584c7e",
+        "passed": true,
+        "path": "ca_hmcd_parameter_robustness_analysis_20260917/analysis_metadata.json"
+      },
+      {
+        "expected_sha256": "0fad473de89753d55bcf31a3a3b77cd6ff073419b214bef92bb6825f8538a2c9",
+        "observed_sha256": "0fad473de89753d55bcf31a3a3b77cd6ff073419b214bef92bb6825f8538a2c9",
+        "passed": true,
+        "path": "CA-HMCD_EAAI_Stage9_Robustness_Release_20260917.docx"
+      },
+      {
+        "expected_sha256": "38bd560c47ea694b098f5632458b40640ba520300d16d015e7df072a9cc2a791",
+        "observed_sha256": "38bd560c47ea694b098f5632458b40640ba520300d16d015e7df072a9cc2a791",
+        "passed": true,
+        "path": "CA-HMCD_EAAI_Stage9_Robustness_Release_20260917_audit.txt"
+      },
+      {
+        "expected_sha256": "6fc0c49670d41bcb8c8b757aedfa969637160730ef0bc0adef634a9118948af2",
+        "observed_sha256": "6fc0c49670d41bcb8c8b757aedfa969637160730ef0bc0adef634a9118948af2",
+        "passed": true,
+        "path": "CA-HMCD_Reproducibility_Package_20260917.zip"
+      },
+      {
+        "expected_sha256": "4a50ac15525740311971d07d2e7d6a92db57d2b41ac0416f5afe6d934b9f1681",
+        "observed_sha256": "4a50ac15525740311971d07d2e7d6a92db57d2b41ac0416f5afe6d934b9f1681",
+        "passed": true,
+        "path": "CA-HMCD_Reproducibility_Package_20260917/MANIFEST.csv"
+      },
+      {
+        "expected_sha256": "2cb3cab3d863cba16209d1de04de1781e00c7bd0b8e6ff34e43fb616eed49631",
+        "observed_sha256": "2cb3cab3d863cba16209d1de04de1781e00c7bd0b8e6ff34e43fb616eed49631",
+        "passed": true,
+        "path": "CA-HMCD_Reproducibility_Package_20260917/checksums.sha256"
+      },
+      {
+        "expected_sha256": "5ac8ba783752ebc0fb301f1129b2f02bc7bdbee5b7010614b1265faee4514feb",
+        "observed_sha256": "5ac8ba783752ebc0fb301f1129b2f02bc7bdbee5b7010614b1265faee4514feb",
+        "passed": true,
+        "path": "ca_hmcd_external_reference_formal_20260917/registered_episode_results.csv"
+      },
+      {
+        "expected_sha256": "7079280a92afd24370c2cdcbd65a3896e0b60f81d9da8603f6452168a33ac71d",
+        "observed_sha256": "7079280a92afd24370c2cdcbd65a3896e0b60f81d9da8603f6452168a33ac71d",
+        "passed": true,
+        "path": "ca_hmcd_external_baselines_formal_20260917/registered_episode_results.csv"
+      },
+      {
+        "expected_sha256": "5f66dbdad1950e5e14758de020e5dd7a214f2b97b8c820de01774f460840adb7",
+        "observed_sha256": "5f66dbdad1950e5e14758de020e5dd7a214f2b97b8c820de01774f460840adb7",
+        "passed": true,
+        "path": "ca_hmcd_no_pruning_formal_20260917/registered_episode_results.csv"
+      },
+      {
+        "expected_sha256": "20ae356e3d80c5d43216bf5a25d48daf9457f7d1f9fd25a228bcbd952073e7d9",
+        "observed_sha256": "20ae356e3d80c5d43216bf5a25d48daf9457f7d1f9fd25a228bcbd952073e7d9",
+        "passed": true,
+        "path": "ca_hmcd_parameter_robustness_analysis_20260917/configuration_summary_54.csv"
+      },
+      {
+        "expected_sha256": "af30770ca23a47602543e1de1c80cf93af6d140571de970cf6d74cd827729f0d",
+        "observed_sha256": "af30770ca23a47602543e1de1c80cf93af6d140571de970cf6d74cd827729f0d",
+        "passed": true,
+        "path": "ca_hmcd_parameter_robustness_analysis_20260917/paired_statistics_36.csv"
+      }
+    ],
+    "manifest_entries": 27,
+    "manifest_verified": true
+  },
+  "stage1": {
+    "code_hashes": {
+      "audit_ca_hmcd_stage0_stage1.py": "e67ac85e554f4241a68e4d9e1297f65e863bc0c158c4408c1a50d909541660a5",
+      "ca_hmcd_framework.py": "c68e976233354da362ff65a8e7a84bea42453e570d14fe87d08f8b72b1d64b7e",
+      "freeze_ca_hmcd_stage9_baseline.py": "ba613c84623aa8fd1c5b54895bcf431c3773771d2f743d8573c0043065c784eb",
+      "test_ca_hmcd_framework.py": "3d29b7ab8aa08cadf6b603e09c0e7f1673e7445f83a070b06024a096d6871d4a"
+    },
+    "contract": {
+      "framework_version": "ca-hmcd-framework-v3.0",
+      "legacy_evaluator_version": "complete-v3-stage1-closure",
+      "legacy_model_version": "ca-hmcd-stage1-closure-v2.3",
+      "legacy_service_endpoint_version": "solver-decoupled-service-v2",
+      "profiles": {
+        "CA-HMCD-Exact": {
+          "candidate_mode": "full",
+          "node_limit": 4000,
+          "note": "Complete candidate pool solved by SciPy/HiGHS.",
+          "solver_backend": "highs",
+          "status": "ACTIVE",
+          "top_k": null
+        },
+        "CA-HMCD-FixedK": {
+          "candidate_mode": "fixed_k",
+          "node_limit": 4000,
+          "note": "Stage 9 fixed-K retained-pool implementation.",
+          "solver_backend": "bounded_search",
+          "status": "ACTIVE_STAGE9_REFERENCE",
+          "top_k": 12
+        },
+        "CA-HMCD-NoPruning": {
+          "candidate_mode": "full",
+          "node_limit": 4000,
+          "note": "Complete candidate pool with the registered bounded search.",
+          "solver_backend": "bounded_search",
+          "status": "ACTIVE_CONTROL",
+          "top_k": null
+        },
+        "CA-HMCD-RT": {
+          "candidate_mode": "adaptive_k",
+          "node_limit": 4000,
+          "note": "Non-executable placeholder. The adaptive-K rule is reserved for Stage 2 and must be registered before this profile is activated.",
+          "solver_backend": "bounded_search",
+          "status": "RESERVED_STAGE2",
+          "top_k": null
+        }
+      }
+    },
+    "parity": {
+      "complete_pool_identity_passes": 12,
+      "dominance_removed_across_smoke_trials": 0,
+      "fixed_k_identity_passes": 12,
+      "highs_vs_unlimited_branch_bound_passes": 12,
+      "highs_wrapper_identity_passes": 12,
+      "maximum_candidate_value_difference": 0.0,
+      "maximum_exact_solver_difference": 5.551115123125783e-17,
+      "maximum_highs_wrapper_difference": 0.0,
+      "passed": true,
+      "trials": 12
+    }
+  }
+}

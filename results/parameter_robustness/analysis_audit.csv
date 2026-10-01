@@ -1,0 +1,14 @@
+﻿check,observed,expected,passed
+stage-2 integrity status,PASS,PASS,True
+model version,ca-hmcd-stage1-closure-v2.3,ca-hmcd-stage1-closure-v2.3,True
+external evaluator version,complete-v3-stage1-closure,complete-v3-stage1-closure,True
+service endpoint version,solver-decoupled-service-v2,solver-decoupled-service-v2,True
+raw parameter records,1620,1620,True
+parameter configurations,54,54,True
+paired seeds per configuration,[30],[30],True
+decision periods per seed,12,12,True
+registered parameters,"['alpha_cost', 'beta_time', 'gamma_unserved', 'lambda_redundancy', 'lambda_switch', 'synergy_scale']","['alpha_cost', 'beta_time', 'gamma_unserved', 'lambda_redundancy', 'lambda_switch', 'synergy_scale']",True
+registered algorithms,"['CA-HMCD', 'External-Auction', 'Greedy']","['CA-HMCD', 'External-Auction', 'Greedy']",True
+paired comparison rows,36,36,True
+Holm families,6,6,True
+complete finite statistics,36,36,True

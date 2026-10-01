@@ -1,0 +1,23 @@
+{
+  "pdf": "D:\\Z-Codex\\1-suanfa\\figures\\stage6_replay\\figure7_computational_boundary.pdf",
+  "auditable": true,
+  "verdict": "PASS",
+  "page_count": 1,
+  "visible_text_box_count": 56,
+  "text_trace_count": 56,
+  "stroke_path_count": 126,
+  "filled_region_count": 173,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 2,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": []
+}

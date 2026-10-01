@@ -1,0 +1,79 @@
+CA-HMCD Stage 9 parameter-robustness and release manuscript audit
+Date: 2026-09-17
+Output: <PROJECT_ROOT>\CA-HMCD_EAAI_Stage9_Robustness_Release_20260917.docx
+Paragraphs: 222
+Tables: 46
+Inline shapes: 7
+References: 59
+Abstract words: 195
+Keywords: 6
+
+Checks:
+- PASS: top_level_sections_1_to_8
+- PASS: parameter_results_section
+- PASS: parameter_discussion_boundary
+- PASS: table_8_present
+- PASS: supplements_s9_s10_named
+- PASS: fifty_four_configurations_reported
+- PASS: thirty_six_comparisons_reported
+- PASS: six_holm_families_reported
+- PASS: data_availability_present
+- PASS: code_availability_present
+- PASS: doi_not_invented
+- PASS: license_not_invented
+- PASS: abstract_at_most_250_words
+- PASS: at_most_6_keywords
+- PASS: figures_1_to_7
+- PASS: tables_1_to_8
+- PASS: references_59
+- PASS: supplement_s9_exists
+- PASS: supplement_s10_exists
+
+Headings:
+- 1. Introduction
+- 2. Related Work
+- 2.1. Heterogeneous task allocation
+- 2.2. Coalition formation and combinatorial allocation
+- 2.3. Dynamic, distributed, and learning-based allocation
+- 2.4. Low-altitude safety resource coordination
+- 2.5. Position of the present study
+- 3. Problem Formulation
+- 3.1. Dynamic state and task requirements
+- 3.2. Pair scores and feasible coalitions
+- 3.3. Coalition value
+- 3.4. Rolling coalition selection
+- 3.5. True-state feasibility and external evaluation
+- 4. CA-HMCD Method
+- 4.1. Overview
+- 4.2. Type-conditioned pair valuation
+- 4.3. Complementarity and redundancy functions
+- 4.4. Candidate construction and history-aware reduction
+- 4.5. Global selection, warm start, and fallback
+- 4.6. True-state repair and unified evaluation
+- 4.7. Procedure, complexity, and implementation limits
+- 5. Experimental Protocol
+- 5.1. Research questions and registered evidence design
+- 5.2. Replay construction and engineering boundary
+- 5.3. Compared methods and fairness controls
+- 5.4. Outcomes and external evaluation
+- 5.5. Statistical analysis
+- 5.6. Reproducibility and validation scope
+- 6. Results
+- 6.1. Performance changed with concurrent task load
+- 6.2. Stability protected the full objective; complementarity was conditional
+- 6.3. Coalition structure changed without proving an isolated redundancy benefit
+- 6.4. Public-data replay established traceability and a single-target boundary
+- 6.5. Bounded search exposed the high-load computational boundary
+- 6.6. Full-candidate baselines exposed the retained-pool performance boundary
+- 6.7. Relative performance persisted across 54 parameter-method configurations
+- 7. Discussion
+- 7.1. Central interpretation
+- 7.2. Stability and complementarity play different roles
+- 7.3. Structural redundancy diagnostics require contextual interpretation
+- 7.4. Public data strengthen task-side realism but do not constitute field validation
+- 7.5. Statistical and computational boundaries
+- 7.6. Parameter robustness is relative, not a calibration claim
+- 8. Conclusion
+- Data availability
+- Code availability
+- References

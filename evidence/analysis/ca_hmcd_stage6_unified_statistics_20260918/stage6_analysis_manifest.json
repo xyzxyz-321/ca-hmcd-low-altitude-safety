@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-18",
+  "verification_status": "ANALYZED",
+  "registry_rows": 1592,
+  "holm_families": 316,
+  "sources": [
+    {
+      "path": "CA-HMCD_Reproducibility_Package_20260917\\results\\statistical_registry\\complete_statistical_registry_516.csv",
+      "sha256": "c901fd19170e9d6a8fd0f4b5d41f755967b7ad93d30c7c9a5ea3fb80f5c7b924"
+    },
+    {
+      "path": "ca_hmcd_stage3_boundary_analysis_20260917\\stage3_paired_statistics.csv",
+      "sha256": "2c6be7d2a298ca72ca9a0d1d1e990615b71511527731aa568a66eef5c061dd0f"
+    },
+    {
+      "path": "ca_hmcd_stage4_value_engineering_analysis_20260918\\stage4_paired_comparisons.csv",
+      "sha256": "9af949b9b6fc85cfbb27cada710450236cd1c469c3636f71146a4396d224b3dc"
+    },
+    {
+      "path": "ca_hmcd_stage5_applicability_analysis_20260918\\stage5_paired_comparisons.csv",
+      "sha256": "5176583f6b168d2753685bf220d5d1b358794a101eb5443f34c093d9315efd42"
+    }
+  ],
+  "outputs": [
+    "ca_hmcd_stage6_unified_statistics_20260918\\complete_statistical_registry_1592.csv",
+    "ca_hmcd_stage6_unified_statistics_20260918\\complete_holm_family_registry_316.csv",
+    "ca_hmcd_stage6_unified_statistics_20260918\\claim_evidence_matrix.csv",
+    "ca_hmcd_stage6_unified_statistics_20260918\\evidence_layer_summary.csv",
+    "CA-HMCD_Supplementary_Table_S11_Unified_Statistical_Registry_20260918.csv"
+  ],
+  "checks": {
+    "registry_rows_1592": true,
+    "holm_families_316": true,
+    "record_ids_unique": true,
+    "all_family_ids_present": true,
+    "all_metrics_present": true,
+    "holm_p_in_unit_interval": true,
+    "unadjusted_p_in_unit_interval": true,
+    "ci_order_valid": true,
+    "supplement_written": true
+  }
+}

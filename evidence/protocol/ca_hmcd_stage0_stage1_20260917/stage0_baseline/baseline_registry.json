@@ -1,0 +1,228 @@
+{
+  "baseline_id": "ca-hmcd-stage9-frozen-20260917",
+  "created_at_utc": "2026-09-17T11:43:10.727320+00:00",
+  "evaluator_version": "complete-v3-stage1-closure",
+  "formal_sessions": {
+    "external_full_candidate_baselines": {
+      "algorithms": [
+        "HiGHS-MILP",
+        "Genetic-Algorithm"
+      ],
+      "audit_pass": true,
+      "code_hashes": {
+        "ca_hmcd_replay.py": "41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5",
+        "ca_hmcd_replay_runner.py": "a7a869f9c25701807b9d3f02687983558f06f6e7cc347c79b50ab8295ed44591",
+        "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1"
+      },
+      "expected_runs": 2640
+    },
+    "matched_ca_reference": {
+      "algorithms": [
+        "CA-HMCD"
+      ],
+      "audit_pass": true,
+      "code_hashes": {
+        "ca_hmcd_replay.py": "41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5",
+        "ca_hmcd_replay_runner.py": "dae68f4e1806fbb7eef93124b1de9a2d40670886c57d53adca2fdff3f4ec8de7",
+        "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1"
+      },
+      "expected_runs": 1320
+    },
+    "no_pruning_control": {
+      "algorithms": [
+        "No-Pruning"
+      ],
+      "audit_pass": true,
+      "code_hashes": {
+        "ca_hmcd_replay.py": "41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5",
+        "ca_hmcd_replay_runner.py": "d8621b72e3323e06cf874a895eee7577ab0106456545f1fe369d6df4a9b60635",
+        "ca_hmcd_simulation.py": "74f4dc965e6d1c591b369f803eb0d9c4cf9de13d286c47f98086cce0a75baef2"
+      },
+      "expected_runs": 1320
+    },
+    "parameter_sensitivity": {
+      "audit_pass": true,
+      "holm_families": 6,
+      "paired_comparisons": 36,
+      "parameter_configurations": 54,
+      "seed_level_records": 1620
+    },
+    "primary_six_method_replay": {
+      "algorithms": [
+        "CA-HMCD",
+        "Greedy",
+        "External-Auction",
+        "No-Synergy",
+        "No-Stability",
+        "Random"
+      ],
+      "audit_pass": true,
+      "code_hashes": {
+        "ca_hmcd_replay.py": "41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5",
+        "ca_hmcd_replay_runner.py": "d41a1b2c37bf85b27a910000eaa8f6b8624e3b94b77e81c5dcccb62746e9e67a",
+        "ca_hmcd_simulation.py": "74f4dc965e6d1c591b369f803eb0d9c4cf9de13d286c47f98086cce0a75baef2"
+      },
+      "expected_runs": 7920
+    }
+  },
+  "frozen_date": "2026-09-17",
+  "model_version": "ca-hmcd-stage1-closure-v2.3",
+  "protocol": {
+    "horizon_steps": 12,
+    "independent_units": 44,
+    "nested_seeds_per_unit": 30,
+    "node_limit": 4000,
+    "protocol_config_sha256": "2bfa89274a4459b6eb529ee469236e71b60e3ee8673c134b61ef7ceb14011493",
+    "protocol_fingerprint": "b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea",
+    "registered_units": 1320,
+    "resources_count": 10,
+    "run_registry_sha256": "ef52fd42f1ced45907a1378ab6127aabad925885196ee752f113386cf11f3704",
+    "top_k": 12
+  },
+  "registered_files": [
+    {
+      "relative_path": "ca_hmcd_simulation.py",
+      "sha256": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+      "size_bytes": 169728
+    },
+    {
+      "relative_path": "ca_hmcd_replay.py",
+      "sha256": "41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5",
+      "size_bytes": 92603
+    },
+    {
+      "relative_path": "ca_hmcd_replay_runner.py",
+      "sha256": "dae68f4e1806fbb7eef93124b1de9a2d40670886c57d53adca2fdff3f4ec8de7",
+      "size_bytes": 35835
+    },
+    {
+      "relative_path": "ca_hmcd_replay_protocol.py",
+      "sha256": "b9823120d18f0af20451ee2cf14d27a3ed421b7c2e361fbed066c5e64d61b4a9",
+      "size_bytes": 33455
+    },
+    {
+      "relative_path": "ca_hmcd_external_baseline_analysis.py",
+      "sha256": "605fbe56d122e19ae194da0c6c899e7e0d2791c7157e9ba69137f2d4490682ad",
+      "size_bytes": 37094
+    },
+    {
+      "relative_path": "ca_hmcd_no_pruning_analysis.py",
+      "sha256": "fbe00210fa978e15f11787c3ed5d15f5931c8dfb8bb57b990725ecbfda510866",
+      "size_bytes": 35930
+    },
+    {
+      "relative_path": "ca_hmcd_parameter_robustness_analysis.py",
+      "sha256": "34ae1396e3e845b2e4a7a77f682af7fcdf5267a517fe8427ab6296d3c52c41a6",
+      "size_bytes": 17532
+    },
+    {
+      "relative_path": "ca_hmcd_replay_protocol_20260916/protocol_config.json",
+      "sha256": "2bfa89274a4459b6eb529ee469236e71b60e3ee8673c134b61ef7ceb14011493",
+      "size_bytes": 1346
+    },
+    {
+      "relative_path": "ca_hmcd_replay_protocol_20260916/experiment_run_registry.csv",
+      "sha256": "ef52fd42f1ced45907a1378ab6127aabad925885196ee752f113386cf11f3704",
+      "size_bytes": 161196
+    },
+    {
+      "relative_path": "ca_hmcd_no_pruning_protocol_20260917.md",
+      "sha256": "12868c0f7b434a00ecc542198e3843c2ba4be268aa6d5209aa4eb2c23fd08422",
+      "size_bytes": 2869
+    },
+    {
+      "relative_path": "ca_hmcd_external_baselines_protocol_20260917.md",
+      "sha256": "cbc9867e26f398b4b58bac0b3ee943015979867adf30ab859d628777045edaa3",
+      "size_bytes": 5216
+    },
+    {
+      "relative_path": "ca_hmcd_external_baselines_protocol_amendment_20260917.md",
+      "sha256": "3d7ccc47b3ff491ef2b617e6e30a3f5a3b2a33ff874396703066fc9798debe36",
+      "size_bytes": 1738
+    },
+    {
+      "relative_path": "CA-HMCD_Reproducibility_Package_20260917/results/formal_runs/primary_public_replay/execution_metadata.json",
+      "sha256": "d8db0132e9536199a9f536cddef5c041a3b9216a555af0544911c26e9956057e",
+      "size_bytes": 2748
+    },
+    {
+      "relative_path": "ca_hmcd_external_reference_formal_20260917/execution_metadata.json",
+      "sha256": "0a22d926cf54ea38000e196a3908ef2cd811cf8057e579c08bb01b8c09e2afef",
+      "size_bytes": 2644
+    },
+    {
+      "relative_path": "ca_hmcd_external_baselines_formal_20260917/execution_metadata.json",
+      "sha256": "12b684d1d9bc4078b7319ddc340265fcc20e76c4e624e6edb62bc68331662a5b",
+      "size_bytes": 2668
+    },
+    {
+      "relative_path": "ca_hmcd_no_pruning_formal_20260917/execution_metadata.json",
+      "sha256": "f68c61802c10c42457121445a38e3ea259a0881148cb3ba57f07ac91cdb19c12",
+      "size_bytes": 2658
+    },
+    {
+      "relative_path": "ca_hmcd_parameter_robustness_analysis_20260917/analysis_metadata.json",
+      "sha256": "d73b3d7314347055509a764a56535fd52c42a9e66c5c3d5d308b337428584c7e",
+      "size_bytes": 795
+    },
+    {
+      "relative_path": "CA-HMCD_EAAI_Stage9_Robustness_Release_20260917.docx",
+      "sha256": "0fad473de89753d55bcf31a3a3b77cd6ff073419b214bef92bb6825f8538a2c9",
+      "size_bytes": 1509363
+    },
+    {
+      "relative_path": "CA-HMCD_EAAI_Stage9_Robustness_Release_20260917_audit.txt",
+      "sha256": "38bd560c47ea694b098f5632458b40640ba520300d16d015e7df072a9cc2a791",
+      "size_bytes": 3052
+    },
+    {
+      "relative_path": "CA-HMCD_Reproducibility_Package_20260917.zip",
+      "sha256": "6fc0c49670d41bcb8c8b757aedfa969637160730ef0bc0adef634a9118948af2",
+      "size_bytes": 21999339
+    },
+    {
+      "relative_path": "CA-HMCD_Reproducibility_Package_20260917/MANIFEST.csv",
+      "sha256": "4a50ac15525740311971d07d2e7d6a92db57d2b41ac0416f5afe6d934b9f1681",
+      "size_bytes": 33639
+    },
+    {
+      "relative_path": "CA-HMCD_Reproducibility_Package_20260917/checksums.sha256",
+      "sha256": "2cb3cab3d863cba16209d1de04de1781e00c7bd0b8e6ff34e43fb616eed49631",
+      "size_bytes": 30418
+    },
+    {
+      "relative_path": "ca_hmcd_external_reference_formal_20260917/registered_episode_results.csv",
+      "sha256": "5ac8ba783752ebc0fb301f1129b2f02bc7bdbee5b7010614b1265faee4514feb",
+      "size_bytes": 2184105
+    },
+    {
+      "relative_path": "ca_hmcd_external_baselines_formal_20260917/registered_episode_results.csv",
+      "sha256": "7079280a92afd24370c2cdcbd65a3896e0b60f81d9da8603f6452168a33ac71d",
+      "size_bytes": 4334557
+    },
+    {
+      "relative_path": "ca_hmcd_no_pruning_formal_20260917/registered_episode_results.csv",
+      "sha256": "5f66dbdad1950e5e14758de020e5dd7a214f2b97b8c820de01774f460840adb7",
+      "size_bytes": 2228635
+    },
+    {
+      "relative_path": "ca_hmcd_parameter_robustness_analysis_20260917/configuration_summary_54.csv",
+      "sha256": "20ae356e3d80c5d43216bf5a25d48daf9457f7d1f9fd25a228bcbd952073e7d9",
+      "size_bytes": 38227
+    },
+    {
+      "relative_path": "ca_hmcd_parameter_robustness_analysis_20260917/paired_statistics_36.csv",
+      "sha256": "af30770ca23a47602543e1de1c80cf93af6d140571de970cf6d74cd827729f0d",
+      "size_bytes": 20539
+    }
+  ],
+  "reproducibility_package": {
+    "checksums_sha256": "2cb3cab3d863cba16209d1de04de1781e00c7bd0b8e6ff34e43fb616eed49631",
+    "manifest_sha256": "4a50ac15525740311971d07d2e7d6a92db57d2b41ac0416f5afe6d934b9f1681",
+    "zip_path": "CA-HMCD_Reproducibility_Package_20260917.zip",
+    "zip_sha256": "6fc0c49670d41bcb8c8b757aedfa969637160730ef0bc0adef634a9118948af2"
+  },
+  "service_endpoint_version": "solver-decoupled-service-v2",
+  "source_policy": "The Stage 9 source and evidence are immutable references. All v3 work must use new modules or explicitly versioned outputs.",
+  "status": "FROZEN"
+}

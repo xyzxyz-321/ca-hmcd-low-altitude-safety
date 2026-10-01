@@ -1,0 +1,27 @@
+{
+  "gate": "A",
+  "decision": "FAIL",
+  "method_adjudication": "DO_NOT_PROMOTE_CA_HMCD_RT",
+  "high_load_definition": "Anti-UAV410 loads 6 and 8",
+  "independent_cluster_count": 10,
+  "service_k12_gap_to_full": 0.02105877183476379,
+  "service_adaptive_gap_to_full": 0.0013213211072157227,
+  "service_gap_recovery": 0.9372555475892241,
+  "coverage_k12_gap_to_full": 0.05192625661375638,
+  "coverage_adaptive_gap_to_full": 0.0,
+  "coverage_gap_recovery": 1.0,
+  "adaptive_external_objective": 0.14673476612415876,
+  "k12_external_objective": 0.12344082566554226,
+  "adaptive_candidate_ratio_to_full": 0.17019945775489723,
+  "adaptive_node_ratio_to_full": 0.9617588194444445,
+  "adaptive_final_feasibility": 1.0,
+  "criteria": {
+    "service_gap_recovery_at_least_20pct": true,
+    "coverage_gap_recovery_at_least_20pct": true,
+    "objective_not_below_k12_by_more_than_0_002": true,
+    "candidate_ratio_at_most_0_25": true,
+    "node_ratio_at_most_0_60": false,
+    "final_feasibility_equals_1": true
+  },
+  "interpretation": "AdaptiveK recovers high-load quality and compresses the candidate pool, but it does not reduce bounded-search node demand enough to qualify as the registered real-time profile."
+}

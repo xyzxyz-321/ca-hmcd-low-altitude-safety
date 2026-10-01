@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-18",
+  "backend": "Python/matplotlib",
+  "figures": [
+    "figure3_public_replay_performance",
+    "figure4_mechanism_validation",
+    "figure5_redundancy_null_result",
+    "figure6_true_state_repair",
+    "figure7_solver_deadline_boundary"
+  ],
+  "statistical_rule": "95% BCa intervals and Holm-adjusted P values are taken directly from the registered Stage 4 and Stage 5 tables.",
+  "interpretation": "Mechanism, solver, and deadline evidence are kept in separate panels and are not pooled."
+}

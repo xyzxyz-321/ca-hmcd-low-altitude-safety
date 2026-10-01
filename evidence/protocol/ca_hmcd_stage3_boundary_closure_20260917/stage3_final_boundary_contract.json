@@ -1,0 +1,57 @@
+{
+  "stage_id": "ca-hmcd-stage3-exact-realtime-boundary-v1",
+  "closure_date": "2026-09-17",
+  "execution_status": "COMPLETED_AND_AUDITED",
+  "gate_b": {
+    "decision": "FAIL",
+    "passing_cells": 0,
+    "registered_cells": 64,
+    "method_adjudication": "DO_NOT_CLAIM_A_VALIDATED_REAL_TIME_BOUNDARY"
+  },
+  "formal_evidence": {
+    "independent_seeded_units": 480,
+    "method_runs": 2400,
+    "paired_scale_budget_rows": 1920,
+    "paired_statistical_comparisons": 576,
+    "holm_families": 36,
+    "exact_reference_cells_with_30_of_30_optimal_runs": 64,
+    "all_final_allocations_feasible": true
+  },
+  "criterion_coverage_over_64_cells": {
+    "exact_reference_optimal_rate_required": 64,
+    "exact_deadline_hit_rate_below_threshold": 47,
+    "bounded_k12_deadline_hit_rate_required": 2,
+    "bounded_k12_feasibility_required": 64,
+    "service_loss_within_limit": 13,
+    "coverage_loss_within_limit": 11,
+    "objective_loss_within_limit": 28
+  },
+  "boundary_findings": {
+    "small_scale": "At R10-T4 and 200/500 ms, both modes met every deadline and bounded K12 preserved quality, so no real-time advantage over HiGHS was established.",
+    "quality_preserving_deadline_miss": "At R16-T4 and 100 ms, bounded K12 preserved the registered quality limits but met only 1 of 30 deadlines, versus 7 of 30 for exact HiGHS.",
+    "closest_deadline_separation": "At R32-T4 and 500 ms, exact HiGHS met 0 of 30 deadlines and bounded K12 met 24 of 30, below the required 29 of 30; service, coverage, and objective-per-task losses also exceeded all registered limits.",
+    "dominant_bottleneck": "Fixed-K12 candidate construction consumed 74% to 100% of bounded-mode decision time. The current exhaustive dominance stage often costs more than complete-pool enumeration followed by HiGHS at 10 to 16 resources.",
+    "statistical_direction": "Across registered budgets, the bounded mode generally reduced quality endpoints and did not produce a robust deadline-hit advantage after Holm correction."
+  },
+  "method_status_after_stage3": {
+    "CA-HMCD-Exact": {
+      "status": "VALIDATED_EXACT_REFERENCE",
+      "recommended_use": "Default for the tested small and moderate scales when its observed deadline is acceptable."
+    },
+    "CA-HMCD-BoundedK12-Candidate": {
+      "status": "EXPERIMENTAL_GATE_B_FAILED",
+      "recommended_use": "Retain as a reproducible control; do not label it a validated real-time mode."
+    },
+    "CA-HMCD-RT-AdaptiveK": {
+      "status": "EXPERIMENTAL_GATE_A_FAILED",
+      "recommended_use": "Stage-2 decision remains unchanged."
+    }
+  },
+  "next_required_algorithmic_work": [
+    "Replace all-pairs dominance testing with an incremental or indexed nondominance procedure.",
+    "Stop candidate construction directly at a certified time budget instead of generating and pruning the full intermediate pool.",
+    "Use cheap admissible upper bounds before coalition valuation to avoid evaluating candidates that cannot enter the retained top K.",
+    "Re-register and rerun the exact-versus-real-time boundary after implementation; do not tune thresholds against the present outcomes."
+  ],
+  "claim_boundary": "The manuscript may report a negative boundary result and the exact-mode operating region. It may not claim that the present fixed-K12 or adaptive-K implementation is a validated real-time solver."
+}

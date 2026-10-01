@@ -1,0 +1,14 @@
+﻿check,observed,expected,passed
+formal execution audit,True,True,True
+formal run count,5280,5280,True
+analysis source audit,True,True,True
+six-policy pairing audit,True,True,True
+registered comparison count,275,275,True
+registered Holm families,55,55,True
+Holm adjusted P values valid,"all adjusted P in [raw P, 1]",True,True
+bounded intervals valid,180,180,True
+release manifest verified,True,True,True
+Stage 9 core remains frozen,"{'ca_hmcd_simulation.py': 'b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1', 'ca_hmcd_replay.py': '41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5', 'ca_hmcd_replay_runner.py': 'dae68f4e1806fbb7eef93124b1de9a2d40670886c57d53adca2fdff3f4ec8de7'}","{'ca_hmcd_simulation.py': 'b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1', 'ca_hmcd_replay.py': '41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5', 'ca_hmcd_replay_runner.py': 'dae68f4e1806fbb7eef93124b1de9a2d40670886c57d53adca2fdff3f4ec8de7'}",True
+formal Stage 2 execution source frozen,"{'ca_hmcd_stage2_candidate_runner.py': 'e679b75b5150af4ca7cf07b18b3152ecdd15df76497bcfa7822d2203c5f9ebe5', 'ca_hmcd_framework.py': 'ade4fd9c11deaa70687a6e3aba01877fcf4110624ae3cd9096578b80cc68ea50'}","{'ca_hmcd_stage2_candidate_runner.py': 'e679b75b5150af4ca7cf07b18b3152ecdd15df76497bcfa7822d2203c5f9ebe5', 'ca_hmcd_framework.py': 'ade4fd9c11deaa70687a6e3aba01877fcf4110624ae3cd9096578b80cc68ea50'}",True
+Gate A adjudicated once,FAIL,"PASS, PROVISIONAL, or FAIL",True
+framework records failed RT promotion,EXPERIMENTAL_GATE_A_FAILED,EXPERIMENTAL_GATE_A_FAILED,True

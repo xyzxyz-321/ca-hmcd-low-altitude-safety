@@ -1,0 +1,113 @@
+{
+  "registration_date": "2026-09-17",
+  "stage_id": "ca-hmcd-stage3-exact-realtime-boundary-v1",
+  "status": "FROZEN_BEFORE_STAGE3_EXECUTION",
+  "parent_registration": "ca_hmcd_stage0_stage1_20260917/revision_registration.json",
+  "parent_stage2_decision": {
+    "gate": "A",
+    "decision": "FAIL",
+    "consequence": "AdaptiveK remains executable but is not presented as a validated real-time mode."
+  },
+  "research_question": "At which registered resource-task scales and wall-clock budgets does a fixed-K interruptible CA-HMCD decision path return feasible allocations on time while the complete-pool HiGHS path misses the same deadline, without exceeding the registered quality-loss limits?",
+  "independent_unit": "one deterministic seeded static decision snapshot",
+  "scenario_generator": {
+    "function": "ca_hmcd_simulation.make_scenario",
+    "arrival_horizon": 0,
+    "all_tasks_forced_active": true,
+    "previous_allocation": {},
+    "state_acquisition_time_included": false
+  },
+  "design": {
+    "resource_counts": [10, 16, 24, 32],
+    "concurrent_task_counts": [4, 8, 12, 16],
+    "decision_budgets_ms": [50, 100, 200, 500],
+    "seeds": [
+      940000, 940001, 940002, 940003, 940004, 940005, 940006, 940007,
+      940008, 940009, 940010, 940011, 940012, 940013, 940014, 940015,
+      940016, 940017, 940018, 940019, 940020, 940021, 940022, 940023,
+      940024, 940025, 940026, 940027, 940028, 940029
+    ],
+    "scale_cells": 16,
+    "seeded_units": 480,
+    "exact_runs": 480,
+    "bounded_k12_runs": 1920,
+    "total_runs": 2400,
+    "execution": "single-process sequential execution after one excluded warm-up unit",
+    "method_order": "Exact first for even seed offsets and bounded-K12 first for odd seed offsets.",
+    "budget_order": "The four budgets are deterministically rotated by seed offset."
+  },
+  "methods": {
+    "CA-HMCD-Exact": {
+      "candidate_policy": "complete pool; no compatibility screen, dominance pruning, or diversity pruning",
+      "solver": "SciPy MILP with HiGHS",
+      "solver_time_cap_ms": 5000,
+      "node_limit": 100000000,
+      "reference_rule": "A seed is an exact quality reference only when HiGHS returns optimal status."
+    },
+    "CA-HMCD-BoundedK12-Candidate": {
+      "candidate_policy": "Stage-9 fixed K=12 with compatibility screening where already defined, corrected dominance pruning, and diversity retention",
+      "solver": "interruptible retained-pool branch-and-bound with a greedy feasible warm start",
+      "node_limit": 100000000,
+      "deadline_rule": "The solver receives only the remaining registered wall-clock budget after candidate generation."
+    }
+  },
+  "timing_contract": {
+    "included": [
+      "candidate generation",
+      "candidate retention",
+      "optimization or bounded search"
+    ],
+    "excluded": [
+      "state construction and acquisition",
+      "post-hoc unified external evaluation",
+      "result serialization and statistical analysis"
+    ],
+    "deadline_hit_definition": "observed decision_runtime_ms <= registered decision_budget_ms",
+    "tolerance": "none",
+    "clock": "time.perf_counter"
+  },
+  "primary_endpoints": [
+    "deadline_hit_rate",
+    "final_feasibility",
+    "complete_model_true_state_objective_per_active_task",
+    "independent_service_score",
+    "independent_coverage"
+  ],
+  "secondary_endpoints": [
+    "common_served_task_response_time",
+    "candidate_count",
+    "visited_nodes",
+    "fallback_rate",
+    "optimality_gap_bound",
+    "candidate_generation_ms",
+    "solver_runtime_ms",
+    "decision_runtime_ms"
+  ],
+  "gate_b": {
+    "cell_independent_seed_count": 30,
+    "exact_reference_optimal_rate_required": 1.0,
+    "exact_deadline_hit_rate_must_be_below": 0.95,
+    "bounded_k12_deadline_hit_rate_required": 0.95,
+    "bounded_k12_feasibility_required": 1.0,
+    "maximum_mean_service_score_loss": 0.03,
+    "maximum_mean_coverage_loss": 0.05,
+    "maximum_mean_objective_per_task_loss": 0.02,
+    "decision": "PASS if at least one registered scale-budget cell satisfies every criterion; otherwise FAIL.",
+    "claim_boundary": "A PASS validates only the fixed-K12 bounded mode in the passing cells. It does not reverse Stage-2 Gate A or validate AdaptiveK."
+  },
+  "statistical_plan": {
+    "confidence_level": 0.95,
+    "mean_difference_interval": "paired BCa bootstrap with 10000 resamples",
+    "bounded_rate_interval": "Wilson score interval",
+    "paired_test": "two-sided paired Wilcoxon signed-rank test",
+    "effect_sizes": ["Cohen dz", "rank-biserial correlation", "paired win rate"],
+    "multiplicity": "Holm step-down correction within each endpoint-by-budget family over the 16 registered scale cells",
+    "quality_pairing": "quality comparisons use only seeds with an optimal HiGHS reference; the gate still requires 30/30 optimal references in a passing cell"
+  },
+  "frozen_model_contract": {
+    "value_model_version": "ca-hmcd-stage1-closure-v2.3",
+    "external_evaluator_version": "complete-v3-stage1-closure",
+    "service_endpoint_version": "solver-decoupled-service-v2",
+    "no_post_outcome_tuning": true
+  }
+}

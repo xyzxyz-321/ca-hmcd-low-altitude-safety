@@ -1,0 +1,22 @@
+﻿check,observed,expected,passed
+baseline formal mode,formal,formal,True
+control formal-control mode,formal-control,formal-control,True
+baseline execution audit,True,True,True
+control execution audit,True,True,True
+control algorithm registration,['No-Pruning'],['No-Pruning'],True
+same frozen protocol fingerprint,b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea,b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea,True
+same replay mapping code,41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5,41052a5d71bd770ff16e804399c322523a3a2db2ef39d5a41f0957b35e2922d5,True
+same simulation and value-model code,74f4dc965e6d1c591b369f803eb0d9c4cf9de13d286c47f98086cce0a75baef2,74f4dc965e6d1c591b369f803eb0d9c4cf9de13d286c47f98086cce0a75baef2,True
+control registered row count,1320,1320,True
+complete paired episode keys,2640,2640,True
+No-Pruning disables dominance removal,0.0,0.0,True
+No-Pruning disables diversity removal,0.0,0.0,True
+same pre-pruning feasible candidate count,paired workload-seed mean,equal,True
+registered run units are unique,1320,1320,1
+episode result count is complete,2640,2640,1
+every episode tuple occurs once,1,1,1
+per-step result count is complete,31680,31680,1
+paired audit group count is complete,15840,15840,1
+all paired state audits pass,15840,15840,1
+all final allocations are feasible,1.0,1.0,1
+all final allocations feasible,1.0,1.0,True

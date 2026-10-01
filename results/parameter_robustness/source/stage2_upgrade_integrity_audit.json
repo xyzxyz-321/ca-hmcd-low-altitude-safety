@@ -1,0 +1,16 @@
+{
+  "audit_date": "2026-09-16",
+  "status": "PASS",
+  "model_version": "ca-hmcd-stage1-closure-v2.3",
+  "evaluator_version": "complete-v3-stage1-closure",
+  "service_endpoint_version": "solver-decoupled-service-v2",
+  "primary_episode_count": 720,
+  "primary_per_step_count": 8640,
+  "protocol_units": 1440,
+  "scale_configurations": 14,
+  "engineering_configurations": 20,
+  "parameter_configurations": 54,
+  "reference_runs": 90,
+  "external_pool_configurations": 24,
+  "primary_screen_activations": 0
+}

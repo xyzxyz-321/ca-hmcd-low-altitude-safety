@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-09-17T00:52:24.859001+00:00",
+  "baseline_dir": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage4_replay_formal_20260916",
+  "control_dir": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_no_pruning_formal_20260917",
+  "baseline_protocol_fingerprint": "b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea",
+  "control_protocol_fingerprint": "b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea",
+  "bootstrap_resamples": 10000,
+  "independent_units": 44,
+  "nested_seeds_per_unit": 30,
+  "analysis_script_sha256": "fbe00210fa978e15f11787c3ed5d15f5931c8dfb8bb57b990725ecbfda510866",
+  "audit_pass": true
+}

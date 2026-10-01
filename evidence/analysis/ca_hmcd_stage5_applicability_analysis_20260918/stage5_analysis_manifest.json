@@ -1,0 +1,326 @@
+{
+  "schema": "ca-hmcd-stage5-applicability-analysis-manifest-v1",
+  "analysis_version": "ca-hmcd-stage5-applicability-analysis-v1.1",
+  "created_at_utc": "2026-09-18T01:29:41.825353+00:00",
+  "formal_source": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage5_applicability_formal_20260918",
+  "protocol_source": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage5_applicability_protocol_20260918",
+  "source_validation": {
+    "metadata": {
+      "schema": "ca-hmcd-stage5-applicability-execution-v1",
+      "runner_version": "ca-hmcd-stage5-applicability-runner-v1",
+      "created_at_utc": "2026-09-18T01:21:28.972086+00:00",
+      "mode": "formal",
+      "selected_units": 750,
+      "registered_units": 750,
+      "episode_results": 750,
+      "per_step_results": 9000,
+      "pairing_audits": 1800,
+      "expected_pairing_audits": 1800,
+      "audit_pass": true,
+      "new_units": 750,
+      "resumed_units": 0,
+      "warmup_s": 0.08808820000012929,
+      "formal_duration_s": 203.76127600000018,
+      "max_workers": 4,
+      "protocol_fingerprint": "e3e9bba35f532aa93bea35f5153a68396e965aa5ff5b093d5633168db757d373",
+      "code_hashes": {
+        "ca_hmcd_stage5_applicability_runner.py": "b6d2734e00346233aad242f918afa76ce83c42e8654ad0916b3d6ce4072cd518",
+        "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+        "ca_hmcd_framework.py": "f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa",
+        "stage5_preregistration.json": "4ea190299273dd895d7d90013532ce35002b5055ef9c27aac189af13e53364cc",
+        "stage5_protocol.md": "c0ab57d0c419df18cad8f47f4db6f12a2c75079fc31ec03e88bee857905ca38a"
+      },
+      "registration_validation": {
+        "registration": {
+          "protocol_id": "ca-hmcd-stage5-applicability-boundary-20260918",
+          "registration_date": "2026-09-18",
+          "stage": "Stage 5: external baselines and method applicability boundary",
+          "parent_evidence": [
+            "ca_hmcd_stage3_boundary_analysis_20260917",
+            "ca_hmcd_stage4_value_engineering_analysis_20260918"
+          ],
+          "primary_question": "Which solver profile should be used under the registered engineering scenarios when solution quality, computation time, feasibility, stability, and engineering mechanism evidence are considered jointly?",
+          "interpretation_contract": {
+            "highs_role": "HiGHS-MILP is an external exact optimization backend applied to the same frozen CA-HMCD value model and complete candidate space. A HiGHS advantage is an exact-mode advantage within the framework, not evidence against the value model.",
+            "fixed_k_role": "CA-HMCD denotes the registered K=12 candidate-compression plus bounded branch-and-bound profile.",
+            "external_methods": [
+              "Genetic-Algorithm",
+              "Greedy",
+              "External-Auction"
+            ],
+            "forbidden_claim": "No result may be used to claim a universal real-time or universal performance advantage."
+          },
+          "frozen_contract": {
+            "seeds": [
+              950000,
+              950001,
+              950002,
+              950003,
+              950004,
+              950005,
+              950006,
+              950007,
+              950008,
+              950009,
+              950010,
+              950011,
+              950012,
+              950013,
+              950014,
+              950015,
+              950016,
+              950017,
+              950018,
+              950019,
+              950020,
+              950021,
+              950022,
+              950023,
+              950024,
+              950025,
+              950026,
+              950027,
+              950028,
+              950029
+            ],
+            "steps": 12,
+            "top_k_for_compressed_methods": 12,
+            "node_or_evaluation_budget": 12000,
+            "candidate_pool_mode": "independent",
+            "force_all_tasks_active": true,
+            "decision_deadlines_ms": [
+              50,
+              100,
+              200,
+              500
+            ],
+            "model_version": "ca-hmcd-stage1-closure-v2.3",
+            "external_evaluator_version": "complete-v3-stage1-closure",
+            "service_endpoint_version": "solver-decoupled-service-v2",
+            "coefficients": {
+              "alpha_cost": 0.12,
+              "beta_time": 0.08,
+              "gamma_unserved": 0.2,
+              "lambda_redundancy": 0.12,
+              "lambda_switch": 0.1
+            }
+          },
+          "design": {
+            "scenarios": [
+              "airport_corridor",
+              "energy_facility",
+              "public_event",
+              "urban_corridor",
+              "industrial_zone"
+            ],
+            "methods": [
+              "CA-HMCD",
+              "HiGHS-MILP",
+              "Genetic-Algorithm",
+              "Greedy",
+              "External-Auction"
+            ],
+            "method_profiles": {
+              "CA-HMCD": {
+                "candidate_space": "K=12 compressed",
+                "solver": "bounded branch-and-bound",
+                "framework_label": "CA-HMCD-FixedK"
+              },
+              "HiGHS-MILP": {
+                "candidate_space": "complete feasible combinations",
+                "solver": "HiGHS MILP",
+                "framework_label": "CA-HMCD-Exact"
+              },
+              "Genetic-Algorithm": {
+                "candidate_space": "complete feasible combinations",
+                "solver": "genetic search with registered evaluation budget",
+                "framework_label": "external evolutionary baseline"
+              },
+              "Greedy": {
+                "candidate_space": "K=12 compressed",
+                "solver": "greedy allocation",
+                "framework_label": "constructive baseline"
+              },
+              "External-Auction": {
+                "candidate_space": "K=12 method-specific",
+                "solver": "auction allocation",
+                "framework_label": "distributed market baseline"
+              }
+            },
+            "registered_episodes": 750,
+            "registered_period_records": 9000
+          },
+          "primary_endpoints": [
+            "external_objective",
+            "independent_service_score",
+            "independent_coverage",
+            "common_task_response_time",
+            "end_to_end_runtime_ms",
+            "candidate_generation_ms",
+            "solver_elapsed_ms",
+            "external_switch_count",
+            "external_physical_cost",
+            "feasibility_rate",
+            "fallback"
+          ],
+          "statistical_plan": {
+            "independent_unit": "one complete 12-period seed trajectory",
+            "comparisons": "CA-HMCD-FixedK versus each other method, paired within scenario and seed",
+            "interval": "deterministic 95% BCa interval for each mean paired difference",
+            "test": "two-sided paired Wilcoxon signed-rank test",
+            "multiplicity": "Holm correction separately within scenario and endpoint across four comparators",
+            "bounded_intervals": "Wilson intervals for feasibility, coverage, fallback, and deadline-hit proportions",
+            "response_time": "computed only on task-periods served by both compared methods",
+            "pareto_rule": "A method is nondominated when no other method has both a no-worse mean endpoint and a no-greater mean end-to-end runtime, with at least one strict improvement."
+          },
+          "decision_rules": {
+            "exact_mode_preferred": "Recommend CA-HMCD-Exact when HiGHS has higher objective or service quality and its measured runtime satisfies the operational budget.",
+            "compressed_mode_retained": "Retain CA-HMCD-FixedK only as a bounded-computation profile; do not call it real-time unless the registered Stage-3 Gate B has passed.",
+            "lightweight_mode_preferred": "Recommend Greedy or Auction only where their runtime advantage is operationally relevant and the reported quality loss is acceptable.",
+            "ga_role": "Treat GA as a representative external AI/evolutionary baseline; superiority or inferiority is reported without changing the frozen value model.",
+            "claim_freeze": "The final manuscript claim matrix must be derived from Stage 3, Stage 4, and this Stage 5 without coefficient retuning."
+          }
+        },
+        "checks": {
+          "seeds": true,
+          "steps": true,
+          "top_k": true,
+          "node_limit": true,
+          "deadlines": true,
+          "episodes": true,
+          "frozen_hashes": true,
+          "model_version": true,
+          "evaluator_version": true,
+          "service_endpoint": true,
+          "python_3_12": true,
+          "formal_executable": true
+        },
+        "frozen_hashes": {
+          "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+          "ca_hmcd_framework.py": "f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa"
+        },
+        "protocol_fingerprint": "e3e9bba35f532aa93bea35f5153a68396e965aa5ff5b093d5633168db757d373"
+      },
+      "environment": {
+        "python_executable": "D:\\Z-Codex\\1-suanfa\\.venv-baselines\\Scripts\\python.exe",
+        "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "cpu_count": 12
+      },
+      "outputs": {
+        "stage5_episode_results.csv": "2bf03eee7e0b07e423ee9c1ec70abef83457f2d7feff154a4aa6c13a235bd275",
+        "stage5_per_step.csv": "88f38450668321a8d46eb68928e6559762d058c447d8b3cc717881d9d42effdf",
+        "stage5_pairing_audit.csv": "758482dc9ace10fdc03afcecb1f9c32d016646a2e694e4bbb32b5c5496e93db7",
+        "stage5_cell_summary.csv": "296a59bddb6392340f671560109e9d9eb2db78b0b52c874cc4242baecb3f5f1b"
+      }
+    },
+    "checks": [
+      {
+        "check": "formal execution mode",
+        "passed": true,
+        "observed": "formal",
+        "expected": "formal"
+      },
+      {
+        "check": "formal audit",
+        "passed": true,
+        "observed": true,
+        "expected": true
+      },
+      {
+        "check": "episode count",
+        "passed": true,
+        "observed": 750,
+        "expected": 750
+      },
+      {
+        "check": "step count",
+        "passed": true,
+        "observed": 9000,
+        "expected": 9000
+      },
+      {
+        "check": "pairing audit count",
+        "passed": true,
+        "observed": 1800,
+        "expected": 1800
+      },
+      {
+        "check": "execution hashes",
+        "passed": true,
+        "observed": {
+          "ca_hmcd_stage5_applicability_runner.py": "b6d2734e00346233aad242f918afa76ce83c42e8654ad0916b3d6ce4072cd518",
+          "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+          "ca_hmcd_framework.py": "f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa",
+          "stage5_preregistration.json": "4ea190299273dd895d7d90013532ce35002b5055ef9c27aac189af13e53364cc",
+          "stage5_protocol.md": "c0ab57d0c419df18cad8f47f4db6f12a2c75079fc31ec03e88bee857905ca38a"
+        },
+        "expected": {
+          "ca_hmcd_stage5_applicability_runner.py": "b6d2734e00346233aad242f918afa76ce83c42e8654ad0916b3d6ce4072cd518",
+          "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+          "ca_hmcd_framework.py": "f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa",
+          "stage5_preregistration.json": "4ea190299273dd895d7d90013532ce35002b5055ef9c27aac189af13e53364cc",
+          "stage5_protocol.md": "c0ab57d0c419df18cad8f47f4db6f12a2c75079fc31ec03e88bee857905ca38a"
+        }
+      },
+      {
+        "check": "protocol fingerprint",
+        "passed": true,
+        "observed": "e3e9bba35f532aa93bea35f5153a68396e965aa5ff5b093d5633168db757d373",
+        "expected": "e3e9bba35f532aa93bea35f5153a68396e965aa5ff5b093d5633168db757d373"
+      },
+      {
+        "check": "output hashes",
+        "passed": true,
+        "observed": {
+          "stage5_episode_results.csv": "2bf03eee7e0b07e423ee9c1ec70abef83457f2d7feff154a4aa6c13a235bd275",
+          "stage5_per_step.csv": "88f38450668321a8d46eb68928e6559762d058c447d8b3cc717881d9d42effdf",
+          "stage5_pairing_audit.csv": "758482dc9ace10fdc03afcecb1f9c32d016646a2e694e4bbb32b5c5496e93db7",
+          "stage5_cell_summary.csv": "296a59bddb6392340f671560109e9d9eb2db78b0b52c874cc4242baecb3f5f1b"
+        },
+        "expected": {
+          "stage5_episode_results.csv": "2bf03eee7e0b07e423ee9c1ec70abef83457f2d7feff154a4aa6c13a235bd275",
+          "stage5_per_step.csv": "88f38450668321a8d46eb68928e6559762d058c447d8b3cc717881d9d42effdf",
+          "stage5_pairing_audit.csv": "758482dc9ace10fdc03afcecb1f9c32d016646a2e694e4bbb32b5c5496e93db7",
+          "stage5_cell_summary.csv": "296a59bddb6392340f671560109e9d9eb2db78b0b52c874cc4242baecb3f5f1b"
+        }
+      }
+    ],
+    "output_hashes": {
+      "stage5_episode_results.csv": "2bf03eee7e0b07e423ee9c1ec70abef83457f2d7feff154a4aa6c13a235bd275",
+      "stage5_per_step.csv": "88f38450668321a8d46eb68928e6559762d058c447d8b3cc717881d9d42effdf",
+      "stage5_pairing_audit.csv": "758482dc9ace10fdc03afcecb1f9c32d016646a2e694e4bbb32b5c5496e93db7",
+      "stage5_cell_summary.csv": "296a59bddb6392340f671560109e9d9eb2db78b0b52c874cc4242baecb3f5f1b"
+    },
+    "execution_metadata_sha256": "55f52dbec0d7d71cf1c04889aa2ca473831dc6872029bef0b5a8d50c02d1eedf"
+  },
+  "counts": {
+    "episodes": 750,
+    "steps": 9000,
+    "paired_comparisons": 220,
+    "holm_families": 55,
+    "common_task_response_seed_rows": 580,
+    "pareto_rows": 50,
+    "deadline_rows": 20,
+    "claim_rows": 8
+  },
+  "analysis_hashes": {
+    "ca_hmcd_stage5_applicability_analysis.py": "9ff46d869ba9b826bd7f4058370f300f25330a89c7deb4d1a7e67cef60f1c5d1"
+  },
+  "output_hashes": {
+    "stage5_paired_comparisons.csv": "5176583f6b168d2753685bf220d5d1b358794a101eb5443f34c093d9315efd42",
+    "stage5_common_task_response.csv": "424062754362de037c5117399f72875ae477f16fb8f6d47062c8343db84fc96e",
+    "stage5_method_summary.csv": "fc812cbe51f0bd9cab9d16578901667c09cd8b4c8f7d33de6cfe8c53241778a6",
+    "stage5_bounded_intervals.csv": "dfe106ef141b4145055c446468ce1ad1340bb7210f6cbaed66c089df3b003676",
+    "stage5_pareto_front.csv": "7a84ed68ffc74a3d46e8a2839b0646109b44d14b6a637d9a2cadbaaf6545e63e",
+    "stage5_deadline_selection.csv": "b97a3283f0ebcf45e35396cc6c7ce6db1fb92d4f593791165fb2ad8da2f498d0",
+    "stage5_holm_families.csv": "8340b8e5e5e43dc0bcfdd9794222bd893c55a800f2d9a1c5620b49d86bbc9034",
+    "stage5_exact_mode_summary.csv": "dda684b6838adac77587815557006d05ffa806b8c5c588d62c1cf405ef9f5595",
+    "stage5_claim_freeze.csv": "9c13cfd0b9b45347f39ab8c81df175d601c1f0f5a9e59286bf24e1d1a3d0e43c",
+    "stage5_method_selection_matrix.csv": "c5b894e05bf5931b1058f24330daaa9c307aaa3f07b689e87d6c6fe98084b075",
+    "stage5_applicability_report.md": "20fac9f82fdbafb597217e478ef8878dc36d39475d08d8e24c909660039d98a0",
+    "material_passport.json": "f4cc3be535d4ac64abdcebf24ed77049b67f3ed869954aedf88d15fcc7f9e99b"
+  }
+}

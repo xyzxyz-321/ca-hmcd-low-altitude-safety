@@ -1,0 +1,72 @@
+CA-HMCD Stage 7 unified restructured manuscript audit
+Date: 2026-09-18
+Output: <PROJECT_ROOT>\CA-HMCD_EAAI_Stage7_Unified_Restructured_Manuscript_20260918.docx
+Paragraphs: 211
+Tables: 44
+Inline shapes: 7
+References: 59
+Abstract words: 186
+
+Checks:
+- PASS: sections_1_to_8
+- PASS: abstract_at_most_250_words
+- PASS: figures_1_to_7
+- PASS: tables_1_to_6
+- PASS: unified_registry_counts
+- PASS: real_time_claim_rejected
+- PASS: redundancy_claim_scoped
+- PASS: field_claim_scoped
+- PASS: data_availability
+- PASS: code_availability
+- PASS: doi_not_invented
+- PASS: license_not_invented
+- PASS: references_59
+- PASS: fallback_equations_none
+
+Headings:
+- 1. Introduction
+- 2. Related Work
+- 2.1. Heterogeneous task allocation
+- 2.2. Coalition formation and combinatorial allocation
+- 2.3. Dynamic, distributed, and learning-based allocation
+- 2.4. Low-altitude safety resource coordination
+- 2.5. Position of the present study
+- 3. Problem Formulation
+- 3.1. Dynamic state and task requirements
+- 3.2. Pair scores and feasible coalitions
+- 3.3. Coalition value
+- 3.4. Rolling coalition selection
+- 3.5. True-state feasibility and external evaluation
+- 4. CA-HMCD Method
+- 4.1. Overview
+- 4.2. Type-conditioned pair valuation
+- 4.3. Complementarity and redundancy functions
+- 4.4. Candidate construction and history-aware reduction
+- 4.5. Global selection, warm start, and fallback
+- 4.6. True-state repair and unified evaluation
+- 4.7. Procedure, complexity, and implementation limits
+- 5. Experimental Protocol
+- 5.1. Layered evidence design
+- 5.2. Public-data replay and no-pruning control
+- 5.3. Controlled mechanism and disturbance experiments
+- 5.4. Solver, deadline, and robustness experiments
+- 5.5. Outcomes and unified statistical analysis
+- 5.6. Reproducibility and reporting boundaries
+- 6. Results
+- 6.1. Public replay identified load-dependent performance
+- 6.2. Candidate compression was computationally active but not lossless
+- 6.3. Complementarity was conditional and stability imposed a measurable trade-off
+- 6.4. The registered redundancy mechanism was not empirically supported
+- 6.5. True-state repair restored feasibility at an immediate service cost
+- 6.6. Solver and deadline choices were scenario-specific
+- 6.7. One-factor sensitivity preserved relative ranking but not absolute performance
+- 7. Discussion
+- 7.1. The contribution is a decision framework, not solver superiority
+- 7.2. Mechanism evidence is asymmetric
+- 7.3. Candidate construction, not optimization alone, defines the runtime boundary
+- 7.4. Engineering relevance is present but remains semi-synthetic
+- 7.5. Statistical boundaries and next experiments
+- 8. Conclusion
+- Data availability
+- Code availability
+- References

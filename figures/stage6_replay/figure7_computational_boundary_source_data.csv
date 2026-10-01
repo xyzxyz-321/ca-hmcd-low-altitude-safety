@@ -1,0 +1,20 @@
+stratum_id,short_label,metric,mean,observed_min,observed_max,n,panel,dataset,task_load,algorithm,n_independent_clusters,ci95_low,ci95_high,interval_method,_order
+anti_uav410.load_2,L2,end_to_end_runtime_ms,58.84733211114,38.1582219443,70.3493844447,10.0,a,,,,,,,,
+anti_uav410.load_4,L4,end_to_end_runtime_ms,136.4452275347,123.1965805555,157.0385233333,8.0,a,,,,,,,,
+anti_uav410.load_6,L6,end_to_end_runtime_ms,194.60084157408332,153.7715063888,221.2428463892,6.0,a,,,,,,,,
+anti_uav410.load_8,L8,end_to_end_runtime_ms,299.796379722125,271.7776419442,311.1685686109,4.0,a,,,,,,,,
+uzh_fpv.load_1,UZH,end_to_end_runtime_ms,44.5535709027875,34.3910911112,53.7891369447,16.0,a,,,,,,,,
+anti_uav410.load_2,L2,nodes,34.13722222222221,19.26111111111111,44.52777777777778,10.0,b,,,,,,,,
+anti_uav410.load_4,L4,nodes,303.0541666666667,255.45,337.4527777777778,8.0,b,,,,,,,,
+anti_uav410.load_6,L6,nodes,1752.8662037037036,1048.3444444444444,2398.3388888888885,6.0,b,,,,,,,,
+anti_uav410.load_8,L8,nodes,3288.697222222222,3157.108333333333,3426.4694444444444,4.0,b,,,,,,,,
+uzh_fpv.load_1,UZH,nodes,7.361458333333333,5.575,8.741666666666667,16.0,b,,,,,,,,
+anti_uav410.load_2,,fallback_run_indicator,0.0,,,,c,anti_uav410,2.0,CA-HMCD,10.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples",0.0
+anti_uav410.load_4,,fallback_run_indicator,0.0,,,,c,anti_uav410,4.0,CA-HMCD,8.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples",1.0
+anti_uav410.load_6,,fallback_run_indicator,0.7666666667,,,,c,anti_uav410,6.0,CA-HMCD,6.0,0.6222222222,0.8777777778,"bounded BCa bootstrap of cluster means, 5000 resamples",2.0
+anti_uav410.load_8,,fallback_run_indicator,1.0,,,,c,anti_uav410,8.0,CA-HMCD,4.0,1.0,1.0,"bounded BCa bootstrap of cluster means, 5000 resamples",3.0
+uzh_fpv.load_1,,fallback_run_indicator,0.0,,,,c,uzh_fpv,1.0,CA-HMCD,16.0,0.0,0.0,"bounded BCa bootstrap of cluster means, 5000 resamples",4.0
+anti_uav410.load_6,,gap_bound,0.14539554625246234,0.08571071862012175,0.20460763616875127,6.0,d,,,,,,,,
+anti_uav410.load_8,,gap_bound,0.6978353675732522,0.5903108887862675,0.8235176196669804,4.0,d,,,,,,,,
+anti_uav410.load_6,,gain_over_greedy,0.021045121425589532,0.00037554512431941736,0.04400594114687123,6.0,d,,,,,,,,
+anti_uav410.load_8,,gain_over_greedy,0.08325510340264423,0.047259572607490766,0.12949993518239414,4.0,d,,,,,,,,

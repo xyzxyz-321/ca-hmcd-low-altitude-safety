@@ -1,0 +1,98 @@
+{
+  "decision_gates": {
+    "A": "Retain a real-time profile only if adaptive retention reduces high-load loss while preserving a meaningful compute benefit.",
+    "B": "Claim a real-time advantage only where full-candidate HiGHS fails the registered deadline and CA-HMCD-RT returns a feasible solution with acceptable quality loss.",
+    "C": "Treat true-state repair as a core contribution only if a disturbance experiment demonstrates a benefit."
+  },
+  "framework_version": "ca-hmcd-framework-v3.0",
+  "parent_baseline_id": "ca-hmcd-stage9-frozen-20260917",
+  "planned_candidate_scan": {
+    "adaptive_k": "registered for Stage 2; rule not selected in Stage 1",
+    "fixed_k_values": [
+      6,
+      12,
+      24,
+      48,
+      "full"
+    ]
+  },
+  "planned_scale_boundary": {
+    "concurrent_task_counts": [
+      4,
+      8,
+      12,
+      16
+    ],
+    "decision_budgets_ms": [
+      50,
+      100,
+      200,
+      500
+    ],
+    "resource_counts": [
+      10,
+      16,
+      24,
+      32
+    ]
+  },
+  "primary_outcomes": [
+    "complete_model_true_state_objective",
+    "solver_decoupled_model_consistent_service_score",
+    "coverage",
+    "common_task_response_time",
+    "candidate_counts_by_stage",
+    "runtime",
+    "visited_nodes",
+    "fallback_rate",
+    "retained_pool_gap",
+    "final_feasibility"
+  ],
+  "registered_comparison_families": [
+    "value_model_ablations",
+    "candidate_reduction",
+    "exact_vs_real_time",
+    "scale_and_deadline",
+    "repair_mechanism",
+    "parameter_sensitivity"
+  ],
+  "registration_date": "2026-09-17",
+  "revision_id": "ca-hmcd-v3-framework-registration-20260917",
+  "stage1_method_profiles": {
+    "CA-HMCD-Exact": {
+      "candidate_policy": "full",
+      "solver_backend": "highs",
+      "status": "ACTIVE"
+    },
+    "CA-HMCD-FixedK": {
+      "candidate_policy": "fixed_k",
+      "solver_backend": "bounded_search",
+      "status": "ACTIVE_STAGE9_REFERENCE",
+      "top_k": 12
+    },
+    "CA-HMCD-NoPruning": {
+      "candidate_policy": "full",
+      "solver_backend": "bounded_search",
+      "status": "ACTIVE_CONTROL"
+    },
+    "CA-HMCD-RT": {
+      "candidate_policy": "adaptive_k",
+      "solver_backend": "bounded_search",
+      "status": "RESERVED_FOR_STAGE2"
+    }
+  },
+  "status": "REGISTERED_BEFORE_V3_EXPERIMENTS",
+  "unchanged_contract": {
+    "coefficients": {
+      "alpha_cost": 0.12,
+      "beta_time": 0.08,
+      "gamma_unserved": 0.2,
+      "lambda_redundancy": 0.12,
+      "lambda_switch": 0.1
+    },
+    "external_evaluator_version": "complete-v3-stage1-closure",
+    "rule": "Do not tune the value model or evaluator to reverse the registered HiGHS comparison.",
+    "service_endpoint_version": "solver-decoupled-service-v2",
+    "value_model_version": "ca-hmcd-stage1-closure-v2.3"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "protocol_version": "public-replay-protocol-v1",
+  "replay_mapping_version": "public-trajectory-replay-v2",
+  "horizon_steps": 12,
+  "seeds_per_workload": 30,
+  "base_seed": 730000,
+  "selection_seed": 20260916,
+  "resources_count": 10,
+  "top_k": 12,
+  "node_limit": 4000,
+  "anti_width": 640,
+  "anti_height": 512,
+  "anti_window_frames": 240,
+  "anti_event_padding_frames": 30,
+  "anti_workload_plan": [
+    [
+      2,
+      10
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      8,
+      4
+    ]
+  ],
+  "uzh_max_speed_mps": 25.0,
+  "uzh_max_gap_s": 2.0,
+  "uzh_max_bridge_points": 50,
+  "uzh_motion_threshold_mps": 0.2,
+  "uzh_motion_padding_s": 1.0,
+  "uzh_speed_thresholds_mps": {
+    "low_upper": 0.5458044772679264,
+    "medium_upper": 2.3570026172370064
+  },
+  "anti_load_stratum_quotas": {
+    "load_2:fast_motion": 3,
+    "load_2:nominal": 8,
+    "load_2:scale_small": 2,
+    "load_2:visibility": 7,
+    "load_4:fast_motion": 5,
+    "load_4:nominal": 12,
+    "load_4:scale_small": 4,
+    "load_4:visibility": 11,
+    "load_6:fast_motion": 6,
+    "load_6:nominal": 14,
+    "load_6:scale_small": 4,
+    "load_6:visibility": 12,
+    "load_8:fast_motion": 5,
+    "load_8:nominal": 12,
+    "load_8:scale_small": 3,
+    "load_8:visibility": 12
+  }
+}

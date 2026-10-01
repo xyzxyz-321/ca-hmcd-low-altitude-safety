@@ -1,0 +1,10 @@
+{
+  "pdf": "figures\\stage6_unified_20260918\\figure7_solver_deadline_boundary.pdf",
+  "auditable": true,
+  "minimum_required_pt": 6.0,
+  "minimum_found_pt": 6.5,
+  "text_run_count": 83,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

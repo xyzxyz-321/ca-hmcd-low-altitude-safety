@@ -1,0 +1,6 @@
+﻿scenario,quality_first,service_first,fastest,fastest_mean_runtime_ms,100ms_quality_first_among_95pct_eligible,fixedk_final_feasible,interpretation
+airport_corridor,CA-HMCD-FixedK,CA-HMCD-FixedK,External-Auction,8.511560277742724,CA-HMCD-FixedK,1.0,Use objective/service/runtime priorities explicitly; no universal winner is asserted.
+energy_facility,External-Auction,CA-HMCD-FixedK,External-Auction,8.929633611114696,External-Auction,1.0,Use objective/service/runtime priorities explicitly; no universal winner is asserted.
+public_event,CA-HMCD-Exact,CA-HMCD-Exact,External-Auction,44.64664444441142,CA-HMCD-Exact,1.0,Use objective/service/runtime priorities explicitly; no universal winner is asserted.
+urban_corridor,Genetic-Algorithm,CA-HMCD-Exact,External-Auction,26.827506944454804,CA-HMCD-FixedK,1.0,Use objective/service/runtime priorities explicitly; no universal winner is asserted.
+industrial_zone,Genetic-Algorithm,CA-HMCD-FixedK,External-Auction,18.28375055557798,CA-HMCD-Exact,1.0,Use objective/service/runtime priorities explicitly; no universal winner is asserted.

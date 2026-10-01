@@ -1,0 +1,17 @@
+{
+  "schema": "ARS Material Passport 9",
+  "origin_skill": "experiment-agent",
+  "origin_mode": [
+    "run",
+    "validate"
+  ],
+  "origin_date": "2026-09-18",
+  "verification_status": "ANALYZED",
+  "version_label": "ca-hmcd-stage4-value-engineering-v1",
+  "materials": {
+    "protocol": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage4_value_engineering_protocol_20260918",
+    "formal_results": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage4_value_engineering_formal_20260918",
+    "analysis": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage4_value_engineering_analysis_20260918"
+  },
+  "scope_boundary": "Controlled simulation and engineering-shaped mechanism evidence; not a field-deployment validation."
+}

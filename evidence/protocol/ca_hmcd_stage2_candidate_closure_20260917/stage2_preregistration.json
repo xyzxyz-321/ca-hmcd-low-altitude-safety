@@ -1,0 +1,50 @@
+{
+  "adaptive_k": {
+    "boundary_relative_gap": 0.02,
+    "count_intercept": 4,
+    "count_sqrt_scale": 1.0,
+    "dominance_first": true,
+    "extension_step": 4,
+    "load_intercept": 8,
+    "load_slope": 2,
+    "max_k": 48,
+    "min_k": 12
+  },
+  "decision_gate_a": {
+    "candidate_ratio_to_full_max": 0.25,
+    "coverage_gap_recovery_min": 0.2,
+    "external_objective_tolerance_below_k12": 0.002,
+    "feasibility_rate_required": 1.0,
+    "high_load_strata": [
+      "anti_uav410.load_6",
+      "anti_uav410.load_8"
+    ],
+    "node_ratio_to_full_max": 0.6,
+    "service_gap_recovery_min": 0.2
+  },
+  "fixed_k_values": [
+    6,
+    12,
+    24,
+    48,
+    "full"
+  ],
+  "frozen_contract": {
+    "evaluator_version": "complete-v3-stage1-closure",
+    "model_version": "ca-hmcd-stage1-closure-v2.3",
+    "node_limit": 4000,
+    "public_replay_protocol_fingerprint": "b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea",
+    "service_endpoint_version": "solver-decoupled-service-v2"
+  },
+  "inference": {
+    "bootstrap_resamples": 10000,
+    "holm_family": "five compressed policies versus Full, separately by stratum and endpoint",
+    "independent_unit": "public replay workload trajectory",
+    "nested_seeds_per_unit": 30
+  },
+  "parent_framework_sha256": "c68e976233354da362ff65a8e7a84bea42453e570d14fe87d08f8b72b1d64b7e",
+  "parent_revision": "ca-hmcd-v3-framework-registration-20260917",
+  "registration_date": "2026-09-17",
+  "registration_status": "FROZEN_BEFORE_STAGE2_OUTCOME_INSPECTION",
+  "revision_id": "ca-hmcd-stage2-candidate-closure-20260917"
+}

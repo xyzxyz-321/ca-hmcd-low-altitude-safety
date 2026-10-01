@@ -1,0 +1,21 @@
+﻿scenario,deadline_ms,eligible_methods_95pct,eligible_method_count,quality_first_recommendation,recommended_objective_mean,recommended_service_mean,recommended_deadline_hit_rate
+airport_corridor,50,"CA-HMCD-FixedK,CA-HMCD-Exact,Greedy,External-Auction",4,CA-HMCD-FixedK,-0.6307357140973889,0.19129726447375617,1.0
+airport_corridor,100,"CA-HMCD-FixedK,CA-HMCD-Exact,Greedy,External-Auction",4,CA-HMCD-FixedK,-0.6307357140973889,0.19129726447375617,1.0
+airport_corridor,200,"CA-HMCD-FixedK,CA-HMCD-Exact,Greedy,External-Auction",4,CA-HMCD-FixedK,-0.6307357140973889,0.19129726447375617,1.0
+airport_corridor,500,"CA-HMCD-FixedK,Genetic-Algorithm,CA-HMCD-Exact,Greedy,External-Auction",5,CA-HMCD-FixedK,-0.6307357140973889,0.19129726447375617,1.0
+energy_facility,50,"External-Auction,Greedy,CA-HMCD-FixedK,CA-HMCD-Exact",4,External-Auction,-0.7922639121727075,0.1530307905513393,1.0
+energy_facility,100,"External-Auction,Greedy,CA-HMCD-FixedK,CA-HMCD-Exact",4,External-Auction,-0.7922639121727075,0.1530307905513393,1.0
+energy_facility,200,"External-Auction,Greedy,CA-HMCD-FixedK,CA-HMCD-Exact",4,External-Auction,-0.7922639121727075,0.1530307905513393,1.0
+energy_facility,500,"External-Auction,Greedy,CA-HMCD-FixedK,CA-HMCD-Exact,Genetic-Algorithm",5,External-Auction,-0.7922639121727075,0.1530307905513393,1.0
+public_event,50,,0,No verified method,,,
+public_event,100,CA-HMCD-Exact,1,CA-HMCD-Exact,-0.7484702664189908,0.24540180547852944,1.0
+public_event,200,"CA-HMCD-Exact,CA-HMCD-FixedK,Greedy,External-Auction",4,CA-HMCD-Exact,-0.7484702664189908,0.24540180547852944,1.0
+public_event,500,"CA-HMCD-Exact,CA-HMCD-FixedK,Genetic-Algorithm,Greedy,External-Auction",5,CA-HMCD-Exact,-0.7484702664189908,0.24540180547852944,1.0
+urban_corridor,50,CA-HMCD-Exact,1,CA-HMCD-Exact,-0.4348034540390754,0.28159246305893065,0.9638888888888889
+urban_corridor,100,"CA-HMCD-FixedK,CA-HMCD-Exact,Greedy,External-Auction",4,CA-HMCD-FixedK,-0.4336570359776036,0.2806905688225564,0.9555555555555556
+urban_corridor,200,"CA-HMCD-FixedK,CA-HMCD-Exact,Greedy,External-Auction",4,CA-HMCD-FixedK,-0.4336570359776036,0.2806905688225564,1.0
+urban_corridor,500,"Genetic-Algorithm,CA-HMCD-FixedK,CA-HMCD-Exact,Greedy,External-Auction",5,Genetic-Algorithm,-0.4311041063957598,0.280375255424982,0.9916666666666667
+industrial_zone,50,"CA-HMCD-Exact,Greedy,External-Auction",3,CA-HMCD-Exact,-0.7093618943686482,0.21990864319889653,0.9805555555555555
+industrial_zone,100,"CA-HMCD-Exact,Greedy,External-Auction",3,CA-HMCD-Exact,-0.7093618943686482,0.21990864319889653,1.0
+industrial_zone,200,"CA-HMCD-Exact,CA-HMCD-FixedK,Greedy,External-Auction",4,CA-HMCD-Exact,-0.7093618943686482,0.21990864319889653,1.0
+industrial_zone,500,"Genetic-Algorithm,CA-HMCD-Exact,CA-HMCD-FixedK,Greedy,External-Auction",5,Genetic-Algorithm,-0.7085899560000719,0.21986584962799774,0.9972222222222222

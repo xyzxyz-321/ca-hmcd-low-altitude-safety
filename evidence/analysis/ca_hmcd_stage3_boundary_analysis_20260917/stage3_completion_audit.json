@@ -1,0 +1,109 @@
+{
+  "audit_version": "ca-hmcd-stage3-boundary-audit-v1",
+  "analysis_version": "ca-hmcd-stage3-boundary-analysis-v1",
+  "created_at_utc": "2026-09-17T14:40:05.482056+00:00",
+  "audit_pass": true,
+  "formal_execution_runs": 2400,
+  "paired_rows": 1920,
+  "boundary_cells": 64,
+  "paired_comparisons": 576,
+  "holm_families": 36,
+  "gate_b": {
+    "gate": "B",
+    "decision": "FAIL",
+    "method_adjudication": "DO_NOT_CLAIM_A_VALIDATED_REAL_TIME_BOUNDARY",
+    "registered_cells": 64,
+    "passing_cells": 0,
+    "passing_cell_ids": [],
+    "stage2_gate_a_remains": "FAIL",
+    "interpretation": "No registered cell simultaneously established an exact deadline miss, a bounded-K12 deadline success, full feasibility, and all three quality-loss limits."
+  },
+  "checks": [
+    {
+      "check": "formal execution mode",
+      "observed": "formal",
+      "expected": "formal",
+      "passed": true
+    },
+    {
+      "check": "execution audit",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "registered unit count",
+      "observed": 480,
+      "expected": 480,
+      "passed": true
+    },
+    {
+      "check": "registered run count",
+      "observed": 2400,
+      "expected": 2400,
+      "passed": true
+    },
+    {
+      "check": "frozen execution hashes",
+      "observed": {
+        "ca_hmcd_stage3_boundary.py": "839ae9c8494a2247562c24c58057866a7f2bc80d35ca8f412e387fc5586ee590",
+        "ca_hmcd_stage3_boundary_runner.py": "7b2fec809baf5019b372ddb52a14da3e902679e60fa172c7cff2d7f6166186f9",
+        "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+        "ca_hmcd_framework.py": "f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa",
+        "stage3_preregistration.json": "7fce28275fff1f4974be8df72858acb9904ce9b59843e0e83d343032721e510c",
+        "stage3_boundary_protocol.md": "ce6f8181caedde3f8ba26263f1ccacbc19c48b0adf93d6a5861bbd319fb63d6d"
+      },
+      "expected": {
+        "ca_hmcd_stage3_boundary.py": "839ae9c8494a2247562c24c58057866a7f2bc80d35ca8f412e387fc5586ee590",
+        "ca_hmcd_stage3_boundary_runner.py": "7b2fec809baf5019b372ddb52a14da3e902679e60fa172c7cff2d7f6166186f9",
+        "ca_hmcd_simulation.py": "b6fae78029a59e65c6a49fe25cd11e4d2fa9d5c912ced55ad9b8a4b92c126ef1",
+        "ca_hmcd_framework.py": "f292a96a54a93a5be71a5487ecc9e0e9702e123e95700f958d6ee3b363c5a8aa",
+        "stage3_preregistration.json": "7fce28275fff1f4974be8df72858acb9904ce9b59843e0e83d343032721e510c",
+        "stage3_boundary_protocol.md": "ce6f8181caedde3f8ba26263f1ccacbc19c48b0adf93d6a5861bbd319fb63d6d"
+      },
+      "passed": true
+    },
+    {
+      "check": "Gate A remains failed",
+      "observed": "FAIL",
+      "expected": "FAIL",
+      "passed": true
+    },
+    {
+      "check": "paired row count",
+      "observed": 1920,
+      "expected": 1920,
+      "passed": true
+    },
+    {
+      "check": "boundary cell count",
+      "observed": 64,
+      "expected": 64,
+      "passed": true
+    },
+    {
+      "check": "Holm family count",
+      "observed": 36,
+      "expected": 36,
+      "passed": true
+    },
+    {
+      "check": "paired comparison count",
+      "observed": 576,
+      "expected": 576,
+      "passed": true
+    },
+    {
+      "check": "valid Holm adjusted P values",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "Gate B adjudicated once",
+      "observed": "FAIL",
+      "expected": "PASS or FAIL",
+      "passed": true
+    }
+  ]
+}

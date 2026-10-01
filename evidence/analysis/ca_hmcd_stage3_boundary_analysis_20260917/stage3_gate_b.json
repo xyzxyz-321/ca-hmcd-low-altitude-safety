@@ -1,0 +1,10 @@
+{
+  "gate": "B",
+  "decision": "FAIL",
+  "method_adjudication": "DO_NOT_CLAIM_A_VALIDATED_REAL_TIME_BOUNDARY",
+  "registered_cells": 64,
+  "passing_cells": 0,
+  "passing_cell_ids": [],
+  "stage2_gate_a_remains": "FAIL",
+  "interpretation": "No registered cell simultaneously established an exact deadline miss, a bounded-K12 deadline success, full feasibility, and all three quality-loss limits."
+}

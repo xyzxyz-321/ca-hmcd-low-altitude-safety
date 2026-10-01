@@ -1,0 +1,16 @@
+{
+  "analysis_version": "ca-hmcd-parameter-robustness-v2.3-reanalysis-20260917",
+  "created_at_utc": "2026-09-17T03:06:51.741690+00:00",
+  "source_json": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage2_upgrade_20260916\\raw_results.json",
+  "source_json_sha256": "648a3d1bd82c65d77b94cf3b5d2450ea46d469b4d3bada79d51cd7f45b5721aa",
+  "integrity_json": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage2_upgrade_20260916\\stage2_upgrade_integrity_audit.json",
+  "model_version": "ca-hmcd-stage1-closure-v2.3",
+  "external_evaluator_version": "complete-v3-stage1-closure",
+  "service_endpoint_version": "solver-decoupled-service-v2",
+  "bootstrap_resamples": 10000,
+  "parameter_configurations": 54,
+  "seed_level_records": 1620,
+  "paired_comparisons": 36,
+  "holm_families": 6,
+  "audit_pass": true
+}

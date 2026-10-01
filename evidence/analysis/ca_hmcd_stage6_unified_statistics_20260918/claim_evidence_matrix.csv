@@ -1,0 +1,10 @@
+﻿claim_id,claim,decision,primary_evidence,allowed_wording
+C6.1,"CA-HMCD is an interpretable rolling coalition-allocation framework, not a universally superior solver.",RETAIN,"problem formulation, algorithm trace, public replay, Stages 3-5",The contribution is an auditable allocation and safety-control framework with measured operating boundaries.
+C6.2,Fixed-K candidate retention provides a validated real-time advantage.,REJECT,Stage 3 Gate B: 0/64 cells passed,The evaluated implementation did not establish a real-time advantage over exact HiGHS.
+C6.3,Conservative subset dominance is theoretically lossless under its conditions.,RETAIN_WITH_SCOPE,Proposition 1 and formal no-pruning replay,"The rule is lossless under the stated subset conditions, but removed no candidates in the formal replay."
+C6.4,Complementarity improves all outcomes.,REJECT,Stage 4 complementarity sweep,"Complementarity produced a monotone service-level gain in the registered public-event sweep, while the complete-objective effect remained nonsignificant."
+C6.5,The stability term reduces switching.,RETAIN,Stage 4 volatility sweep,"Stability reduced switching at every nonzero volatility level, with an immediate service trade-off."
+C6.6,The redundancy penalty has demonstrated operational value.,REJECT,Stage 4 redundancy stress and 54-configuration sensitivity,The redundancy term remains a modeling safeguard; none of the three registered structural diagnostics was supported.
+C6.7,True-state repair restores final feasibility under registered perception disturbance.,RETAIN_WITH_SCOPE,Stage 4 repair disturbance,"Repair restored feasibility in the controlled disturbance experiment, at a measurable immediate service cost."
+C6.8,One method is best across all engineering scenarios and deadlines.,REJECT,Stage 5 solver applicability,"Method selection is scenario-, objective-, and deadline-specific; no universal winner was observed."
+C6.9,The evidence establishes field deployment performance.,REJECT,all evidence layers,The study is a controlled simulation with public-data-informed task motion and observation patterns.

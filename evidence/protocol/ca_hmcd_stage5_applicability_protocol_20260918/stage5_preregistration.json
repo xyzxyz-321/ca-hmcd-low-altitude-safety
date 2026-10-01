@@ -1,0 +1,150 @@
+{
+  "protocol_id": "ca-hmcd-stage5-applicability-boundary-20260918",
+  "registration_date": "2026-09-18",
+  "stage": "Stage 5: external baselines and method applicability boundary",
+  "parent_evidence": [
+    "ca_hmcd_stage3_boundary_analysis_20260917",
+    "ca_hmcd_stage4_value_engineering_analysis_20260918"
+  ],
+  "primary_question": "Which solver profile should be used under the registered engineering scenarios when solution quality, computation time, feasibility, stability, and engineering mechanism evidence are considered jointly?",
+  "interpretation_contract": {
+    "highs_role": "HiGHS-MILP is an external exact optimization backend applied to the same frozen CA-HMCD value model and complete candidate space. A HiGHS advantage is an exact-mode advantage within the framework, not evidence against the value model.",
+    "fixed_k_role": "CA-HMCD denotes the registered K=12 candidate-compression plus bounded branch-and-bound profile.",
+    "external_methods": [
+      "Genetic-Algorithm",
+      "Greedy",
+      "External-Auction"
+    ],
+    "forbidden_claim": "No result may be used to claim a universal real-time or universal performance advantage."
+  },
+  "frozen_contract": {
+    "seeds": [
+      950000,
+      950001,
+      950002,
+      950003,
+      950004,
+      950005,
+      950006,
+      950007,
+      950008,
+      950009,
+      950010,
+      950011,
+      950012,
+      950013,
+      950014,
+      950015,
+      950016,
+      950017,
+      950018,
+      950019,
+      950020,
+      950021,
+      950022,
+      950023,
+      950024,
+      950025,
+      950026,
+      950027,
+      950028,
+      950029
+    ],
+    "steps": 12,
+    "top_k_for_compressed_methods": 12,
+    "node_or_evaluation_budget": 12000,
+    "candidate_pool_mode": "independent",
+    "force_all_tasks_active": true,
+    "decision_deadlines_ms": [
+      50,
+      100,
+      200,
+      500
+    ],
+    "model_version": "ca-hmcd-stage1-closure-v2.3",
+    "external_evaluator_version": "complete-v3-stage1-closure",
+    "service_endpoint_version": "solver-decoupled-service-v2",
+    "coefficients": {
+      "alpha_cost": 0.12,
+      "beta_time": 0.08,
+      "gamma_unserved": 0.2,
+      "lambda_redundancy": 0.12,
+      "lambda_switch": 0.1
+    }
+  },
+  "design": {
+    "scenarios": [
+      "airport_corridor",
+      "energy_facility",
+      "public_event",
+      "urban_corridor",
+      "industrial_zone"
+    ],
+    "methods": [
+      "CA-HMCD",
+      "HiGHS-MILP",
+      "Genetic-Algorithm",
+      "Greedy",
+      "External-Auction"
+    ],
+    "method_profiles": {
+      "CA-HMCD": {
+        "candidate_space": "K=12 compressed",
+        "solver": "bounded branch-and-bound",
+        "framework_label": "CA-HMCD-FixedK"
+      },
+      "HiGHS-MILP": {
+        "candidate_space": "complete feasible combinations",
+        "solver": "HiGHS MILP",
+        "framework_label": "CA-HMCD-Exact"
+      },
+      "Genetic-Algorithm": {
+        "candidate_space": "complete feasible combinations",
+        "solver": "genetic search with registered evaluation budget",
+        "framework_label": "external evolutionary baseline"
+      },
+      "Greedy": {
+        "candidate_space": "K=12 compressed",
+        "solver": "greedy allocation",
+        "framework_label": "constructive baseline"
+      },
+      "External-Auction": {
+        "candidate_space": "K=12 method-specific",
+        "solver": "auction allocation",
+        "framework_label": "distributed market baseline"
+      }
+    },
+    "registered_episodes": 750,
+    "registered_period_records": 9000
+  },
+  "primary_endpoints": [
+    "external_objective",
+    "independent_service_score",
+    "independent_coverage",
+    "common_task_response_time",
+    "end_to_end_runtime_ms",
+    "candidate_generation_ms",
+    "solver_elapsed_ms",
+    "external_switch_count",
+    "external_physical_cost",
+    "feasibility_rate",
+    "fallback"
+  ],
+  "statistical_plan": {
+    "independent_unit": "one complete 12-period seed trajectory",
+    "comparisons": "CA-HMCD-FixedK versus each other method, paired within scenario and seed",
+    "interval": "deterministic 95% BCa interval for each mean paired difference",
+    "test": "two-sided paired Wilcoxon signed-rank test",
+    "multiplicity": "Holm correction separately within scenario and endpoint across four comparators",
+    "bounded_intervals": "Wilson intervals for feasibility, coverage, fallback, and deadline-hit proportions",
+    "response_time": "computed only on task-periods served by both compared methods",
+    "pareto_rule": "A method is nondominated when no other method has both a no-worse mean endpoint and a no-greater mean end-to-end runtime, with at least one strict improvement."
+  },
+  "decision_rules": {
+    "exact_mode_preferred": "Recommend CA-HMCD-Exact when HiGHS has higher objective or service quality and its measured runtime satisfies the operational budget.",
+    "compressed_mode_retained": "Retain CA-HMCD-FixedK only as a bounded-computation profile; do not call it real-time unless the registered Stage-3 Gate B has passed.",
+    "lightweight_mode_preferred": "Recommend Greedy or Auction only where their runtime advantage is operationally relevant and the reported quality loss is acceptable.",
+    "ga_role": "Treat GA as a representative external AI/evolutionary baseline; superiority or inferiority is reported without changing the frozen value model.",
+    "claim_freeze": "The final manuscript claim matrix must be derived from Stage 3, Stage 4, and this Stage 5 without coefficient retuning."
+  }
+}

@@ -1,0 +1,5 @@
+﻿evidence_block,comparisons,holm_families,independent_unit
+primary_public_replay,300,60,public trajectory or preregistered composed workload; 30 stochastic seeds nested within each unit
+no_pruning_control,60,15,public trajectory or preregistered composed workload; 30 stochastic seeds nested within each unit
+external_full_candidate_baselines,120,60,public trajectory or preregistered composed workload; 30 stochastic seeds nested within each unit
+parameter_robustness,36,6,one complete seeded 12-period simulation trajectory

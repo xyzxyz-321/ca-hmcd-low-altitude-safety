@@ -1,0 +1,16 @@
+﻿evidence_layer,evidence_block,comparisons,holm_families,significant_comparisons
+controlled mechanism and disturbance validation,complementarity_sweep,20,4,8
+controlled mechanism and disturbance validation,engineering_external_baseline,50,25,25
+controlled mechanism and disturbance validation,engineering_module_ablation,160,40,65
+controlled mechanism and disturbance validation,redundancy_stress,15,5,1
+controlled mechanism and disturbance validation,repair_disturbance,15,6,12
+controlled mechanism and disturbance validation,stability_sweep,20,4,16
+engineering-scenario solver applicability,stage5_compute,80,20,48
+engineering-scenario solver applicability,stage5_operation,40,10,6
+engineering-scenario solver applicability,stage5_quality,80,20,20
+engineering-scenario solver applicability,stage5_safety,20,5,0
+public-data replay and registered supplements,external_full_candidate_baselines,120,60,25
+public-data replay and registered supplements,no_pruning_control,60,15,14
+public-data replay and registered supplements,parameter_robustness,36,6,36
+public-data replay and registered supplements,primary_public_replay,300,60,101
+static scale-deadline boundary,stage3_exact_fixedk_boundary,576,36,449

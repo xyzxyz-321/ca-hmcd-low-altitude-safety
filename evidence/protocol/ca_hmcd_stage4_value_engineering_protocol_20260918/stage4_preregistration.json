@@ -1,0 +1,175 @@
+{
+  "protocol_id": "ca-hmcd-stage4-value-engineering-20260918",
+  "stage": "Stage 4: value model and engineering mechanism validation",
+  "registration_date": "2026-09-18",
+  "parent_registration": "ca_hmcd_stage0_stage1_20260917/revision_registration.json",
+  "research_scope": {
+    "primary_question": "Do the registered value-model terms and true-state repair mechanism produce the intended engineering-level effects when candidate identities, random seeds, state trajectories, and the external evaluator are held fixed?",
+    "interpretation_boundary": "This stage validates controlled-simulation mechanisms and engineering-shaped transfer. It does not establish field deployment effectiveness or superiority over a commercial operational system.",
+    "solver_boundary": "The mechanism-isolation arms use the same bounded-search backend and a shared complete-model candidate pool. External engineering arms include Greedy and External-Auction under the same shared pool. Solver superiority is not an endpoint of this stage."
+  },
+  "frozen_contract": {
+    "seeds": [
+      950000,
+      950001,
+      950002,
+      950003,
+      950004,
+      950005,
+      950006,
+      950007,
+      950008,
+      950009,
+      950010,
+      950011,
+      950012,
+      950013,
+      950014,
+      950015,
+      950016,
+      950017,
+      950018,
+      950019,
+      950020,
+      950021,
+      950022,
+      950023,
+      950024,
+      950025,
+      950026,
+      950027,
+      950028,
+      950029
+    ],
+    "steps": 12,
+    "candidate_pool_mode": "shared",
+    "top_k": 12,
+    "node_limit": 12000,
+    "force_all_tasks_active": true,
+    "external_evaluator": "complete-v3-stage1-closure",
+    "service_endpoint": "solver-decoupled-service-v2",
+    "value_model": "ca-hmcd-stage1-closure-v2.3",
+    "coefficients": {
+      "alpha_cost": 0.12,
+      "beta_time": 0.08,
+      "gamma_unserved": 0.2,
+      "lambda_redundancy": 0.12,
+      "lambda_switch": 0.1
+    }
+  },
+  "design": {
+    "engineering_scenarios": [
+      "airport_corridor",
+      "energy_facility",
+      "public_event",
+      "urban_corridor",
+      "industrial_zone"
+    ],
+    "engineering_methods": [
+      "CA-HMCD",
+      "No-Compatibility",
+      "No-Synergy",
+      "No-Redundancy",
+      "No-Stability",
+      "Greedy",
+      "External-Auction"
+    ],
+    "complementarity_scales": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "stability_volatility_levels": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "redundancy_stress_methods": [
+      "CA-HMCD",
+      "No-Redundancy",
+      "No-Synergy",
+      "Greedy"
+    ],
+    "repair_noise_levels": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "repair_methods": [
+      "CA-HMCD-RepairOn",
+      "CA-HMCD-RepairOff"
+    ],
+    "episodes": {
+      "engineering": 1050,
+      "complementarity_sweep": 300,
+      "stability_sweep": 300,
+      "redundancy_stress": 120,
+      "repair_disturbance": 300,
+      "total": 2070
+    }
+  },
+  "registered_hypotheses": [
+    {
+      "id": "H4.1",
+      "name": "compatibility",
+      "test": "CA-HMCD should improve the unified external objective and independent service score relative to No-Compatibility in engineering-shaped scenarios.",
+      "claim_boundary": "A module is treated as supported only when the prespecified paired interval and Holm-adjusted comparison support the direction; otherwise the result is reported as unsupported or context-dependent."
+    },
+    {
+      "id": "H4.2",
+      "name": "complementarity",
+      "test": "The CA-HMCD minus No-Synergy difference should be near zero at synergy scale 0 and increase with the registered complementarity scale in the controlled sweep.",
+      "claim_boundary": "The intended claim is context-dependent complementarity, not universal aggregate superiority."
+    },
+    {
+      "id": "H4.3",
+      "name": "redundancy",
+      "test": "Under the registered redundancy-stress scenario, CA-HMCD should reduce same-type pair ratio, capability overlap, and marginal-gain waste relative to No-Redundancy without materially sacrificing service.",
+      "claim_boundary": "If the diagnostics do not move, the redundancy mechanism is not claimed as empirically validated."
+    },
+    {
+      "id": "H4.4",
+      "name": "stability",
+      "test": "Relative to No-Stability, CA-HMCD should reduce allocation switching as volatility increases, while the objective/service trade-off is reported explicitly.",
+      "claim_boundary": "No claim is made that stability improves every instantaneous service metric."
+    },
+    {
+      "id": "H4.5",
+      "name": "true_state_repair",
+      "test": "Under perception disturbance, RepairOn should improve final feasibility and service relative to the identical RepairOff trajectory.",
+      "claim_boundary": "Repair is a feasibility safeguard; objective restoration is not required for support."
+    },
+    {
+      "id": "H4.6",
+      "name": "engineering_transfer",
+      "test": "Across the five engineering-shaped scenarios, CA-HMCD should retain feasible allocations and provide a scenario-qualified service/coverage profile relative to Greedy and External-Auction.",
+      "claim_boundary": "HiGHS is not re-ranked in this stage and no universal superiority claim is registered."
+    }
+  ],
+  "statistical_plan": {
+    "independent_unit": "one complete 12-step seed trajectory",
+    "paired_difference": "CA-HMCD-family arm minus comparator arm on the same seed and stratum",
+    "interval": "95% BCa bootstrap interval for mean paired difference, deterministic seed derived from family and endpoint",
+    "bounded_intervals": "Wilson score intervals for episode-level feasibility, raw feasibility, repair rate, same-type pair ratio, capability overlap, and marginal-gain waste",
+    "multiple_comparison": "Holm step-down separately within every registered family listed in holm_families.csv",
+    "minimum_seeds_per_cell": 30
+  },
+  "decision_rules": {
+    "repair_supported": "At least one non-zero noise level has a positive paired 95% BCa lower bound for final feasibility and Holm-adjusted P < 0.05, with the RepairOn final feasibility rate not below 0.95.",
+    "stability_supported": "At least three non-zero volatility levels show a negative CA-HMCD minus No-Stability switch-count difference with the prespecified interval and Holm-adjusted P < 0.05.",
+    "redundancy_supported": "At least two of the three independent redundancy diagnostics show a negative CA-HMCD minus No-Redundancy difference with the prespecified interval and Holm-adjusted P < 0.05, while service loss is no more than 0.02 in absolute mean.",
+    "complementarity_supported": "Scale 0 is an identity control and the scale-2 paired objective difference is positive with the prespecified interval and Holm-adjusted P < 0.05; monotonicity is summarized descriptively and does not override the paired test.",
+    "engineering_transfer_supported": "All five scenarios remain feasible, and CA-HMCD has a positive service-score or coverage difference against at least one external baseline in at least three scenarios after the registered Holm family correction."
+  },
+  "reproducibility": {
+    "resume_policy": "Existing shards are reused only when unit identity, protocol fingerprint, runner version, and current code hashes match exactly.",
+    "failure_policy": "A failed unit is recorded and stops formal completion; no automatic retry is performed.",
+    "data_policy": "All outputs remain local. No raw data or results are uploaded to external services."
+  }
+}

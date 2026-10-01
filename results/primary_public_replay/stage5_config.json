@@ -1,0 +1,32 @@
+{
+  "run_date": "2026-09-16",
+  "source_directory": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage4_replay_formal_20260916",
+  "output_directory": "D:\\Z-Codex\\1-suanfa\\ca_hmcd_stage5_statistics_20260916",
+  "source_protocol_fingerprint": "b0043867b0802dbabaf4183e6e204bfaddcc4a1aceb8197831096e87500fdcea",
+  "source_code_fingerprint": "e45abc5d899cb97f7513c79fb3e0090092fc5a18bbac729f9cc552fd7aa085a1",
+  "source_hashes": {
+    "execution_metadata.json": "d8db0132e9536199a9f536cddef5c041a3b9216a555af0544911c26e9956057e",
+    "registered_episode_results.csv": "f0815de71f891a3c0ac31a74410794a7ac13e424b3e1863d91e61e6809e72700",
+    "registered_per_step.csv": "332e1f81ebc3110c8ef583ac495246e5260bed8391d92676c360dfb1c204360a"
+  },
+  "analysis_script_sha256": "c9691da69c7863aaa9381a5d02df4d6fd307833cac2fa99f4b20c5f2499cc443",
+  "independent_unit": "original UZH-FPV trajectory or preregistered Anti-UAV410 composed workload",
+  "nested_repeats": "30 paired random seeds per independent cluster",
+  "paired_ci": {
+    "method": "BCa paired cluster bootstrap",
+    "resamples": 10000,
+    "confidence": 0.95
+  },
+  "bounded_ci": {
+    "continuous_method": "bounded BCa bootstrap of cluster means",
+    "prevalence_method": "Wilson score interval on binary cluster events",
+    "resamples": 5000,
+    "confidence": 0.95
+  },
+  "test": "two-sided paired Wilcoxon signed-rank",
+  "multiplicity": "Holm step-down within each endpoint-by-dataset/load family",
+  "software": "Python 3.14.0a1 standard library",
+  "families": 60,
+  "comparisons": 300,
+  "audit_pass": true
+}

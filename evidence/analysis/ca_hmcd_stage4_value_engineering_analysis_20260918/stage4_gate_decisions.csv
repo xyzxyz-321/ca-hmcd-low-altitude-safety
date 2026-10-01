@@ -1,0 +1,7 @@
+﻿gate,status,evidence
+H4.1 compatibility,CONTEXT_DEPENDENT,0/5 scenarios supported both objective and service: none; 3/5 supported at least one endpoint
+H4.2 complementarity,CONTEXT_DEPENDENT,"scale-0 identity=False; scale-2 objective difference=0.007444, 95% CI [-0.002561, 0.019586]; scale-2 service difference=0.004857"
+H4.3 redundancy,NOT_SUPPORTED,0/3 diagnostics supported: none; service difference=0.000000
+H4.4 stability,SUPPORTED,"4/4 non-zero volatility levels supported switch reduction: [0.05, 0.1, 0.2, 0.3]"
+H4.5 true-state repair / Gate C,SUPPORTED,"supported non-zero noise levels: [0.05, 0.1, 0.2, 0.3]; service trade-off levels: [0.05, 0.1, 0.2, 0.3]; RepairOn cell count=5"
+H4.6 engineering transfer,SUPPORTED,"all CA-HMCD engineering trajectories feasible=True; supported scenarios 4/5: airport_corridor, public_event, urban_corridor, industrial_zone"

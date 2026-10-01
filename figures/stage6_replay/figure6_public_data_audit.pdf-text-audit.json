@@ -1,0 +1,10 @@
+{
+  "pdf": "D:\\Z-Codex\\1-suanfa\\figures\\stage6_replay\\figure6_public_data_audit.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 6.5,
+  "text_run_count": 49,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

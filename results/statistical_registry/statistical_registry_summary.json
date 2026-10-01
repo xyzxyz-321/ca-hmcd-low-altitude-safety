@@ -1,0 +1,42 @@
+{
+  "registry_version": "ca-hmcd-complete-statistical-registry-20260917",
+  "created_date": "2026-09-17",
+  "comparisons": 516,
+  "holm_families": 141,
+  "evidence_blocks": [
+    {
+      "evidence_block": "primary_public_replay",
+      "comparisons": 300,
+      "holm_families": 60,
+      "independent_unit": "public trajectory or preregistered composed workload; 30 stochastic seeds nested within each unit"
+    },
+    {
+      "evidence_block": "no_pruning_control",
+      "comparisons": 60,
+      "holm_families": 15,
+      "independent_unit": "public trajectory or preregistered composed workload; 30 stochastic seeds nested within each unit"
+    },
+    {
+      "evidence_block": "external_full_candidate_baselines",
+      "comparisons": 120,
+      "holm_families": 60,
+      "independent_unit": "public trajectory or preregistered composed workload; 30 stochastic seeds nested within each unit"
+    },
+    {
+      "evidence_block": "parameter_robustness",
+      "comparisons": 36,
+      "holm_families": 6,
+      "independent_unit": "one complete seeded 12-period simulation trajectory"
+    }
+  ],
+  "audit_pass": true,
+  "reporting_fields": [
+    "mean paired difference",
+    "95% confidence interval",
+    "unadjusted P value",
+    "Holm-adjusted P value",
+    "paired Cohen's dz",
+    "rank-biserial correlation",
+    "favorable-direction win rate"
+  ]
+}
